@@ -1,6 +1,48 @@
 <template>
   <v-content>
-
+    <div class="col-12">
+      <img src="tekitou.png" width="100%" height="150px" style="margin-bottom: 2rem" alt="piano">
+    </div>
+    <div class="grid col-12 index-content" style="paddding: 0 1rem">
+      <div class="col-12" style="margin-bottom: 2rem">
+        CJMはあああああああああああああああああああああああああああああああああああああああああああああああああああ
+        ああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+        あああああああああああああああああああああああああああああああああああああああああああああああああああああ
+        あああああああああああああああああああああああああああああああああああああああああああああああああああああ<br>
+        あああああああああああああああああああああああああああああああああああああああああああああああああああああ
+        あああああああああああああああああああああああああああああああああああああああああああああああああああああ
+      </div>
+      <h2 class="col-12">News</h2>
+      <ul>
+        <li>
+          <div class="col">
+            2000年10月5日（月）
+          </div>
+          <div class="col" style="padding: .3rem;background-color: #ccc;border: 2px solid #999;border-radius: .3rem">
+            お知らせ
+          </div>
+        </li>
+        <li>
+          <div class="col">
+            2000年10月5日（月）
+          </div>
+          <div class="col" style="padding: .3rem;background-color: #ccc;border: 2px solid #999;border-radius: .3rem">
+            お知らせ
+          </div>
+        </li>
+        <li>
+          <div class="col">
+            2000年10月5日（月）
+          </div>
+          <div class="col" style="padding: .3rem;background-color: #ccc;border: 2px solid #999;border-radius: .3rem">
+            お知らせ
+          </div>
+        </li>
+      </ul>
+      <div class="col-12" style="text-align: right">
+        過去のNewsはこちらから
+      </div>
+    </div>
   </v-content>
 </template>
 
