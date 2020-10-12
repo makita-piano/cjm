@@ -1,9 +1,9 @@
 <template>
   <v-content>
     <div class="col-12">
-      <img src="tekitou.png" width="100%" height="150px" style="margin-bottom: 2rem" alt="piano">
+      <img src="tekitou.png" width="100%" height="300px" style="margin-bottom: 2rem" alt="piano">
     </div>
-    <div class="grid col-12 index-content" style="paddding: 0 1rem">
+    <div class="grid col-12 index-content" style="padding: 0 1rem">
       <div class="col-12" style="margin-bottom: 2rem">
         CJMはあああああああああああああああああああああああああああああああああああああああああああああああああああ
         ああああああああああああああああああああああああああああああああああああああああああああああああああああああ
@@ -14,28 +14,37 @@
       </div>
       <h2 class="col-12">News</h2>
       <ul>
-        <li>
-          <div class="col">
+        <li class="grid">
+          <div style="width: 12rem">
             2000年10月5日（月）
           </div>
-          <div class="col" style="padding: .3rem;background-color: #ccc;border: 2px solid #999;border-radius: .3rem">
+          <div style="padding: .1rem;background-color: #ccc;border: 1px solid #999;border-radius: .3rem;font-size: .8rem">
             お知らせ
+          </div>
+          <div class="col-12">
+            音楽院のパンフレットを公開しました！
           </div>
         </li>
-        <li>
-          <div class="col">
+        <li class="grid">
+          <div style="width: 12rem">
             2000年10月5日（月）
           </div>
-          <div class="col" style="padding: .3rem;background-color: #ccc;border: 2px solid #999;border-radius: .3rem">
+          <div style="padding: .1rem;background-color: #ccc;border: 1px solid #999;border-radius: .3rem;font-size: .8rem">
             お知らせ
+          </div>
+          <div class="col-12">
+            音楽院のパンフレットを公開しました！
           </div>
         </li>
-        <li>
-          <div class="col">
+        <li class="grid">
+          <div style="width: 12rem">
             2000年10月5日（月）
           </div>
-          <div class="col" style="padding: .3rem;background-color: #ccc;border: 2px solid #999;border-radius: .3rem">
+          <div class="col" style="padding: .1rem;background-color: #ccc;border: 1px solid #999;border-radius: .3rem;font-size: .8rem">
             お知らせ
+          </div>
+          <div class="col-12">
+            音楽院のパンフレットを公開しました！
           </div>
         </li>
       </ul>
