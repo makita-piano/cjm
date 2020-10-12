@@ -42,6 +42,14 @@
       <div class="col-12" style="text-align: right">
         過去のNewsはこちらから
       </div>
+      <h2 class="col-12">Links</h2>
+      <div class="col-12">
+        <!-- Facebook -->
+        <div id="fb-root"></div>
+        <div class="fb-page" data-href="https://www.facebook.com/ptna.enc/" data-tabs="timeline" data-width="256" data-height="600" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+          <blockquote cite="https://www.facebook.com/ptna.enc/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ptna.enc/">ピティナ・ピアノ曲事典</a></blockquote>
+        </div>
+      </div>
     </div>
   </v-content>
 </template>
