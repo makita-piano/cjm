@@ -40,7 +40,7 @@
           <div style="width: 12rem">
             2000年10月5日（月）
           </div>
-          <div class="col" style="padding: .1rem;background-color: #ccc;border: 1px solid #999;border-radius: .3rem;font-size: .8rem">
+          <div style="padding: .1rem;background-color: #ccc;border: 1px solid #999;border-radius: .3rem;font-size: .8rem">
             お知らせ
           </div>
           <div class="col-12">
@@ -48,16 +48,15 @@
           </div>
         </li>
       </ul>
-      <div class="col-12" style="text-align: right">
+      <div class="col-12" style="text-align: right;margin-bottom: 2rem">
         過去のNewsはこちらから
       </div>
       <h2 class="col-12">Links</h2>
       <div class="col-12">
         <!-- Facebook -->
         <div id="fb-root"></div>
-        <div class="fb-page" data-href="https://www.facebook.com/ptna.enc/" data-tabs="timeline" data-width="256" data-height="600" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
-          <blockquote cite="https://www.facebook.com/ptna.enc/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ptna.enc/">ピティナ・ピアノ曲事典</a></blockquote>
-        </div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v8.0&appId=160626627849426&autoLogAppEvents=1" nonce="jmR8QvEF"></script>
+        <div class="fb-page" data-href="https://www.facebook.com/pages/category/Music-Lessons---Instruction-School/Cjm-Tokyo-%E7%A5%9E%E5%AE%AE%E3%81%AE%E6%9D%9C%E9%9F%B3%E6%A5%BD%E9%99%A2-103707088022777/" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/pages/category/Music-Lessons---Instruction-School/Cjm-Tokyo-%E7%A5%9E%E5%AE%AE%E3%81%AE%E6%9D%9C%E9%9F%B3%E6%A5%BD%E9%99%A2-103707088022777/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/pages/category/Music-Lessons---Instruction-School/Cjm-Tokyo-%E7%A5%9E%E5%AE%AE%E3%81%AE%E6%9D%9C%E9%9F%B3%E6%A5%BD%E9%99%A2-103707088022777/">Cjm Tokyo 神宮の杜音楽院</a></blockquote></div>
       </div>
     </div>
   </v-content>
@@ -76,8 +75,8 @@
     },
 
     mounted(){
-      const title = "加々見 茉耶 official page"
-      const description = "加々見 茉耶(かがみ まや)の公式ページ。ピアニスト。兵庫県生まれ。5歳よりピアノを始める。 兵庫県立西宮高等学校音楽科を卒業し、東京藝術大学音楽学部器楽科ピアノ専攻に入学。第1回 ロザリオ・マルチアーノ国際ピアノコンクール（ウィーン）第2位。併せてシューベルト賞を受賞。 "
+      const title = "神宮の杜音楽院／CJM Tokyo"
+      const description = "xxx "
       document.title = title
       document.querySelector("meta[property='og:title']")
       　.setAttribute('content', title)
