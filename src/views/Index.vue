@@ -26,7 +26,7 @@
           </div>
         </li>
         <li class="grid">
-          <div style="width: 12rem">
+          <div>
             2000年10月5日（月）
           </div>
           <div style="padding: .1rem;background-color: #ccc;border: 1px solid #999;border-radius: .3rem;font-size: .8rem">
@@ -37,13 +37,13 @@
           </div>
         </li>
         <li class="grid">
-          <div style="width: 12rem">
+          <div>
             2000年10月5日（月）
           </div>
           <div style="padding: .1rem;background-color: #ccc;border: 1px solid #999;border-radius: .3rem;font-size: .8rem">
             お知らせ
           </div>
-          <div class="col-12">
+          <div>
             音楽院のパンフレットを公開しました！
           </div>
         </li>
@@ -52,10 +52,9 @@
         過去のNewsはこちらから
       </div>
       <h2 class="col-12">Links</h2>
-      <div class="col-12">
+      <div class="col-12" style="margin-bottom: 2rem">
         <!-- Facebook -->
         <div id="fb-root"></div>
-        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v8.0&appId=160626627849426&autoLogAppEvents=1" nonce="jmR8QvEF"></script>
         <div class="fb-page" data-href="https://www.facebook.com/pages/category/Music-Lessons---Instruction-School/Cjm-Tokyo-%E7%A5%9E%E5%AE%AE%E3%81%AE%E6%9D%9C%E9%9F%B3%E6%A5%BD%E9%99%A2-103707088022777/" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/pages/category/Music-Lessons---Instruction-School/Cjm-Tokyo-%E7%A5%9E%E5%AE%AE%E3%81%AE%E6%9D%9C%E9%9F%B3%E6%A5%BD%E9%99%A2-103707088022777/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/pages/category/Music-Lessons---Instruction-School/Cjm-Tokyo-%E7%A5%9E%E5%AE%AE%E3%81%AE%E6%9D%9C%E9%9F%B3%E6%A5%BD%E9%99%A2-103707088022777/">Cjm Tokyo 神宮の杜音楽院</a></blockquote></div>
       </div>
     </div>

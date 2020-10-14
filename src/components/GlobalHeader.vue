@@ -8,27 +8,27 @@
       </div>
       <div class="grid col-8" style="padding: 0 1rem">
         <ul class="grid col-12">
-          <li class="col-middle">
+          <li class="col-middle" style="text-align: center">
             <RouterLink to="/philosophy">
               理念・特長
             </RouterLink>
           </li>
-          <li class="col-middle">
+          <li class="col-middle" style="text-align: center">
             <RouterLink to="/lesson">
               レッスン
             </RouterLink>
           </li>
-          <li class="col-middle">
+          <li class="col-middle" style="text-align: center">
             <RouterLink to="/event">
               講座・イベント
             </RouterLink>
           </li>
-          <li class="col-middle">
+          <li class="col-middle" style="text-align: center">
             <RouterLink to="/rental">
               スタジオ貸出
             </RouterLink>
           </li>
-          <li class="col-middle">
+          <li class="col-middle" style="text-align: center">
             <RouterLink to="/contact">
               お問い合わせ
             </RouterLink>
