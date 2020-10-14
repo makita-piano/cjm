@@ -15,7 +15,7 @@
       <h2 class="col-12">News</h2>
       <ul>
         <li class="grid">
-          <div style="width: 12rem">
+          <div>
             2000年10月5日（月）
           </div>
           <div style="padding: .1rem;background-color: #ccc;border: 1px solid #999;border-radius: .3rem;font-size: .8rem">
@@ -74,7 +74,7 @@
     },
 
     mounted(){
-      const title = "神宮の杜音楽院／CJM Tokyo"
+      const title = "神宮の杜音楽院"
       const description = "xxx "
       document.title = title
       document.querySelector("meta[property='og:title']")

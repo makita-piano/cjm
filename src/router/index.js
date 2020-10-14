@@ -1,9 +1,10 @@
 import Vue from "vue";
 import Router from "vue-router";
 import Index from "../views/Index.vue";
-import Profile from "../views/Profile.vue";
-import Information from "../views/Information.vue";
-import Discography from "../views/Discography.vue";
+import Philosophy from "../views/philosophy.vue";
+import Lesson from "../views/Lesson.vue";
+import Event from "../views/Event.vue";
+import Rental from "../views/Rental.vue";
 import Contact from "../views/Contact.vue";
 
 Vue.use(Router);
@@ -18,19 +19,24 @@ export default new Router({
 			component: Index
 		},
 		{
-			path: "/profile",
-			name: "Profile",
-			component: Profile
+			path: "/philosophy",
+			name: "Philosophy",
+			component: Philosophy
 		},
 		{
-			path: "/information",
-			name: "Information",
-			component: Information
+			path: "/lesson",
+			name: "Lesson",
+			component: Lesson
 		},
     {
-			path: "/discography",
-			name: "Discography",
-			component: Discography
+			path: "/event",
+			name: "Event",
+			component: Event
+		},
+		{
+			path: "/rental",
+			name: "Rental",
+			component: Rental
 		},
 		{
 			path: "/contact",
