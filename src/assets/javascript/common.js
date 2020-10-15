@@ -18,7 +18,8 @@ $(function(){
         $('.menu-trigger').removeClass('active');
         $('.menu-text').text("menu");
         $('.menu-container .menu').slideUp('1500');
-        $('#home').css('z-index',9999);	
+        $('#home').css('z-index',9999);
+        $('.trigger-none').css('display','block');
     })
 });
 
