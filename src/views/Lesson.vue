@@ -4,30 +4,30 @@
       <img src="tekitou.png" width="100%" height="300px" style="margin-bottom: 2rem" alt="piano">
     </div>
     <div class="grid-center col-12">
-      <div class="grid col-9_sm-10">
+      <div class="grid col-9_sm-10" style="text-align: center">
         <div class="col-2_sm-4">
-          レッスン内容
+          <a href="#c1">レッスン内容</a>
         </div>
         <div class="col-2_sm-4">
-          講師紹介
+          <a href="#c2">講師紹介</a>
         </div>
         <div class="col-2_sm-4">
-          料金
+          <a href="#c3">料金</a>
         </div>
         <div class="col-2_sm-4">
-          合格実績
+          <a href="#c4">合格実績</a>
         </div>
         <div class="col-2_sm-4">
-          受賞実績
+          <a href="#c5">受賞実績</a>
         </div>
         <div class="col-2_sm-4">
-          レッスン予約
+          <a href="#c6">レッスン予約</a>
         </div>
       </div>
     </div>
         
     <div class="grid col-12" style="padding: 1rem">
-      <h2 class="col-12">レッスン内容</h2>
+      <h2 id="c1" class="col-12">レッスン内容</h2>
       <div class="grid col-12" style="margin-bottom: 2rem;font-size: .8rem">
         <div class="col-12" style="padding: 1rem 0">
           <p>個人レッスン</p>
@@ -46,7 +46,7 @@
           <p>あああ</p>
         </div>
       </div>
-      <h2 class="col-12">講師紹介</h2>
+      <h2 id="c2" class="col-12">講師紹介</h2>
       <div class="grid col-12" style="margin-bottom: 2rem">
         <div class="grid-center col-3_sm-12">
           <div class="col-12_sm-6" style="text-align: center">
@@ -73,7 +73,7 @@
           </div>
         </div>
       </div>
-      <h2 class="col-12">料金</h2>
+      <h2 id="c3" class="col-12">料金</h2>
       <h3 class="col-12">単発レッスン</h3>
       <ul class="col-12" style="font-size: .8rem">
         <li>ピアノああああああああああああああああああ　￥20,000~ </li>
@@ -96,17 +96,17 @@
         あああああああああああああああああああああああああああああああああああああああああああああああああああああ
       </div>
       
-      <h3 class="col-12">合格実績</h3>
+      <h2 id="c4" class="col-12">合格実績</h2>
       <div class="col-12" style="margin-bottom: 2rem;font-size: .8rem">
         準備中
       </div>
       
-      <h3 class="col-12">受賞実績</h3>
+      <h2 id="c5" class="col-12">受賞実績</h2>
       <div class="col-12" style="margin-bottom: 2rem;font-size: .8rem">
         準備中
       </div>
       
-      <h3 class="col-12">レッスン予約</h3>
+      <h2 id="c6" class="col-12">レッスン予約</h2>
       <div class="col-12" style="margin-bottom: 2rem;font-size: .8rem">
         <a href="/">レッスンの予約はこちらから</a>
       </div>

@@ -3,6 +3,22 @@
     <div class="col-12">
       <img src="tekitou.png" width="100%" height="300px" style="margin-bottom: 2rem" alt="piano">
     </div>
+    <div class="grid-center col-12">
+      <div class="grid col-9_sm-10" style="text-align: center">
+        <div class="col-3_sm-6">
+          <a href="#c1">料金</a>
+        </div>
+        <div class="col-3_sm-6">
+          <a href="#c2">設備</a>
+        </div>
+        <div class="col-3_sm-6">
+          <a href="#c3">禁止事項</a>
+        </div>
+        <div class="col-3_sm-6">
+          <a href="#c4">スタジオ予約</a>
+        </div>
+      </div>
+    </div>
     <div class="grid col-12" style="padding: 1rem">
       <div class="col-12" style="margin-bottom: 2rem">
         CJMはあああああああああああああああああああああああああああああああああああああああああああああああああああ
