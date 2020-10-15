@@ -27,7 +27,7 @@ export default {
 
 <style>
 .router-transition-enter-active {
-animation: fadeIn 3s;
+animation: fadeIn 1s;
 }
 @keyframes fadeIn {
 from {
