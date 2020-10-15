@@ -61,6 +61,7 @@
   </v-content>
 </template>
 
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v8.0&appId=160626627849426&autoLogAppEvents=1" nonce="jmR8QvEF"></script>
 <script>
   import axios from 'axios'
   import moment from "moment";
@@ -84,16 +85,14 @@
       document.querySelector("meta[property='og:description']")
       　.setAttribute('content', description)
       
-      if (!document.getElementById('facebook-jssdk')) {
-        (function (d, s, id) {
+        function (d, s, id) {
           var js, fjs = d.getElementsByTagName(s)[0];
           if (d.getElementById(id)) return;
           js = d.createElement(s);
           js.id = id;
           js.src = 'https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v3.2';
           fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-      }
+        }(document, 'script', 'facebook-jssdk')
     },
 
     created(){
