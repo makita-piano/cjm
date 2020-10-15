@@ -36,7 +36,7 @@
         </ul>
       </div>
     </div>
-    <nav class="menu-container display-none-pc">
+    <nav class="grid menu-container display-none-pc">
       <ul class="menu">
         <li class="menu-item">
           <RouterLink to="/philosophy">
@@ -64,12 +64,12 @@
           </RouterLink>
         </li>
       </ul>
-      <div class="display-none-pc">
+      <div class="trigger-none">
         <RouterLink to="/" id="home" style="z-index: 9999">
-          <img src="tekitou.png" width="80%" height="100px" style="background-color: white;border-radius: 3rem;padding: .3rem;margin: .5rem 0;vertical-align: middle;box-sizing: content-box" alt="piano">
+          <img src="tekitou.png" width="80%" height="50px" style="background-color: white;border-radius: 3rem;padding: .3rem;margin: .5rem 0;vertical-align: middle;box-sizing: content-box" alt="piano">
         </RouterLink>
       </div>
-      <div class="menu-trigger display-none-pc">
+      <div class="menu-trigger trigger-none">
         <div>
           <span></span>
           <span></span>

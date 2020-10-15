@@ -154,7 +154,6 @@ footer div span{
 }
 .menu-container {
     margin: 0;
-    position: fixed;
     width: 100%;
     top: 0;
     z-index: 999;
@@ -168,6 +167,7 @@ footer div span{
     padding: 0;
 }
 .menu-container .menu .menu-item {
+    background: #ccc;
     flex: 1;
 }
 .menu-container .menu .menu-item a {
