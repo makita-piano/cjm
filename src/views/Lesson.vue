@@ -24,7 +24,7 @@
         </div>
       </div>
       <h2 class="col-12">講師紹介</h2>
-      <div class="grid col-12" style="margin-bottom: 2rem>
+      <div class="grid col-12" style="margin-bottom: 2rem">
         <div class="grid-center col-3_sm-12">
           <div class="col-12_sm-6">
             <img src="tekitou.png" width="100%" height="100px" style="" alt="piano">
