@@ -69,7 +69,7 @@
           <img src="tekitou.png" width="80%" height="50px" style="background-color: white;border-radius: 3rem;padding: .3rem;margin: .5rem 0;vertical-align: middle;box-sizing: content-box" alt="piano">
         </RouterLink>
       </div>
-      <div class="menu-trigger trigger-none">
+      <div class="menu-trigger">
         <div>
           <span></span>
           <span></span>
