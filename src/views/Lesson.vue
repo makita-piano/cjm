@@ -32,12 +32,16 @@
           <div class="col-12">
             院長　菊地　裕介
           </div>
+        </div>
+        <div class="grid-center col-3_sm-12">
           <div class="col-12_sm-6">
             <img src="tekitou.png" width="100%" height="100px" style="" alt="piano">
           </div>
           <div class="col-12">
             副院長　加々見　茉耶
           </div>
+        </div>
+        <div class="grid-center col-3_sm-12">
           <div class="col-12_sm-6">
             <img src="tekitou.png" width="100%" height="100px" style="" alt="piano">
           </div>
