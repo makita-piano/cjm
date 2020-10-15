@@ -28,7 +28,7 @@
         あああああああああああああああああああああああああああああああああああああああああああああああああああああ
         あああああああああああああああああああああああああああああああああああああああああああああああああああああ
       </div>
-      <h2 class="col-12">料金</h2>
+      <h2 id="#c1" class="col-12">料金</h2>
       <h3 class="col-12">利用料金　<span style="font-size: .8rem">※１時間あたり／あああああああああ</span></h3>
       <ul class="col-12" style="font-size: .8rem">
         <li>平日ああああああああああああああああああ　￥2,000</li>
@@ -46,7 +46,7 @@
         <li>スタジオ利用料　20%OFF</li>
       </ul>
       
-      <h2 class="col-12">設備</h2>
+      <h2 id="#c2" class="col-12">設備</h2>
       <ul class="col-12" style="font-size: .8rem">
         <li>ああああああああああああああああああ</li>
         <li>ああああああああああああああああああ</li>
@@ -54,7 +54,7 @@
         <li>ああああああああああああああああああ</li>
       </ul>
       
-      <h2 class="col-12">禁止事項</h2>
+      <h2 id="#c3" class="col-12">禁止事項</h2>
       <ul class="col-12" style="font-size: .8rem">
         <li>ああああああああああああああああああ</li>
         <li>ああああああああああああああああああ</li>
@@ -66,7 +66,7 @@
         <li>ああああああああああああああああああ</li>
       </ul>
       
-      <h2 class="col-12">スタジオ予約</h2>
+      <h2 id="#c4" class="col-12">スタジオ予約</h2>
       <div class="col-12" style="margin-bottom: 2rem;font-size: .8rem">
         <a href="/">スタジオの予約はこちらから</a>
       </div>
