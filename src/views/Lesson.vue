@@ -3,6 +3,29 @@
     <div class="col-12">
       <img src="tekitou.png" width="100%" height="300px" style="margin-bottom: 2rem" alt="piano">
     </div>
+    <div class="grid-center col-12">
+      <div class="grid col-9_sm-10">
+        <div class="col-2_sm-4">
+          レッスン内容
+        </div>
+        <div class="col-2_sm-4">
+          講師紹介
+        </div>
+        <div class="col-2_sm-4">
+          料金
+        </div>
+        <div class="col-2_sm-4">
+          合格実績
+        </div>
+        <div class="col-2_sm-4">
+          受賞実績
+        </div>
+        <div class="col-2_sm-4">
+          レッスン予約
+        </div>
+      </div>
+    </div>
+        
     <div class="grid col-12" style="padding: 1rem">
       <h2 class="col-12">レッスン内容</h2>
       <div class="grid col-12" style="margin-bottom: 2rem;font-size: .8rem">
@@ -29,7 +52,7 @@
           <div class="col-12_sm-6" style="text-align: center">
             <img src="tekitou.png" width="80%" height="200px" style="" alt="piano">
           </div>
-          <div class="col-12">
+          <div class="col-12" style="text-align: center">
             院長　菊地　裕介
           </div>
         </div>
@@ -37,7 +60,7 @@
           <div class="col-12_sm-6" style="text-align: center">
             <img src="tekitou.png" width="80%" height="200px" style="" alt="piano">
           </div>
-          <div class="col-12">
+          <div class="col-12" style="text-align: center">
             副院長　加々見　茉耶
           </div>
         </div>
@@ -45,7 +68,7 @@
           <div class="col-12_sm-6" style="text-align: center">
             <img src="tekitou.png" width="80%" height="200px" style="" alt="piano">
           </div>
-          <div class="col-12">
+          <div class="col-12" style="text-align: center">
             講師　黒岩　航紀
           </div>
         </div>
