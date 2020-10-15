@@ -43,7 +43,7 @@
           <div style="padding: .1rem;background-color: #ccc;border: 1px solid #999;border-radius: .3rem;font-size: .8rem">
             お知らせ
           </div>
-          <div>
+          <div class="col-12">
             音楽院のパンフレットを公開しました！
           </div>
         </li>
