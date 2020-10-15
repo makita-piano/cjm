@@ -3,7 +3,7 @@
     <div class="col-12">
       <img src="tekitou.png" width="100%" height="300px" style="margin-bottom: 2rem" alt="piano">
     </div>
-    <div class="grid col-12" style="padding: 1rem"
+    <div class="grid col-12" style="padding: 1rem">
       <h2 class="col-12">音楽指導の社会的使命とは</h2>
       <div class="col-12" style="margin-bottom: 2rem;font-size: .8rem">
         CJMはあああああああああああああああああああああああああああああああああああああああああああああああああああ
@@ -36,7 +36,6 @@
         <a href="/">院長「ー」はこちら</a>
       </div>
     </div>
-    
   </v-content>
 </template>
 

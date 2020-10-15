@@ -1,46 +1,97 @@
 <template>
   <v-content>
     <div class="col-12">
-      <div class="title">
-          お知らせ
-      </div>
-      <div class="ancher">
-          <RouterLink to="/">
-              トップページ
-          </RouterLink>
-          > お知らせ
-      </div>
+      <img src="tekitou.png" width="100%" height="300px" style="margin-bottom: 2rem" alt="piano">
     </div>
-    <div style="padding: 2rem .5rem 1rem;background-color: #eee">
-      <ul class="information" v-for="e in info" v-bind:key="e.title">
-        <li>
-          <div class="col-12">{{date_formated(e.release_date)}}</div>
-          <div class="grid col-12">
-            <div class="col-12">{{e.title}}</div>
+    <div class="grid col-12" style="padding: 1rem">
+      <h2 class="col-12">レッスン内容</h2>
+      <div class="grid col-12" style="margin-bottom: 2rem;font-size: .8rem">
+        <div class="col-12" style="padding: 1rem 0">
+          <p>個人レッスン</p>
+          <p>あああ</p>
+        </div>
+        <div class="col-12" style="padding: 1rem 0">
+          <p>ソルフェージュ・音楽理論</p>
+          <p>あああ</p>
+        </div>
+        <div class="col-12" style="padding: 1rem 0">
+          <p>プレピアノコース</p>
+          <p>あああ</p>
+        </div>
+        <div class="col-12" style="padding: 1rem 0">
+          <p>オンライン非同期・同期</p>
+          <p>あああ</p>
+        </div>
+      </div>
+      <h2 class="col-12">講師紹介</h2>
+      <div class="grid col-12" style="margin-bottom: 2rem>
+        <div class="grid-center col-3_sm-12">
+          <div class="col-12_sm-6">
+            <img src="tekitou.png" width="100%" height="100px" style="" alt="piano">
           </div>
-          <div v-html="e.texts" style="padding-left: 2rem;">
+          <div class="col-12">
+            院長　菊地　裕介
           </div>
-        </li>
+          <div class="col-12_sm-6">
+            <img src="tekitou.png" width="100%" height="100px" style="" alt="piano">
+          </div>
+          <div class="col-12">
+            副院長　加々見　茉耶
+          </div>
+          <div class="col-12_sm-6">
+            <img src="tekitou.png" width="100%" height="100px" style="" alt="piano">
+          </div>
+          <div class="col-12">
+            講師　黒岩　航紀
+          </div>
+        </div>
+      </div>
+      <h2 class="col-12">料金</h2>
+      <h3 class="col-12">単発レッスン</h3>
+      <ul class="col-12" style="font-size: .8rem">
+        <li>ピアノああああああああああああああああああ　￥20,000~ </li>
+        <li>ピアノああああああああああああああああああ　￥7,000~ </li>
+        <li>ピアノああああああああああああああああああ　￥7,000~ </li>
       </ul>
+      
+      <h3 class="col-12">月額会員コース</h3>
+      <ul class="col-12" style="font-size: .8rem">
+        <li>入会金　￥30,000<br>※2020年中のー　 </li>
+        <li>月額レッスン料金ー</li>
+      </ul>
+        
+      <div class="col-12" style="margin-bottom: 2rem;font-size: .8rem">
+        その他あああああああああああああああああああああああああああああああああああああああああああああああああああ
+        ああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+        あああああああああああああああああああああああああああああああああああああああああああああああああああああ
+        あああああああああああああああああああああああああああああああああああああああああああああああああああああ<br>
+        あああああああああああああああああああああああああああああああああああああああああああああああああああああ
+        あああああああああああああああああああああああああああああああああああああああああああああああああああああ
+      </div>
+      
+      <h3 class="col-12">合格実績</h3>
+      <div class="col-12" style="margin-bottom: 2rem;font-size: .8rem">
+        準備中
+      </div>
+      
+      <h3 class="col-12">受賞実績</h3>
+      <div class="col-12" style="margin-bottom: 2rem;font-size: .8rem">
+        準備中
+      </div>
+      
+      <h3 class="col-12">レッスン予約</h3>
+      <div class="col-12" style="margin-bottom: 2rem;font-size: .8rem">
+        <a href="/">レッスンの予約はこちらから</a>
+      </div>
     </div>
   </v-content>
 </template>
 
 <script>
-  import axios from 'axios'
-  import moment from "moment";
-
   export default {
-
-    data () {
-      return {
-        info: undefined,
-      }
-    },
-
     mounted(){
-      const title = "Information | 加々見 茉耶"
-      const description = "加々見 茉耶 official pageのお知らせ一覧です。兵庫県生まれ。5歳よりピアノを始める。 兵庫県立西宮高等学校音楽科を卒業し、東京藝術大学音楽学部器楽科ピアノ専攻に入学。第1回 ロザリオ・マルチアーノ国際ピアノコンクール（ウィーン）第2位。併せてシューベルト賞を受賞。"
+      const title = "レッスン｜神宮の杜音楽院"
+      const description = "xxx "
       document.title = title
       document.querySelector("meta[property='og:title']")
       　.setAttribute('content', title)
@@ -48,23 +99,6 @@
       　.setAttribute('content', description)
       document.querySelector("meta[property='og:description']")
       　.setAttribute('content', description)
-    },
-
-    created(){
-      axios
-        .get("https://klavier.microcms.io/api/v1/m_info?fields=title,texts,release_date",{
-          headers: { "X-API-KEY": process.env.VUE_APP_MICROCMS_KEY},
-          data: {}
-      })
-        .then(v => {
-          this.info = v.data.contents;
-      });
-    },
-
-    methods: {
-      date_formated: function(date) {
-        return moment(date).format("YYYY.MM.DD");
-      }
     }
   }
 </script>
