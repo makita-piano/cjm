@@ -64,6 +64,14 @@
           </RouterLink>
         </li>
       </ul>
+      <div class="menu-trigger display-none-pc">
+        <div>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span class="menu-text">menu</span>
+        </div>
+      </div>
     </nav>
   </header>
 </template>
