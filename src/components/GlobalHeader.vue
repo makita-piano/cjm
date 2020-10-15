@@ -37,28 +37,28 @@
       </div>
     </div>
     <nav class="menu-container display-none-pc">
-      <ul>
-        <li>
+      <ul class="menu">
+        <li class="menu-item">
           <RouterLink to="/philosophy">
             理念・特長
           </RouterLink>
         </li>
-        <li>
+        <li class="menu-item">
           <RouterLink to="/lesson">
             レッスン
           </RouterLink>
         </li>
-        <li>
+        <li class="menu-item">
           <RouterLink to="/event">
             講座・イベント
           </RouterLink>
         </li>
-        <li>
+        <li class="menu-item">
           <RouterLink to="/rental">
             スタジオ貸出
           </RouterLink>
         </li>
-        <li>
+        <li class="menu-item">
           <RouterLink to="/contact">
             お問い合わせ
           </RouterLink>
@@ -67,5 +67,3 @@
     </nav>
   </header>
 </template>
-
-<style>
