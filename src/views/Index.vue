@@ -53,13 +53,7 @@
       </div>
       <h2 class="col-12">Links</h2>
       <div class="col-12" style="margin-bottom: 2rem">
-        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v8.0&appId=160626627849426&autoLogAppEvents=1" nonce="jmR8QvEF"></script>
-
-        <!-- Facebook -->
-        <div id="fb-root"></div>
-        <div class="fb-page" data-href="https://www.facebook.com/pages/category/Music-Lessons---Instruction-School/Cjm-Tokyo-%E7%A5%9E%E5%AE%AE%E3%81%AE%E6%9D%9C%E9%9F%B3%E6%A5%BD%E9%99%A2-103707088022777/" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/pages/category/Music-Lessons---Instruction-School/Cjm-Tokyo-%E7%A5%9E%E5%AE%AE%E3%81%AE%E6%9D%9C%E9%9F%B3%E6%A5%BD%E9%99%A2-103707088022777/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/pages/category/Music-Lessons---Instruction-School/Cjm-Tokyo-%E7%A5%9E%E5%AE%AE%E3%81%AE%E6%9D%9C%E9%9F%B3%E6%A5%BD%E9%99%A2-103707088022777/">Cjm Tokyo 神宮の杜音楽院</a></blockquote></div>
-        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v8.0&appId=160626627849426&autoLogAppEvents=1" nonce="jmR8QvEF"></script>
-
+        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2Fcategory%2FMusic-Lessons---Instruction-School%2FCjm-Tokyo-%25E7%25A5%259E%25E5%25AE%25AE%25E3%2581%25AE%25E6%259D%259C%25E9%259F%25B3%25E6%25A5%25BD%25E9%2599%25A2-103707088022777%2F%22%20data-tabs%3D%22timeline%22%20data-width%3D%22%22%20data-height%3D%22%22%20data-small-header%3D%22false%22%20data-adapt-container-width%3D%22true%22%20data-hide-cover%3D%22false%22%20data-show-facepile%3D%22true%22%3E%3Cblockquote%20cite%3D%22https%3A%2F%2Fwww.facebook.com%2Fpages%2Fcategory%2FMusic-Lessons---Instruction-School%2FCjm-Tokyo-%25E7%25A5%259E%25E5%25AE%25AE%25E3%2581%25AE%25E6%259D%259C%25E9%259F%25B3%25E6%25A5%25BD%25E9%2599%25A2-103707088022777%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=160626627849426" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
       </div>
     </div>
   </v-content>
