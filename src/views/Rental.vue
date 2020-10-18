@@ -62,7 +62,7 @@
       </ul>
       
       <h2 id="#c4" class="col-12">スタジオ予約</h2>
-      <div class="col-12" style="margin-bottom: 2rem;font-size: .8rem">
+      <div class="col-12 color-blue" style="margin-bottom: 2rem;font-size: .8rem">
         <RouterLink to="/reserve">スタジオの予約はこちらから</RouterLink>
       </div>
     </div>
