@@ -83,6 +83,8 @@ footer div span{
 /* menu */
 .menu{
     padding-bottom: .5rem;
+    z-index: 999;
+    position: fixed;
 }
 .menu > div{
     border-right: .5px solid #999;
