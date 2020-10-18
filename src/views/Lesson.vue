@@ -83,12 +83,13 @@
       
       <h3 class="col-12">月額会員コース（要入会金）</h3>
       <div class="col-12">
-        入会金　￥30,000
+        ・入会金　￥30,000
       </div>
       <ul class="col-12 pre_list" style="margin-bottom: 1rem">
         <li>※2020年中のご入会の方は、入会金全額免除	（追加レッスン、スタジオ練習利用料等の割引、ほか各種特典あり）</li>
       </ul>
-      <div>月額レッスン料金	   ￥9,900  （プレピアノコース 満3歳以下）  〜</div>
+      <br>
+      <div>月額レッスン料金	   ￥9,900 <br class="display-pc-none">（プレピアノコース 満3歳以下）  〜</div>
 
         
       <div class="col-12" style="margin-bottom: 2rem;font-size: .8rem;padding: 1rem 0">

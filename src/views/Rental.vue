@@ -24,12 +24,12 @@
         CJM Tokyo 神宮の杜音楽院では、スタジオ貸出も行なっております。個人の練習や室内楽の合わせなどはもちろん、録音・録画スタジオとしてもご利用いただけます。オンライン審査のための演奏収録、コンクール直前の利用など、様々な用途にぜひお使いください。
       </div>
       <h2 id="c1" class="col-12">料金</h2>
-      <h3 class="col-12">利用料金　<span style="font-size: .8rem">※1時間あたり / YAMAHA C3型 グランドピアノ 使用可能</span></h3>
-      <ul class="col-12" style="font-size: .8rem;margin-bottom: 1.5rem">
-        <li>平日 午前（9:00-13:00）　	￥2,000</li>
-        <li>平日 午後（13:00-17:00）　	￥2,500</li>
-        <li>平日 夜間（17:00-23:00）　	￥3,000</li><br>
-        <li>土日祝日 （終日）　	￥3,000</li>
+      <h3 class="col-12">利用料金　<span style="font-size: .8rem"><br class="display-none-pc">※1時間あたり / YAMAHA C3型 グランドピアノ 使用可能</span></h3>
+      <ul class="col-12 pre_list" style="font-size: .8rem;margin-bottom: 1.5rem">
+        <li>・平日 午前（9:00-13:00）　	￥2,000</li>
+        <li>・平日 午後（13:00-17:00）　	￥2,500</li>
+        <li>・平日 夜間（17:00-23:00）　	￥3,000</li><br>
+        <li>・土日祝日 （終日）　	￥3,000</li>
       </ul>
       <h3 class="col-12">オプション　<span style="font-size: .8rem">※１時間あたり</span></h3>
       <ul class="col-12" style="font-size: .8rem;margin-bottom: 1.5rem">
@@ -56,7 +56,7 @@
         <li>・窓、扉、カーテンを開けての演奏</li>
       </ul>
       
-      <ul class="col-12" style="font-size: .8rem">
+      <ul class="col-12 pre_list" style="font-size: .8rem">
         <li>※スタジオ利用は、音楽院のレッスンや音楽院講師の利用等が無い、空いている時間に限られます。状況により、空き時間が変わる可能性もありますこと、ご了承ください。</li>
         <li>※レッスンとしてのご利用をご検討の方はご相談ください。</li>
       </ul>
