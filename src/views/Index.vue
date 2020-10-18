@@ -46,7 +46,7 @@
           </div>
         </li>
       </ul>
-      <div class="col-12" style="text-align: right;margin-bottom: 2rem">
+      <div class="col-12 color-blue" style="text-align: right;margin-bottom: 2rem">
         <RouterLink to="/news">過去のNewsはこちらから</RouterLink>
       </div>
       <h2 class="col-12">Links</h2>
