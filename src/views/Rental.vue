@@ -5,16 +5,16 @@
     </div>
     <div class="grid-center col-12">
       <div class="grid col-9_sm-10" style="text-align: center">
-        <div class="col-3_sm-6">
+        <div class="col-3_sm-6" style="margin-bottom: 1rem">
           <a href="#c1">料金</a>
         </div>
-        <div class="col-3_sm-6">
+        <div class="col-3_sm-6" style="margin-bottom: 1rem">
           <a href="#c2">設備</a>
         </div>
-        <div class="col-3_sm-6">
+        <div class="col-3_sm-6" style="margin-bottom: 1rem">
           <a href="#c3">禁止事項</a>
         </div>
-        <div class="col-3_sm-6">
+        <div class="col-3_sm-6" style="margin-bottom: 1rem">
           <a href="#c4">スタジオ予約</a>
         </div>
       </div>

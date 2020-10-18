@@ -5,22 +5,22 @@
     </div>
     <div class="grid-center col-12">
       <div class="grid col-9_sm-10" style="text-align: center">
-        <div class="col-2_sm-4">
+        <div class="col-2_sm-4" style="margin-bottom: 1rem">
           <a href="#c1">レッスン内容</a>
         </div>
-        <div class="col-2_sm-4">
+        <div class="col-2_sm-4" style="margin-bottom: 1rem">
           <a href="#c2">講師紹介</a>
         </div>
-        <div class="col-2_sm-4">
+        <div class="col-2_sm-4" style="margin-bottom: 1rem">
           <a href="#c3">料金</a>
         </div>
-        <div class="col-2_sm-4">
+        <div class="col-2_sm-4" style="margin-bottom: 1rem">
           <a href="#c4">合格実績</a>
         </div>
-        <div class="col-2_sm-4">
+        <div class="col-2_sm-4" style="margin-bottom: 1rem">
           <a href="#c5">受賞実績</a>
         </div>
-        <div class="col-2_sm-4">
+        <div class="col-2_sm-4" style="margin-bottom: 1rem">
           <a href="#c6">レッスン予約</a>
         </div>
       </div>
@@ -48,24 +48,24 @@
       </div>
       <h2 id="c2" class="col-12">講師紹介</h2>
       <div class="grid col-12" style="margin-bottom: 2rem">
-        <div class="grid-center col-3_sm-12">
-          <div class="col-12_sm-6" style="text-align: center">
+        <div class="grid-center col-3_sm-6" style="margin-bottom: 2rem">
+          <div class="col-12_sm-10" style="text-align: center">
             <img src="kikuti_yusuke.png" width="80%" height="auto" style="" alt="piano">
           </div>
           <div class="col-12" style="text-align: center">
             院長　菊地　裕介
           </div>
         </div>
-        <div class="grid-center col-3_sm-12">
-          <div class="col-12_sm-6" style="text-align: center">
+        <div class="grid-center col-3_sm-6" style="margin-bottom: 2rem">
+          <div class="col-12_sm-10" style="text-align: center">
             <img src="kagami_maya.png" width="80%" height="auto" style="" alt="piano">
           </div>
           <div class="col-12" style="text-align: center">
             副院長　加々見　茉耶
           </div>
         </div>
-        <div class="grid-center col-3_sm-12">
-          <div class="col-12_sm-6" style="text-align: center">
+        <div class="grid-center col-3_sm-6" style="margin-bottom: 2rem">
+          <div class="col-12_sm-10" style="text-align: center">
             <img src="kuroiwa.png" width="80%" height="auto" style="" alt="piano">
           </div>
           <div class="col-12" style="text-align: center">
