@@ -26,7 +26,7 @@
       </div>
     </div>
         
-    <div class="grid col-12 id="main-content"" style="padding: 1rem">
+    <div class="grid col-12" id="main-content" style="padding: 1rem">
       <h2 id="c1" class="col-12">レッスン内容</h2>
       <div class="grid col-12" style="margin-bottom: 2rem;font-size: .8rem">
         <div class="col-12" style="padding: 1rem 0">
