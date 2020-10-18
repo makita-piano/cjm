@@ -38,10 +38,10 @@ ul{
     padding: 0;
     list-style: none;
 }
-.h2{
+h2{
   font-weight: normal;
 }
-.h3{
+h3{
     margin-bottom: 1rem;
     text-align: center;
     border-bottom: 1px solid #999;
@@ -266,6 +266,10 @@ footer div span{
 .color-blue{
   color: #516BFC;
 }
+.color-blue{
+  color: #3D6F04;
+}
+
 
 @media (max-width: 768px) {
     .display-none-mobile {
