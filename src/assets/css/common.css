@@ -38,7 +38,7 @@ ul{
     padding: 0;
     list-style: none;
 }
-h2,h3{
+body h2,body h3{
   font-weight: normal;
   padding: .5rem 0;
 }
@@ -181,7 +181,7 @@ footer div span{
     padding: 0;
 }
 .menu-container .menu .menu-item {
-    background: #ccc;
+    background: #fff;
     flex: 1;
 }
 .menu-container .menu .menu-item a {
