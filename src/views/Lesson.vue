@@ -1,7 +1,7 @@
 <template>
   <v-content>
     <div class="col-12">
-      <img src="tekitou.png" width="100%" height="300px" style="margin-bottom: 2rem" alt="piano">
+      <img src="CJM_lesson.png" width="100%" height="300px" style="margin-bottom: 2rem" alt="piano">
     </div>
     <div class="grid-center col-12">
       <div class="grid col-9_sm-10" style="text-align: center">
@@ -50,7 +50,7 @@
       <div class="grid col-12" style="margin-bottom: 2rem">
         <div class="grid-center col-3_sm-12">
           <div class="col-12_sm-6" style="text-align: center">
-            <img src="tekitou.png" width="80%" height="200px" style="" alt="piano">
+            <img src="kikuti_yusuke.png" width="80%" height="200px" style="" alt="piano">
           </div>
           <div class="col-12" style="text-align: center">
             院長　菊地　裕介
@@ -58,7 +58,7 @@
         </div>
         <div class="grid-center col-3_sm-12">
           <div class="col-12_sm-6" style="text-align: center">
-            <img src="tekitou.png" width="80%" height="200px" style="" alt="piano">
+            <img src="kagami_maya.png" width="80%" height="200px" style="" alt="piano">
           </div>
           <div class="col-12" style="text-align: center">
             副院長　加々見　茉耶
@@ -66,7 +66,7 @@
         </div>
         <div class="grid-center col-3_sm-12">
           <div class="col-12_sm-6" style="text-align: center">
-            <img src="tekitou.png" width="80%" height="200px" style="" alt="piano">
+            <img src="kuroiwa.png" width="80%" height="200px" style="" alt="piano">
           </div>
           <div class="col-12" style="text-align: center">
             講師　黒岩　航紀
@@ -76,24 +76,21 @@
       <h2 id="c3" class="col-12">料金</h2>
       <h3 class="col-12">単発レッスン</h3>
       <ul class="col-12" style="font-size: .8rem">
-        <li>ピアノああああああああああああああああああ　￥20,000~ </li>
-        <li>ピアノああああああああああああああああああ　￥7,000~ </li>
-        <li>ピアノああああああああああああああああああ　￥7,000~ </li>
+        <li>ピアノ個人レッスン （院長 : 菊地裕介レッスン　1時間〜／1回） 　	￥20,000〜</li>
+        <li>ピアノ個人レッスン （副院長 ： 加々見茉耶レッスン　30分〜／1回） 　	￥7,000〜</li>
+        <li>ソルフェージュ&音楽理論 （3名までのグループ　60分以上）	￥7,000〜</li>
       </ul>
       
-      <h3 class="col-12">月額会員コース</h3>
+      <h3 class="col-12">月額会員コース（要入会金）</h3>
       <ul class="col-12" style="font-size: .8rem">
-        <li>入会金　￥30,000<br>※2020年中のー　 </li>
-        <li>月額レッスン料金ー</li>
+        <li>入会金　￥30,000<br>※※2020年中のご入会の方は、入会金全額免除	（追加レッスン、スタジオ練習利用料等の割引、ほか各種特典あり）</li>
+        <li>月額レッスン料金	   ￥9,900  （プレピアノコース 満3歳以下）  〜</li>
       </ul>
         
       <div class="col-12" style="margin-bottom: 2rem;font-size: .8rem">
-        その他あああああああああああああああああああああああああああああああああああああああああああああああああああ
-        ああああああああああああああああああああああああああああああああああああああああああああああああああああああ
-        あああああああああああああああああああああああああああああああああああああああああああああああああああああ
-        あああああああああああああああああああああああああああああああああああああああああああああああああああああ<br>
-        あああああああああああああああああああああああああああああああああああああああああああああああああああああ
-        あああああああああああああああああああああああああああああああああああああああああああああああああああああ
+      その他、長時間のレッスンや、院長・菊地裕介と副院長・加々見茉耶のダブルレッスンシステムをはじめ、ニーズにご対応できるさまざまなコースをご用意しております。
+小さなお子様からプロフェッショナルを目指す方、ピアノ愛好家の方まで、幅広くレッスンいたします。（音大・音高受験生対応可）
+詳しくはお問い合わせください。
       </div>
       
       <h2 id="c4" class="col-12">合格実績</h2>

@@ -6,6 +6,7 @@ import Lesson from "../views/Lesson.vue";
 import Event from "../views/Event.vue";
 import Rental from "../views/Rental.vue";
 import Contact from "../views/Contact.vue";
+import Reserve from "../views/Reserve.vue";
 
 Vue.use(Router);
 
@@ -42,6 +43,11 @@ export default new Router({
 			path: "/contact",
 			name: "Contact",
 			component: Contact
+		},
+		{
+			path: "/reserve",
+			name: "Reserve",
+			component: Reserve
 		}
 	]
 });
