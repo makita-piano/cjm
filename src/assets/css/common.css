@@ -276,6 +276,9 @@ footer div span{
     #body .padding-0-05-mobile{
         padding: 0 .5rem;
     }
+    .padding-0-1-mobile{
+      padding: 0 1rem;
+    }
 }
 
 @media (min-width: 769px) {
