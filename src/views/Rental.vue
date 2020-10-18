@@ -3,7 +3,7 @@
     <div class="col-12">
       <img src="CJM_studio.png" width="100%" height="auto" style="margin-bottom: 2rem" alt="piano">
     </div>
-    <div class="grid-center col-12">
+    <div id="main-content" class="grid-center col-12">
       <div class="grid col-9_sm-10" style="text-align: center">
         <div class="col-3_sm-6" style="margin-bottom: 1rem">
           <a href="#c1">料金</a>

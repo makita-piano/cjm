@@ -1,7 +1,7 @@
 <template>
   <v-content>
     <div class="col-12">
-      <img src="CJM_lesson.png" width="100%" height="auto" style="margin-bottom: 2rem" alt="piano">
+      <img src="CJM_lesson.png" width="100%" height="auto" style="margin-bottom: 1rem" alt="piano">
     </div>
     <div class="grid-center col-12">
       <div class="grid col-9_sm-10" style="text-align: center">
@@ -26,7 +26,7 @@
       </div>
     </div>
         
-    <div class="grid col-12" style="padding: 1rem">
+    <div class="grid col-12 id="main-content"" style="padding: 1rem">
       <h2 id="c1" class="col-12">レッスン内容</h2>
       <div class="grid col-12" style="margin-bottom: 2rem;font-size: .8rem">
         <div class="col-12" style="padding: 1rem 0">
@@ -83,7 +83,7 @@
       
       <h3 class="col-12">月額会員コース（要入会金）</h3>
       <ul class="col-12" style="font-size: .8rem">
-        <li>入会金　￥30,000<br>※※2020年中のご入会の方は、入会金全額免除	（追加レッスン、スタジオ練習利用料等の割引、ほか各種特典あり）</li>
+        <li>入会金　￥30,000<br>※2020年中のご入会の方は、入会金全額免除	（追加レッスン、スタジオ練習利用料等の割引、ほか各種特典あり）</li>
         <li>月額レッスン料金	   ￥9,900  （プレピアノコース 満3歳以下）  〜</li>
       </ul>
         
