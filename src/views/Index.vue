@@ -3,7 +3,7 @@
     <div class="col-12">
       <img src="tekitou.png" width="100%" height="300px" style="margin-bottom: 2rem" alt="piano">
     </div>
-    <div class="grid col-12 index-content" style="padding: 0 1rem">
+    <div class="grid col-12 main-content">
       <div class="col-12" style="margin-bottom: 2rem">
       CJM Tokyo 神宮の杜音楽院は、東京藝術大学卒業などの一流の学歴と留学経験を持つ、国内最高レベルの権威あるクラシック音楽家による、ピアノレッスンを中心とした音楽教育を行なっております。<br>
 個人レッスンのみならず、音楽理論やソルフェージュのクラス、上級者のための演奏法講座、海外より招聘する世界クラスの音楽家による特別レッスンなど、広く展開していきます。<br>

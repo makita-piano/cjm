@@ -45,6 +45,20 @@ ul{
     padding-bottom: .3rem;
 }
 
+@media (max-width: 768px) {
+  .main-content{
+    padding: 1rem .5rem;
+  }
+}
+
+@media (min-width: 769px) {
+  .main-content{
+    padding: 2rem 4rem;
+  }
+}
+
+
+
 
 
 /* header footer */
@@ -271,82 +285,14 @@ footer div span{
 
 
 /* index */
-.index-information > li{
-    margin-bottom: 1rem;
-}
-.index-information > li > div:nth-child(1){
-    font-size: .8rem;
-    color: #999;
-}
-.index-information > li > div:nth-child(2){
-    background:url("/tone.png") left no-repeat;
-    padding: .3rem 0 .7rem 2rem;
-}
-.index-information-list{
-    background:url("/heon.png") left no-repeat;
-    padding: .3rem 0 1rem 2.3rem;
-    text-align: center;
-    text-decoration: underline;
-    margin: 1rem 0 2rem;
-}
-.index-information a{
-  text-decoration: underline;
-}
-.social li > div{
-    width: auto;
-    float: none;
-    height: 4rem;
-    border-radius: 3rem;
-    color: white;
-    margin: 1rem .5rem;
-}
-.twitter{
-  background-color: #55acee;
-}
-.insta{
-  background: -webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
-  background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
-}
-.insta:before{
-  background: -webkit-linear-gradient(15deg, #ffdb2c, rgb(249, 118, 76) 25%, rgba(255, 77, 64, 0) 50%) no-repeat;
-  background: linear-gradient(15deg, #ffdb2c, rgb(249, 118, 76) 25%, rgba(255, 77, 64, 0) 50%) no-repeat;
-}
-.fa-instagram{
-  font-size: 35px;
-  position: relative;
-  top: 15px;
-  left: 20px;
-}
-.youtube{
-    background-color: #cd201f;
-}
-.social-icon{
-    width: 3rem;
-}
-.social-text{
-    padding-left: 3rem;
-    padding-top:  .7rem;
-}
-.social-name{
-    font-size: .8rem;
-    opacity: .5;
-}
-.social-icon > img{
-    height: 3rem;
-    padding-left: 1rem;
-    padding-top: 1rem;
+.oshirase_tag{
+  background-color: #E4E4F7;
 }
 
 @media (max-width: 768px) {
-    #top-jpg{
-        width: 100%;
-    }
 }
 
 @media (min-width: 769px) {
-    #top-jpg{
-        width: 60%;
-    }
 }
 
 

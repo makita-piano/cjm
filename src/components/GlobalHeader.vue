@@ -2,8 +2,8 @@
   <header>
     <div class="grid display-none-mobile">
       <div class="col-4">
-        <RouterLink to="/" id="home" style="z-index: 9999">
-          <img src="cjm.png" width="80%" height="100px" style="background-color: white;border-radius: 3rem;padding: .3rem;margin: .5rem 0;vertical-align: middle;box-sizing: content-box" alt="piano">
+        <RouterLink to="/">
+          <img src="cjm.png" width="auto" height="60px" style="padding: 1rem .3rem 1rem 1.5rem;margin: 2rem 0;vertical-align: middle;box-sizing: content-box" alt="piano">
         </RouterLink>
       </div>
       <div class="grid col-8" style="padding: 0 1rem">

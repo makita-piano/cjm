@@ -15,9 +15,9 @@
         <li>メニューに記載がない予約等につきましては、直接メールにてお問い合わせください。</li>
         <li>・初めてご利用の方には、予約完了後、当日までに音楽院の場所をメールにてお送りいたします。</li>
       </ul>
-    </div>
-    <div class="col-12">
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeA-ijwyzTbh6PIgyZnjH_pq68dXvEK3GOtOJxKFcsIB4EDvg/viewform?embedded=true" width="640" height="378" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+      <div class="col-12" style="text-align: center">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeA-ijwyzTbh6PIgyZnjH_pq68dXvEK3GOtOJxKFcsIB4EDvg/viewform?embedded=true" width="640" height="378" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+      </div>
     </div>
   </v-content>
 </template>
