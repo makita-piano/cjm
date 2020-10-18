@@ -50,7 +50,7 @@
       <div class="grid col-12" style="margin-bottom: 2rem">
         <div class="grid-center col-3_sm-6" style="margin-bottom: 2rem">
           <div class="col-12_sm-10" style="text-align: center">
-            <img src="kikuti_yusuke.png" width="80%" height="auto" style="" alt="piano" class="padding-0-1-mobile">
+            <img src="kikuti_yusuke.png" width="80%" height="auto" style="" alt="piano" class="padding-0-1-pc">
           </div>
           <div class="col-12" style="text-align: center">
             院長　菊地　裕介
@@ -58,7 +58,7 @@
         </div>
         <div class="grid-center col-3_sm-6" style="margin-bottom: 2rem">
           <div class="col-12_sm-10" style="text-align: center">
-            <img src="kagami_maya.png" width="80%" height="auto" style="" alt="piano" class="padding-0-1-mobile">
+            <img src="kagami_maya.png" width="80%" height="auto" style="" alt="piano" class="padding-0-1-pc">
           </div>
           <div class="col-12" style="text-align: center">
             副院長　加々見　茉耶
@@ -66,7 +66,7 @@
         </div>
         <div class="grid-center col-3_sm-6" style="margin-bottom: 2rem">
           <div class="col-12_sm-10" style="text-align: center">
-            <img src="kuroiwa.png" width="80%" height="auto" style="" alt="piano" class="padding-0-1-mobile">
+            <img src="kuroiwa.png" width="80%" height="auto" style="" alt="piano" class="padding-0-1-pc">
           </div>
           <div class="col-12" style="text-align: center">
             講師　黒岩　航紀
