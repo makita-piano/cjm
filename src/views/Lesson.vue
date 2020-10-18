@@ -75,7 +75,7 @@
       </div>
       <h2 id="c3" class="col-12">料金</h2>
       <h3 class="col-12">単発レッスン</h3>
-      <ul class="col-12" style="font-size: .8rem">
+      <ul class="col-12 pre_list" style="font-size: .8rem">
         <li>ピアノ個人レッスン （院長 : 菊地裕介レッスン　1時間〜／1回） 　	￥20,000〜</li>
         <li>ピアノ個人レッスン （副院長 ： 加々見茉耶レッスン　30分〜／1回） 　	￥7,000〜</li>
         <li>ソルフェージュ&音楽理論 （3名までのグループ　60分以上）	￥7,000〜</li>

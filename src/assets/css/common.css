@@ -43,6 +43,11 @@ ul{
   padding: .5rem 0;
 }
 
+.pre_list li{
+  padding-left: 1rem;
+  text-indent: -1rem;
+}
+
 @media (max-width: 768px) {
   #main-content{
     padding: 1rem;
