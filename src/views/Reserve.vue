@@ -1,7 +1,7 @@
 <template>
   <v-content>
     <div class="col-12">
-      <img src="CJM_yoyaku.png" width="100%" height="300px" style="margin-bottom: 2rem" alt="piano">
+      <img src="CJM_yoyaku.png" width="100%" height="auto" style="margin-bottom: 2rem" alt="piano">
     </div>
     <div class="grid col-12" style="padding: 1rem">
       <h1 class="col-12">レッスン予約・スタジオ貸出予約</h1>
@@ -15,7 +15,7 @@
         <li>メニューに記載がない予約等につきましては、直接メールにてお問い合わせください。</li>
         <li>・初めてご利用の方には、予約完了後、当日までに音楽院の場所をメールにてお送りいたします。</li>
       </ul>
-      <div class="col-12" style="text-align: center">
+      <div class="col-12" style="text-align: center;margin-top: 1rem">
         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeA-ijwyzTbh6PIgyZnjH_pq68dXvEK3GOtOJxKFcsIB4EDvg/viewform?embedded=true" width="640" height="378" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
       </div>
     </div>

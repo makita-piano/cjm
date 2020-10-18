@@ -1,7 +1,7 @@
 <template>
   <v-content>
     <div class="col-12">
-      <img src="CJM_lesson.png" width="100%" height="300px" style="margin-bottom: 2rem" alt="piano">
+      <img src="CJM_lesson.png" width="100%" height="auto" style="margin-bottom: 2rem" alt="piano">
     </div>
     <div class="grid-center col-12">
       <div class="grid col-9_sm-10" style="text-align: center">
@@ -50,7 +50,7 @@
       <div class="grid col-12" style="margin-bottom: 2rem">
         <div class="grid-center col-3_sm-12">
           <div class="col-12_sm-6" style="text-align: center">
-            <img src="kikuti_yusuke.png" width="80%" height="200px" style="" alt="piano">
+            <img src="kikuti_yusuke.png" width="80%" height="auto" style="" alt="piano">
           </div>
           <div class="col-12" style="text-align: center">
             院長　菊地　裕介
@@ -58,7 +58,7 @@
         </div>
         <div class="grid-center col-3_sm-12">
           <div class="col-12_sm-6" style="text-align: center">
-            <img src="kagami_maya.png" width="80%" height="200px" style="" alt="piano">
+            <img src="kagami_maya.png" width="80%" height="auto" style="" alt="piano">
           </div>
           <div class="col-12" style="text-align: center">
             副院長　加々見　茉耶
@@ -66,7 +66,7 @@
         </div>
         <div class="grid-center col-3_sm-12">
           <div class="col-12_sm-6" style="text-align: center">
-            <img src="kuroiwa.png" width="80%" height="200px" style="" alt="piano">
+            <img src="kuroiwa.png" width="80%" height="auto" style="" alt="piano">
           </div>
           <div class="col-12" style="text-align: center">
             講師　黒岩　航紀
@@ -105,7 +105,7 @@
       
       <h2 id="c6" class="col-12">レッスン予約</h2>
       <div class="col-12" style="margin-bottom: 2rem;font-size: .8rem">
-        <a href="/">レッスンの予約はこちらから</a>
+        <a class="color-blue" href="/">レッスンの予約はこちらから</a>
       </div>
     </div>
   </v-content>
