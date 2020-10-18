@@ -286,7 +286,13 @@ footer div span{
 
 /* index */
 .oshirase_tag{
+  padding: 0.1rem .5rem;
   background-color: #E4E4F7;
+  border: 1px solid #707070;
+  border-radius: 0.3rem;
+  font-size: 0.8rem;
+  margin-left: 1rem;
+  color: #0F3776;
 }
 
 @media (max-width: 768px) {
