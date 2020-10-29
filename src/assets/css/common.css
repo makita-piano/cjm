@@ -24,7 +24,9 @@ payment
 body{
     margin: 0;
     color: #333;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: a-otf-ryumin-pr6n, serif;
+    font-style: normal;
+    font-weight: 300;
 }
 a{
     text-decoration: none;

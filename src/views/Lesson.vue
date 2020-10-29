@@ -25,8 +25,8 @@
         </div>
       </div>
     </div>
-        
-    <div class="grid col-12" id="main-content" style="padding: 1rem">
+
+    <div class="grid col-12" id="main-content">
       <h2 id="c1" class="col-12">レッスン内容</h2>
       <div class="grid col-12" style="margin-bottom: 2rem;font-size: .8rem">
         <div class="col-12" style="padding: 1rem 0">
@@ -80,7 +80,7 @@
         <li>・ピアノ個人レッスン （副院長 ： 加々見茉耶レッスン　30分〜／1回） 　	￥7,000〜</li>
         <li>・ソルフェージュ&音楽理論 （3名までのグループ　60分以上）	￥7,000〜</li>
       </ul>
-      
+
       <h3 class="col-12">月額会員コース（要入会金）</h3>
       <div class="col-12">
         ・入会金　￥30,000
@@ -91,23 +91,23 @@
       <br>
       <div>月額レッスン料金	   ￥9,900 <br class="display-pc-none">（プレピアノコース 満3歳以下）  〜</div>
 
-        
+
       <div class="col-12" style="margin-bottom: 2rem;font-size: .8rem;padding: 1rem 0">
       その他、長時間のレッスンや、院長・菊地裕介と副院長・加々見茉耶のダブルレッスンシステムをはじめ、ニーズにご対応できるさまざまなコースをご用意しております。
 小さなお子様からプロフェッショナルを目指す方、ピアノ愛好家の方まで、幅広くレッスンいたします。（音大・音高受験生対応可）
 詳しくはお問い合わせください。
       </div>
-      
+
       <h2 id="c4" class="col-12">合格実績</h2>
       <div class="col-12" style="margin-bottom: 2rem;font-size: .8rem">
         準備中
       </div>
-      
+
       <h2 id="c5" class="col-12">受賞実績</h2>
       <div class="col-12" style="margin-bottom: 2rem;font-size: .8rem">
         準備中
       </div>
-      
+
       <h2 id="c6" class="col-12">レッスン予約</h2>
       <div class="col-12" style="margin-bottom: 2rem;font-size: .8rem">
         <a class="color-blue" href="/">レッスンの予約はこちらから</a>
