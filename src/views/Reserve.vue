@@ -3,7 +3,7 @@
     <div class="col-12">
       <img src="CJM_yoyaku.png" width="100%" height="auto" style="margin-bottom: 2rem" alt="piano">
     </div>
-    <div  id="main-content" class="grid col-12">
+    <div id="main-content" class="grid col-12">
       <h1 class="col-12">レッスン予約・スタジオ貸出予約</h1>
       <div class="col-12" style="">
         レッスン予約・スタジオ利用予約は下記より可能です。

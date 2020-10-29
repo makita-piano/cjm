@@ -82,20 +82,20 @@
       </ul>
 
       <h3 class="col-12">月額会員コース（要入会金）</h3>
-      <div class="col-12">
-        ・入会金　￥30,000
-      </div>
-      <ul class="col-12 pre_list" style="margin-bottom: 1rem">
-        <li>※2020年中のご入会の方は、入会金全額免除	（追加レッスン、スタジオ練習利用料等の割引、ほか各種特典あり）</li>
-      </ul>
-      <br>
-      <div>月額レッスン料金	   ￥9,900 <br class="display-pc-none">（プレピアノコース 満3歳以下）  〜</div>
-
-
-      <div class="col-12" style="margin-bottom: 2rem;font-size: .8rem;padding: 1rem 0">
-      その他、長時間のレッスンや、院長・菊地裕介と副院長・加々見茉耶のダブルレッスンシステムをはじめ、ニーズにご対応できるさまざまなコースをご用意しております。
-小さなお子様からプロフェッショナルを目指す方、ピアノ愛好家の方まで、幅広くレッスンいたします。（音大・音高受験生対応可）
-詳しくはお問い合わせください。
+      <div class="grid col-12" style="font-size: .8rem">
+        <div class="col-12">
+          ・入会金　￥30,000
+        </div>
+        <ul class="col-12 pre_list" style="margin-bottom: 1rem">
+          <li>※2020年中のご入会の方は、入会金全額免除	（追加レッスン、スタジオ練習利用料等の割引、ほか各種特典あり）</li>
+        </ul>
+        <br>
+        <div>・月額レッスン料金	   ￥9,900 <br class="display-pc-none">（プレピアノコース 満3歳以下）  〜</div>
+        <div class="col-12" style="margin-bottom: 2rem;padding: 1rem 0">
+        その他、長時間のレッスンや、院長・菊地裕介と副院長・加々見茉耶のダブルレッスンシステムをはじめ、ニーズにご対応できるさまざまなコースをご用意しております。
+  小さなお子様からプロフェッショナルを目指す方、ピアノ愛好家の方まで、幅広くレッスンいたします。（音大・音高受験生対応可）
+  詳しくはお問い合わせください。
+        </div>
       </div>
 
       <h2 id="c4" class="col-12">合格実績</h2>
