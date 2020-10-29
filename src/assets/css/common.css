@@ -127,8 +127,8 @@ footer div span{
     z-index: 999;
     background-color: black;
     border-radius: 32px;
-    position: fixed;
-    margin: 0.5rem 0 0 auto;
+    position: absolute;
+    margin: 1.9rem 0 0 auto;
 }
 .menu-trigger span {
     display: inline-block;

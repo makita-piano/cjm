@@ -64,9 +64,9 @@
           </RouterLink>
         </li>
       </ul>
-      <div class="trigger-none">
+      <div>
         <RouterLink to="/" id="home" style="z-index: 9999">
-          <img src="cjm.png" width="70%" height="auto" style="background-color: white;border-radius: 3rem;padding: .3rem;margin: .5rem 0;vertical-align: middle;box-sizing: content-box" alt="piano">
+          <img src="cjm.png" width="70%" height="auto" style="background-color: white;border-radius: 3rem;padding: .3rem;margin: 1.5rem 0 .5rem .2rem;vertical-align: middle;box-sizing: content-box" alt="piano">
         </RouterLink>
       </div>
       <div class="menu-trigger">
