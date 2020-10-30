@@ -74,7 +74,7 @@
           <span></span>
           <span></span>
           <span></span>
-          <span>{{menu-text}}</span>
+          <span>{{menu_text}}</span>
         </div>
       </div>
     </nav>
@@ -86,17 +86,17 @@
     data () {
       return {
         menu: false,
-        menu-text: "menu"
+        menu_text: "menu"
       }
     },
     methods: {
       menuTrigger: function(){
         if(this.menu){
           this.menu = false;
-          this.menu-text = "menu"
+          this.menu_text = "menu"
         }else{
           this.menu = true;
-          this.menu-text = "close"
+          this.menu_text = "close"
         }
       }
     }
