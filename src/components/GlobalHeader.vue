@@ -37,7 +37,7 @@
       </div>
     </div>
     <nav class="grid menu-container display-none-pc">
-      <ul class="menu">
+      <ul class="menu" v-if="menu">
         <li class="menu-item">
           <RouterLink to="/philosophy">
             理念・特長
@@ -69,14 +69,36 @@
           <img src="cjm.png" width="70%" height="auto" style="background-color: white;border-radius: 3rem;padding: .3rem;margin: 1.5rem 0 .5rem .2rem;vertical-align: middle;box-sizing: content-box" alt="piano">
         </RouterLink>
       </div>
-      <div class="menu-trigger">
+      <div @click="menuTrigger">
         <div>
           <span></span>
           <span></span>
           <span></span>
-          <span class="menu-text">menu</span>
+          <span>{{menu-text}}</span>
         </div>
       </div>
     </nav>
   </header>
 </template>
+
+<script>
+  export default {
+    data () {
+      return {
+        menu: false,
+        menu-text: "menu",
+      }
+    },
+    methods: {
+      menuTrigger: function(){
+        if(this.menu){
+          this.menu = false;
+          this.menu-text = "menu"
+        }else{
+          this.menu = true;
+          this.menu-text = "close"
+        }
+      }
+    }
+  }
+</script>
