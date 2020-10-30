@@ -85,14 +85,6 @@ footer div span{
     display: inline-block;
 }
 
-.menu-container-enter-active, .menu-container-leave-active {
-    transition: opacity 1s;
-}
-
-.menu-container-enter, .menu-container-leave-to {
-    opacity: 0;
-}
-
 
 
 /* menu */
@@ -194,7 +186,7 @@ footer div span{
 }
 .menu-container .menu {
     border: 1px solid #ccc;
-    display: block;
+    display: none;
     justify-content: space-between;
     list-style: none;
     margin: 0;
