@@ -57,7 +57,6 @@
   </v-content>
 </template>
 
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v8.0&appId=160626627849426&autoLogAppEvents=1" nonce="jmR8QvEF"></script>
 <script>
   import axios from 'axios'
   import moment from "moment";
