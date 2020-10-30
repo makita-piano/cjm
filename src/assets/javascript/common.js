@@ -1,4 +1,3 @@
-/*
 $(function(){
     $(document).on('click','.menu-trigger',function(){
         if($(this).hasClass('active')){
@@ -23,4 +22,3 @@ $(function(){
         $('.trigger-none').css('display','block');
     })
 });
-*/

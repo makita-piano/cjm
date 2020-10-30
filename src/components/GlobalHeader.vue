@@ -36,29 +36,29 @@
         </ul>
       </div>
     </div>
-    <nav class="grid menu-container display-none-pc" style="position: relative">
-      <ul class="menu" v-if="menu">
-        <li class="menu-item" @click="menuTrigger">
+    <nav class="grid menu-container display-none-pc">
+      <ul class="menu">
+        <li class="menu-item">
           <RouterLink to="/philosophy">
             理念・特長
           </RouterLink>
         </li>
-        <li class="menu-item" @click="menuTrigger">
+        <li class="menu-item">
           <RouterLink to="/lesson">
             レッスン
           </RouterLink>
         </li>
-        <li class="menu-item" @click="menuTrigger">
+        <li class="menu-item">
           <RouterLink to="/event">
             講座・イベント
           </RouterLink>
         </li>
-        <li class="menu-item" @click="menuTrigger">
+        <li class="menu-item">
           <RouterLink to="/rental">
             スタジオ貸出
           </RouterLink>
         </li>
-        <li class="menu-item" @click="menuTrigger">
+        <li class="menu-item">
           <RouterLink to="/contact">
             お問い合わせ
           </RouterLink>
@@ -69,36 +69,14 @@
           <img src="cjm.png" width="70%" height="auto" style="background-color: white;border-radius: 3rem;padding: .3rem;margin: 1.5rem 0 .5rem .2rem;vertical-align: middle;box-sizing: content-box" alt="piano">
         </RouterLink>
       </div>
-      <div class="menu-trigger" @click="menuTrigger">
+      <div class="menu-trigger">
         <div>
           <span></span>
           <span></span>
           <span></span>
-          <span>{{menu_text}}</span>
+          <span class="menu-text">menu</span>
         </div>
       </div>
     </nav>
   </header>
 </template>
-
-<script>
-  export default {
-    data () {
-      return {
-        menu: false,
-        menu_text: "menu"
-      }
-    },
-    methods: {
-      menuTrigger: function(){
-        if(this.menu){
-          this.menu = false;
-          this.menu_text = "menu"
-        }else{
-          this.menu = true;
-          this.menu_text = "close"
-        }
-      }
-    }
-  }
-</script>
