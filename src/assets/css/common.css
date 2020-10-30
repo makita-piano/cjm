@@ -139,6 +139,11 @@ footer div span{
     background-color: white;
     transition: all .5s;
 }
+
+.menu-trigger.active span {
+    background-color: #333;
+}
+
 .menu-trigger span:nth-of-type(1) {
     top: 15px;
 }
