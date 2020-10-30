@@ -86,7 +86,7 @@
     data () {
       return {
         menu: false,
-        menu-text: "menu",
+        menu-text: "menu"
       }
     },
     methods: {
