@@ -69,7 +69,7 @@
           <img src="cjm.png" width="70%" height="auto" style="background-color: white;border-radius: 3rem;padding: .3rem;margin: 1.5rem 0 .5rem .2rem;vertical-align: middle;box-sizing: content-box" alt="piano">
         </RouterLink>
       </div>
-      <div @click="menuTrigger">
+      <div class="menu-trigger" @click="menuTrigger">
         <div>
           <span></span>
           <span></span>
