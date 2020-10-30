@@ -38,27 +38,27 @@
     </div>
     <nav class="grid menu-container display-none-pc" style="position: relative">
       <ul class="menu" v-if="menu">
-        <li class="menu-item">
+        <li class="menu-item" @click="menuTrigger">
           <RouterLink to="/philosophy">
             理念・特長
           </RouterLink>
         </li>
-        <li class="menu-item">
+        <li class="menu-item" @click="menuTrigger">
           <RouterLink to="/lesson">
             レッスン
           </RouterLink>
         </li>
-        <li class="menu-item">
+        <li class="menu-item" @click="menuTrigger">
           <RouterLink to="/event">
             講座・イベント
           </RouterLink>
         </li>
-        <li class="menu-item">
+        <li class="menu-item" @click="menuTrigger">
           <RouterLink to="/rental">
             スタジオ貸出
           </RouterLink>
         </li>
-        <li class="menu-item">
+        <li class="menu-item" @click="menuTrigger">
           <RouterLink to="/contact">
             お問い合わせ
           </RouterLink>

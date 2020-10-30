@@ -85,11 +85,11 @@ footer div span{
     display: inline-block;
 }
 
-.menu-enter-active, .menu-leave-active {
-    transition: opacity .5s;
+.menu-container-enter-active, .menu-container-leave-active {
+    transition: opacity 1s;
 }
 
-.menu-enter, .menu-leave-to {
+.menu-container-enter, .menu-container-leave-to {
     opacity: 0;
 }
 
