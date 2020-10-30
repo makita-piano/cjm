@@ -13,10 +13,10 @@
       <h2 class="col-12">News</h2>
       <ul>
         <li class="grid" style="padding: .5rem 1rem">
-          <div>
+          <div style="display: inline">
             2000年10月5日（月）
           </div>
-          <div class="oshirase_tag">
+          <div class="oshirase_tag" style="display: inline">
             お知らせ
           </div>
           <div class="col-12">
@@ -24,10 +24,10 @@
           </div>
         </li>
         <li class="grid" style="padding: .5rem 1rem">
-          <div>
+          <div style="display: inline">
             2000年10月5日（月）
           </div>
-          <div class="oshirase_tag">
+          <div class="oshirase_tag" style="display: inline">
             お知らせ
           </div>
           <div class="col-12">
@@ -35,10 +35,10 @@
           </div>
         </li>
         <li class="grid" style="padding: .5rem 1rem">
-          <div>
+          <div style="display: inline">
             2000年10月5日（月）
           </div>
-          <div class="oshirase_tag">
+          <div class="oshirase_tag" style="display: inline">
             お知らせ
           </div>
           <div class="col-12">

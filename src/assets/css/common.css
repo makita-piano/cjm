@@ -136,6 +136,7 @@ footer div span{
     border-radius: 32px;
     position: absolute;
     margin: 1.9rem 0 0 auto;
+    top: 0;
 }
 .menu-trigger span {
     display: inline-block;
@@ -144,8 +145,9 @@ footer div span{
     left: 14px;
     width: 36px;
     height: 4px;
-    background-color: white;
+    background-color: #333;
     transition: all .5s;
+    z-index: 10;
 }
 
 .menu-trigger.active span {
@@ -176,6 +178,8 @@ footer div span{
     left: 16px;
     top: 34px;
     font-size: .8rem;
+    background: white;
+    z-index: 3;
 }
 .menu-trigger.active span:nth-of-type(4) {
     left: 16.5px;

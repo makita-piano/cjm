@@ -36,7 +36,7 @@
         </ul>
       </div>
     </div>
-    <nav class="grid menu-container display-none-pc">
+    <nav class="grid menu-container display-none-pc" style="position: relative">
       <ul class="menu" v-if="menu">
         <li class="menu-item">
           <RouterLink to="/philosophy">
