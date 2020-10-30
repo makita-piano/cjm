@@ -15,7 +15,7 @@
         <li>メニューに記載がない予約等につきましては、直接メールにてお問い合わせください。</li>
       </ul>
       <div class="col-12" style="text-align: center;margin-top: 1rem">
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeA-ijwyzTbh6PIgyZnjH_pq68dXvEK3GOtOJxKFcsIB4EDvg/viewform?embedded=true" width="640" height="600" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeA-ijwyzTbh6PIgyZnjH_pq68dXvEK3GOtOJxKFcsIB4EDvg/viewform?embedded=true" width="100%" max-width: "640" height="600" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
       </div>
     </div>
   </v-content>
