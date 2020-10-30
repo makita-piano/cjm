@@ -217,7 +217,6 @@ footer div span{
 
 @media screen and (max-width: 768px) {
     .menu-container .menu{
-        display: none;
         width: 100%;
     }
     .menu-container .menu .menu-trigger{
