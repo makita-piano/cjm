@@ -14,10 +14,10 @@
       <ul>
         <li v-for="e in news" v-bind:key="e.title" class="grid" style="padding: .5rem 1rem">
           <div style="display: inline">
-            2000年10月5日（月）
+            {{date_formated(e.publish_at)}}
           </div>
           <div class="oshirase_tag" style="display: inline">
-            お知らせ
+            {{e.tag[0]}}
           </div>
           <div class="col-12">
             {{e.title}}
