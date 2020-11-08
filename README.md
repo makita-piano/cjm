@@ -1,2 +1,2 @@
-#purpose
-* create kagamimaya.site
+# purpose
+* create cjm.site
