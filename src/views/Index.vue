@@ -11,29 +11,7 @@
 東京都心および新宿・渋谷をはじめとする主要ターミナル駅に近く、複数駅から徒歩圏内の立地で、広く国内外のみなさまの受講をサポートいたします。また、2台のグランドピアノを有し、自然な響きを考えた快適な空間をご提供いたします。
       </div>
       <h2 class="col-12">News</h2>
-      <ul>
-        <li class="grid" style="padding: .5rem 1rem">
-          <div style="display: inline">
-            2000年10月5日（月）
-          </div>
-          <div class="oshirase_tag" style="display: inline">
-            お知らせ
-          </div>
-          <div class="col-12">
-            音楽院のパンフレットを公開しました！
-          </div>
-        </li>
-        <li class="grid" style="padding: .5rem 1rem">
-          <div style="display: inline">
-            2000年10月5日（月）
-          </div>
-          <div class="oshirase_tag" style="display: inline">
-            お知らせ
-          </div>
-          <div class="col-12">
-            音楽院のパンフレットを公開しました！
-          </div>
-        </li>
+      <ul v-for="e in news" v-bind:key="e.contents">
         <li class="grid" style="padding: .5rem 1rem">
           <div style="display: inline">
             2000年10月5日（月）
@@ -65,7 +43,7 @@
 
     data () {
       return {
-        info: undefined,
+        news: undefined,
       }
     },
 
@@ -83,12 +61,12 @@
 
     created(){
       axios
-        .get("https://klavier.microcms.io/api/v1/m_info?fields=title,texts,release_date&limit=2",{
+        .get(process.env.VUE_APP_MICROCMS_URL + "/news?fields=image,tag,contents,publish_at&limit=2",{
           headers: { "X-API-KEY": process.env.VUE_APP_MICROCMS_KEY},
           data: {}
       })
         .then(v => {
-          this.info = v.data.contents;
+          this.news = v.data.contents;
       });
     },
 
