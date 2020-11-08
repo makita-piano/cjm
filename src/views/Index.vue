@@ -12,12 +12,13 @@
       </div>
       <h2 class="col-12">News</h2>
       <ul>
+        {{news}}
         <li v-for="e in news" v-bind:key="e.title" class="grid" style="padding: .5rem 1rem">
           <div style="display: inline">
             2000年10月5日（月）
           </div>
           <div class="oshirase_tag" style="display: inline">
-            {{e.tag)}}
+            お知らせ
           </div>
           <div class="col-12">
             音楽院のパンフレットを公開しました！
