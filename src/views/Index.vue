@@ -72,7 +72,8 @@
 
     methods: {
       date_formated: function(date) {
-        return moment(date).format("YYYY.MM.DD");
+        moment.locale("ja");
+        return moment(date).format("YYYY年MM月DD日（ddd）");
       }
     }
   }
