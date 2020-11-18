@@ -1,5 +1,5 @@
 <template>
-  <v-content>
+  <v-main>
     <div class="col-12">
       <img src="CJM_yoyaku.png" width="100%" height="auto" style="margin-bottom: 2rem" alt="piano">
     </div>
@@ -18,21 +18,12 @@
         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeA-ijwyzTbh6PIgyZnjH_pq68dXvEK3GOtOJxKFcsIB4EDvg/viewform?embedded=true" class="iframe" height="600" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
       </div>
     </div>
-  </v-content>
+  </v-main>
 </template>
 
 <script>
   export default {
-    mounted(){
-      const title = "予約フォーム｜神宮の杜音楽院"
-      const description = "xxx "
-      document.title = title
-      document.querySelector("meta[property='og:title']")
-      　.setAttribute('content', title)
-      document.querySelector("meta[name='description']")
-      　.setAttribute('content', description)
-      document.querySelector("meta[property='og:description']")
-      　.setAttribute('content', description)
-    }
+    name: "reserve",
+    layout: 'default',
   }
 </script>

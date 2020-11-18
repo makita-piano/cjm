@@ -1,7 +1,7 @@
 <template>
   <v-main>
     <div class="col-12">
-      <!--<img src="tekitou.png" width="100%" height="300px" style="margin-bottom: 2rem" alt="piano">-->
+      <img src="CJM_Top.png" width="100%" style="margin-bottom: 2rem" alt="piano">
     </div>
     <div id="main-content" class="grid col-12">
       <div class="col-12" style="margin-bottom: 2rem">
@@ -25,7 +25,7 @@
         </li>
       </ul>
       <div class="col-12 color-blue" style="text-align: right;margin-bottom: 2rem">
-        <RouterLink to="/news">過去のNewsはこちらから</RouterLink>
+        <NuxtLink to="/news">過去のNewsはこちらから</NuxtLink>
       </div>
       <h2 class="col-12">Links</h2>
       <div class="col-12" style="margin: .5rem 0 2rem 0;text-align: center">

@@ -1,7 +1,7 @@
 <template>
-  <v-content>
+  <v-main>
     <div class="col-12">
-      <img src="tekitou.png" width="100%" height="300px" style="margin-bottom: 2rem" alt="piano">
+      <img src="CJM_rinen.png" width="100%" style="margin-bottom: 2rem" alt="piano">
     </div>
     <div id="main-content" class="grid col-12">
       <h2 class="col-12 color-green" style="padding: 2rem 0">音楽指導の社会的使命とは</h2>
@@ -25,21 +25,13 @@
         <a href="/" class="color-blue">院長 菊地裕介が語る「なぜ私が音楽院を開講するのか　～本物のメソードを求めて～」はこちら</a>
       </h2>
     </div>
-  </v-content>
+  </v-main>
 </template>
 
 <script>
   export default {
-    mounted(){
-      const title = "理念・特長｜神宮の杜音楽院"
-      const description = "xxx "
-      document.title = title
-      document.querySelector("meta[property='og:title']")
-      　.setAttribute('content', title)
-      document.querySelector("meta[name='description']")
-      　.setAttribute('content', description)
-      document.querySelector("meta[property='og:description']")
-      　.setAttribute('content', description)
-    }
+    name: "philosophy",
+    layout: 'default'
+
   }
 </script>

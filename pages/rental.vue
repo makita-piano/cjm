@@ -1,5 +1,5 @@
 <template>
-  <v-content>
+  <v-main>
     <div class="col-12">
       <img src="CJM_studio.png" width="100%" height="auto" alt="piano" style="margin-bottom: 1rem">
     </div>
@@ -66,21 +66,12 @@
         <RouterLink to="/reserve">スタジオの予約はこちらから</RouterLink>
       </div>
     </div>
-  </v-content>
+  </v-main>
 </template>
 
 <script>
   export default {
-    mounted(){
-      const title = "スタジオ貸出｜神宮の杜音楽院"
-      const description = "xxx "
-      document.title = title
-      document.querySelector("meta[property='og:title']")
-      　.setAttribute('content', title)
-      document.querySelector("meta[name='description']")
-      　.setAttribute('content', description)
-      document.querySelector("meta[property='og:description']")
-      　.setAttribute('content', description)
-    }
+    name: "rental",
+    layout: 'default',
   }
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <v-content>
+  <v-main>
     <div class="col-12">
       <img src="CJM_lesson.png" width="100%" height="auto" style="margin-bottom: 1rem" alt="piano">
     </div>
@@ -50,7 +50,7 @@
       <div class="grid col-12" style="margin-bottom: 2rem">
         <div class="grid-center col-3_sm-6" style="margin-bottom: 2rem">
           <div class="col-12_sm-10" style="text-align: center">
-            <img src="kikuti_yusuke.png" width="80%" height="auto" style="" alt="piano" class="padding-0-2-pc">
+            <img src="kikuchi_yusuke.png" width="80%" height="auto" style="" alt="piano" class="padding-0-2-pc">
           </div>
           <div class="col-12" style="text-align: center">
             院長　菊地　裕介
@@ -66,7 +66,7 @@
         </div>
         <div class="grid-center col-3_sm-6" style="margin-bottom: 2rem">
           <div class="col-12_sm-10" style="text-align: center">
-            <img src="kuroiwa.png" width="80%" height="auto" style="" alt="piano" class="padding-0-2-pc">
+            <img src="kuroiwa_koki.png" width="80%" height="auto" style="" alt="piano" class="padding-0-2-pc">
           </div>
           <div class="col-12" style="text-align: center">
             講師　黒岩　航紀
@@ -113,21 +113,11 @@
         <a class="color-blue" href="/">レッスンの予約はこちらから</a>
       </div>
     </div>
-  </v-content>
+  </v-main>
 </template>
 
 <script>
   export default {
-    mounted(){
-      const title = "レッスン｜神宮の杜音楽院"
-      const description = "xxx "
-      document.title = title
-      document.querySelector("meta[property='og:title']")
-      　.setAttribute('content', title)
-      document.querySelector("meta[name='description']")
-      　.setAttribute('content', description)
-      document.querySelector("meta[property='og:description']")
-      　.setAttribute('content', description)
-    }
+    layout: 'default'
   }
 </script>
