@@ -15,7 +15,7 @@
         <li>メニューに記載がない予約等につきましては、直接メールにてお問い合わせください。</li>
       </ul>
       <div class="col-12" style="margin-top: 1rem">
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeA-ijwyzTbh6PIgyZnjH_pq68dXvEK3GOtOJxKFcsIB4EDvg/viewform?embedded=true" class="iframe" height="600" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+        <iframe type="text/html" frameborder="0" width="100%" height="1000px" src="//airrsv.net/ykpianoforte/calendar/embed/" ></iframe>
       </div>
     </div>
   </v-main>

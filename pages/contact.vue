@@ -1,6 +1,6 @@
 <template>
-  <v-main>
-    準備中
+  <v-main style="text-align: center">
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfbcRGqyt_6icT9sAepFQ-DLD4ki6mI7R_zjVR_K3pX6daYjg/viewform?embedded=true" class="iframe margin-top-5-mobile" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
   </v-main>
 </template>
 

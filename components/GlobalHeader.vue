@@ -40,27 +40,27 @@
     <nav class="grid menu-container display-none-pc">
       <transition name="trans_slide">
         <ul class="menu" v-if="isMenuShow">
-          <li class="menu-item">
+          <li class="menu-item" v-on:click="menuShow">
             <NuxtLink to="/philosophy">
               理念・特長
             </NuxtLink>
           </li>
-          <li class="menu-item">
+          <li class="menu-item" v-on:click="menuShow">
             <NuxtLink to="/lesson">
               レッスン
             </NuxtLink>
           </li>
-          <li class="menu-item">
+          <li class="menu-item" v-on:click="menuShow">
             <NuxtLink to="/event">
               講座・イベント
             </NuxtLink>
           </li>
-          <li class="menu-item">
+          <li class="menu-item" v-on:click="menuShow">
             <NuxtLink to="/rental">
               スタジオ貸出
             </NuxtLink>
           </li>
-          <li class="menu-item">
+          <li class="menu-item" v-on:click="menuShow">
             <NuxtLink to="/contact">
               お問い合わせ
             </NuxtLink>
