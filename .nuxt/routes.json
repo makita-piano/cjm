@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Contact",
+    "path": "/Contact",
+    "component": "/var/apps/cjm/pages/Contact.vue",
+    "chunkName": "pages/Contact"
+  },
+  {
+    "name": "Event",
+    "path": "/Event",
+    "component": "/var/apps/cjm/pages/Event.vue",
+    "chunkName": "pages/Event"
+  },
+  {
+    "name": "lesson",
+    "path": "/lesson",
+    "component": "/var/apps/cjm/pages/lesson.vue",
+    "chunkName": "pages/lesson"
+  },
+  {
+    "name": "News",
+    "path": "/News",
+    "component": "/var/apps/cjm/pages/News.vue",
+    "chunkName": "pages/News"
+  },
+  {
+    "name": "Philosophy",
+    "path": "/Philosophy",
+    "component": "/var/apps/cjm/pages/Philosophy.vue",
+    "chunkName": "pages/Philosophy"
+  },
+  {
+    "name": "Rental",
+    "path": "/Rental",
+    "component": "/var/apps/cjm/pages/Rental.vue",
+    "chunkName": "pages/Rental"
+  },
+  {
+    "name": "Reserve",
+    "path": "/Reserve",
+    "component": "/var/apps/cjm/pages/Reserve.vue",
+    "chunkName": "pages/Reserve"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/var/apps/cjm/pages/index.vue",
+    "chunkName": "pages/index"
+  }
+]
