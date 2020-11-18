@@ -42,24 +42,24 @@
   export default {
     name: "index",
     layout: 'default',
+    
+    head() {
+      return {
+        title: "神宮の杜音楽院",
+        meta: [
+          { hid: 'description', name: 'description', content: '神宮の杜音楽院' },
+          { hid: 'og:description', property: 'og:description', content: '神宮の杜音楽院' },
+          { hid: 'og:title', property: 'og:title', content: '神宮の杜音楽院' },
+          { hid: 'og:url', property: 'og:url', content: 'https://xxx.page'}
+        ]
+      }
+    },
 
     data () {
       return {
         news: undefined,
       }
     },
-
-    /*mounted(){
-      const title = "神宮の杜音楽院"
-      const description = "xxx "
-      document.title = title
-      document.querySelector("meta[property='og:title']")
-      　.setAttribute('content', title)
-      document.querySelector("meta[name='description']")
-      　.setAttribute('content', description)
-      document.querySelector("meta[property='og:description']")
-      　.setAttribute('content', description)
-    },*/
 
     created(){
       axios

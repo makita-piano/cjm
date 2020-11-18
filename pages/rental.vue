@@ -73,5 +73,17 @@
   export default {
     name: "rental",
     layout: 'default',
+    
+    head() {
+      return {
+        title: "スタジオ貸出｜神宮の杜音楽院",
+        meta: [
+          { hid: 'description', name: 'description', content: '神宮の杜音楽院のスタジオ貸出ページです' },
+          { hid: 'og:description', property: 'og:description', content: '神宮の杜音楽院のスタジオ貸出ページです' },
+          { hid: 'og:title', property: 'og:title', content: 'スタジオ貸出｜神宮の杜音楽院' },
+          { hid: 'og:url', property: 'og:url', content: 'https://xxx.page'}
+        ]
+      }
+    }
   }
 </script>

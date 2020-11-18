@@ -118,6 +118,18 @@
 
 <script>
   export default {
-    layout: 'default'
+    layout: 'default',
+    
+    head() {
+      return {
+        title: "レッスン｜神宮の杜音楽院",
+        meta: [
+          { hid: 'description', name: 'description', content: '神宮の杜音楽院のレッスンページです' },
+          { hid: 'og:description', property: 'og:description', content: '神宮の杜音楽院のレッスンページです' },
+          { hid: 'og:title', property: 'og:title', content: 'レッスン｜神宮の杜音楽院' },
+          { hid: 'og:url', property: 'og:url', content: 'https://xxx.page'}
+        ]
+      }
+    }
   }
 </script>

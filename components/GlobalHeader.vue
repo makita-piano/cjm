@@ -1,82 +1,113 @@
 <template>
+
   <header>
     <div class="grid display-none-mobile">
       <div class="col-4">
-        <RouterLink to="/">
+        <NuxtLink to="/">
           <img src="cjm.png" width="auto" height="60px" style="padding: 1rem .3rem 1rem 1.5rem;margin: 2rem 0;vertical-align: middle;box-sizing: content-box" alt="piano">
-        </RouterLink>
+        </NuxtLink>
       </div>
       <div class="grid col-8" style="padding: 0 1rem">
         <ul class="grid col-12">
           <li class="col-middle" style="text-align: center">
-            <RouterLink to="/philosophy">
+            <NuxtLink to="/philosophy">
               理念・特長
-            </RouterLink>
+            </NuxtLink>
           </li>
           <li class="col-middle" style="text-align: center">
-            <RouterLink to="/lesson">
+            <NuxtLink to="/lesson">
               レッスン
-            </RouterLink>
+            </NuxtLink>
           </li>
           <li class="col-middle" style="text-align: center">
-            <RouterLink to="/event">
+            <NuxtLink to="/event">
               講座・イベント
-            </RouterLink>
+            </NuxtLink>
           </li>
           <li class="col-middle" style="text-align: center">
-            <RouterLink to="/rental">
+            <NuxtLink to="/rental">
               スタジオ貸出
-            </RouterLink>
+            </NuxtLink>
           </li>
           <li class="col-middle" style="text-align: center">
-            <RouterLink to="/contact">
+            <NuxtLink to="/contact">
               お問い合わせ
-            </RouterLink>
+            </NuxtLink>
           </li>
         </ul>
       </div>
     </div>
     <nav class="grid menu-container display-none-pc">
-      <ul class="menu">
-        <li class="menu-item">
-          <RouterLink to="/philosophy">
-            理念・特長
-          </RouterLink>
-        </li>
-        <li class="menu-item">
-          <RouterLink to="/lesson">
-            レッスン
-          </RouterLink>
-        </li>
-        <li class="menu-item">
-          <RouterLink to="/event">
-            講座・イベント
-          </RouterLink>
-        </li>
-        <li class="menu-item">
-          <RouterLink to="/rental">
-            スタジオ貸出
-          </RouterLink>
-        </li>
-        <li class="menu-item">
-          <RouterLink to="/contact">
-            お問い合わせ
-          </RouterLink>
-        </li>
-      </ul>
+      <transition name="trans_slide">
+        <ul class="menu" v-if="isMenuShow">
+          <li class="menu-item">
+            <NuxtLink to="/philosophy">
+              理念・特長
+            </NuxtLink>
+          </li>
+          <li class="menu-item">
+            <NuxtLink to="/lesson">
+              レッスン
+            </NuxtLink>
+          </li>
+          <li class="menu-item">
+            <NuxtLink to="/event">
+              講座・イベント
+            </NuxtLink>
+          </li>
+          <li class="menu-item">
+            <NuxtLink to="/rental">
+              スタジオ貸出
+            </NuxtLink>
+          </li>
+          <li class="menu-item">
+            <NuxtLink to="/contact">
+              お問い合わせ
+            </NuxtLink>
+          </li>
+        </ul>
+      </transition>
       <div>
-        <RouterLink to="/" id="home" style="z-index: 9999">
+        <NuxtLink to="/" id="home" style="z-index: 9999">
           <img src="cjm.png" width="70%" height="auto" style="background-color: white;border-radius: 3rem;padding: .3rem;margin: 1.5rem 0 .5rem .2rem;vertical-align: middle;box-sizing: content-box" alt="piano">
-        </RouterLink>
+        </NuxtLink>
       </div>
-      <div class="menu-trigger">
+      <div class="menu-trigger" v-on:click="menuShow" v-bind:class='{active: isMenuShow}'>
         <div>
           <span></span>
           <span></span>
           <span></span>
-          <span class="menu-text">menu</span>
+          <span class="menu-text">{{menuText}}</span>
         </div>
       </div>
     </nav>
   </header>
 </template>
+
+<script>
+  export default {
+    name: 'global_header',
+    
+    data() {
+      return {
+        menuText: "menu",
+        isMenuShow: false
+      }
+    },
+    
+    methods: {
+      menuShow: function() {
+        this.isMenuShow = !this.isMenuShow;
+      }
+    }
+  }
+</script>
+
+<style>
+.trans_slide-enter-active, .trans_slide-leave-active {
+    transition: opacity .5s;
+}
+.trans_slide-enter, .trans_slide-leave-to {
+    opacity: 0;
+}
+</style>

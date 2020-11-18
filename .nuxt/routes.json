@@ -1,50 +1,58 @@
 [
   {
-    "name": "Contact",
-    "path": "/Contact",
-    "component": "/var/apps/cjm/pages/Contact.vue",
-    "chunkName": "pages/Contact"
+    "name": "contact",
+    "path": "/contact",
+    "component": "/var/apps/cjm/pages/contact.vue",
+    "chunkName": "pages/contact",
+    "_name": "_6e2f1570"
   },
   {
-    "name": "Event",
-    "path": "/Event",
-    "component": "/var/apps/cjm/pages/Event.vue",
-    "chunkName": "pages/Event"
+    "name": "event",
+    "path": "/event",
+    "component": "/var/apps/cjm/pages/event.vue",
+    "chunkName": "pages/event",
+    "_name": "_eddb4a7c"
   },
   {
     "name": "lesson",
     "path": "/lesson",
     "component": "/var/apps/cjm/pages/lesson.vue",
-    "chunkName": "pages/lesson"
+    "chunkName": "pages/lesson",
+    "_name": "_205c4340"
   },
   {
-    "name": "News",
-    "path": "/News",
-    "component": "/var/apps/cjm/pages/News.vue",
-    "chunkName": "pages/News"
+    "name": "news",
+    "path": "/news",
+    "component": "/var/apps/cjm/pages/news.vue",
+    "chunkName": "pages/news",
+    "_name": "_fe8c114a"
   },
   {
-    "name": "Philosophy",
-    "path": "/Philosophy",
-    "component": "/var/apps/cjm/pages/Philosophy.vue",
-    "chunkName": "pages/Philosophy"
+    "name": "philosophy",
+    "path": "/philosophy",
+    "component": "/var/apps/cjm/pages/philosophy.vue",
+    "chunkName": "pages/philosophy",
+    "_name": "_2cf638f9"
   },
   {
-    "name": "Rental",
-    "path": "/Rental",
-    "component": "/var/apps/cjm/pages/Rental.vue",
-    "chunkName": "pages/Rental"
+    "name": "rental",
+    "path": "/rental",
+    "component": "/var/apps/cjm/pages/rental.vue",
+    "chunkName": "pages/rental",
+    "_name": "_20d585a8"
   },
   {
-    "name": "Reserve",
-    "path": "/Reserve",
-    "component": "/var/apps/cjm/pages/Reserve.vue",
-    "chunkName": "pages/Reserve"
+    "name": "reserve",
+    "path": "/reserve",
+    "component": "/var/apps/cjm/pages/reserve.vue",
+    "chunkName": "pages/reserve",
+    "_name": "_6977afe4"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/var/apps/cjm/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_571134fa"
   }
 ]

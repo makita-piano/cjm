@@ -3,13 +3,13 @@ import Router from 'vue-router'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _2c521d28 = () => interopDefault(import('../pages/Contact.vue' /* webpackChunkName: "pages/Contact" */))
-const _00847aa2 = () => interopDefault(import('../pages/Event.vue' /* webpackChunkName: "pages/Event" */))
+const _6e2f1570 = () => interopDefault(import('../pages/contact.vue' /* webpackChunkName: "pages/contact" */))
+const _eddb4a7c = () => interopDefault(import('../pages/event.vue' /* webpackChunkName: "pages/event" */))
 const _205c4340 = () => interopDefault(import('../pages/lesson.vue' /* webpackChunkName: "pages/lesson" */))
-const _f6d7490a = () => interopDefault(import('../pages/News.vue' /* webpackChunkName: "pages/News" */))
-const _1d85f5ce = () => interopDefault(import('../pages/Philosophy.vue' /* webpackChunkName: "pages/Philosophy" */))
-const _6667194c = () => interopDefault(import('../pages/Rental.vue' /* webpackChunkName: "pages/Rental" */))
-const _663d5078 = () => interopDefault(import('../pages/Reserve.vue' /* webpackChunkName: "pages/Reserve" */))
+const _fe8c114a = () => interopDefault(import('../pages/news.vue' /* webpackChunkName: "pages/news" */))
+const _2cf638f9 = () => interopDefault(import('../pages/philosophy.vue' /* webpackChunkName: "pages/philosophy" */))
+const _20d585a8 = () => interopDefault(import('../pages/rental.vue' /* webpackChunkName: "pages/rental" */))
+const _6977afe4 = () => interopDefault(import('../pages/reserve.vue' /* webpackChunkName: "pages/reserve" */))
 const _571134fa = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 // TODO: remove in Nuxt 3
@@ -29,33 +29,33 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
-    path: "/Contact",
-    component: _2c521d28,
-    name: "Contact"
+    path: "/contact",
+    component: _6e2f1570,
+    name: "contact"
   }, {
-    path: "/Event",
-    component: _00847aa2,
-    name: "Event"
+    path: "/event",
+    component: _eddb4a7c,
+    name: "event"
   }, {
     path: "/lesson",
     component: _205c4340,
     name: "lesson"
   }, {
-    path: "/News",
-    component: _f6d7490a,
-    name: "News"
+    path: "/news",
+    component: _fe8c114a,
+    name: "news"
   }, {
-    path: "/Philosophy",
-    component: _1d85f5ce,
-    name: "Philosophy"
+    path: "/philosophy",
+    component: _2cf638f9,
+    name: "philosophy"
   }, {
-    path: "/Rental",
-    component: _6667194c,
-    name: "Rental"
+    path: "/rental",
+    component: _20d585a8,
+    name: "rental"
   }, {
-    path: "/Reserve",
-    component: _663d5078,
-    name: "Reserve"
+    path: "/reserve",
+    component: _6977afe4,
+    name: "reserve"
   }, {
     path: "/",
     component: _571134fa,

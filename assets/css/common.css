@@ -187,7 +187,6 @@ footer div span{
 }
 .menu-container .menu {
     border: 1px solid #ccc;
-    display: none;
     justify-content: space-between;
     list-style: none;
     margin: 0;

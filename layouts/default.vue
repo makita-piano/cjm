@@ -1,7 +1,42 @@
 <template>
-  <div class="page-contents">
-    <div class="page">
-      <nuxt></nuxt>
+  <v-main>
+    <div class="page-contents">
+      <global-header />
+      <div class="page">
+        <nuxt></nuxt>
+      </div>
+      <global-footer />
     </div>
-  </div>
+  </v-main>
 </template>
+
+<script>
+  import '@/assets/css/common.css'
+  //import '@/assets/javascript/common.js'
+  import GlobalHeader from '../components/GlobalHeader'
+  import GlobalFooter from '../components/GlobalFooter'
+  
+  export default {
+    components: {
+      GlobalHeader,
+      GlobalFooter
+    }
+  }
+</script>
+
+<style>
+.page-enter-active {
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  from {
+    transform: translateY(-10px);
+    opacity: 0.3;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+</style>

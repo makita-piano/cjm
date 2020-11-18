@@ -25,5 +25,17 @@
   export default {
     name: "reserve",
     layout: 'default',
+    
+    head() {
+      return {
+        title: "予約フォーム｜神宮の杜音楽院",
+        meta: [
+          { hid: 'description', name: 'description', content: '神宮の杜音楽院の予約フォームです' },
+          { hid: 'og:description', property: 'og:description', content: '神宮の杜音楽院の予約フォームです' },
+          { hid: 'og:title', property: 'og:title', content: '予約フォーム｜神宮の杜音楽院' },
+          { hid: 'og:url', property: 'og:url', content: 'https://xxx.page'}
+        ]
+      }
+    }
   }
 </script>

@@ -31,7 +31,19 @@
 <script>
   export default {
     name: "philosophy",
-    layout: 'default'
+    layout: 'default',
+    
+    head() {
+      return {
+        title: "理念・特長｜神宮の杜音楽院",
+        meta: [
+          { hid: 'description', name: 'description', content: '神宮の杜音楽院' },
+          { hid: 'og:description', property: 'og:description', content: '神宮の杜音楽院' },
+          { hid: 'og:title', property: 'og:title', content: '理念・特長｜神宮の杜音楽院' },
+          { hid: 'og:url', property: 'og:url', content: 'https://xxx.page'}
+        ]
+      }
+    }
 
   }
 </script>
