@@ -1,7 +1,7 @@
 <template>
   <v-main>
     <div class="col-12">
-      <img src="CJM_Top.png" width="100%" style="margin-bottom: 2rem" alt="piano">
+      <img src="~assets/img/CJM_Top.png" width="100%" style="margin-bottom: 2rem" alt="piano">
     </div>
     <div id="main-content" class="grid col-12">
       <div class="col-12" style="margin-bottom: 2rem">

@@ -1,7 +1,7 @@
 <template>
   <v-main>
     <div class="col-12">
-      <img src="CJM_yoyaku.png" width="100%" height="auto" style="margin-bottom: 2rem" alt="piano">
+      <img src="~assets/img/CJM_yoyaku.png" width="100%" height="auto" style="margin-bottom: 2rem" alt="piano">
     </div>
     <div id="main-content" class="grid col-12">
       <h1 class="col-12">レッスン予約・スタジオ貸出予約</h1>

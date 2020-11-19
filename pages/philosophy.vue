@@ -1,7 +1,7 @@
 <template>
   <v-main>
     <div class="col-12">
-      <img src="CJM_rinen.png" width="100%" style="margin-bottom: 2rem" alt="piano">
+      <img src="~assets/img/CJM_rinen.png" width="100%" style="margin-bottom: 2rem" alt="piano">
     </div>
     <div id="main-content" class="grid col-12">
       <h2 class="col-12 color-green" style="padding: 2rem 0">音楽指導の社会的使命とは</h2>

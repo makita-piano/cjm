@@ -28,6 +28,7 @@ body{
     font-family: a-otf-ryumin-pr6n, serif;
     font-style: normal;
     font-weight: 450;
+    font-size: 1rem;
 }
 a{
     text-decoration: none;
@@ -41,11 +42,16 @@ ul{
     padding: 0;
     list-style: none;
 }
-#body h2,#body h3{
-  font-weight: normal;
-  padding: .5rem 0;
+#body h2 {
+  padding: 1rem 0;
+  font-size: 1.5rem;
 }
 
+#body h3 {
+  padding: .5rem 0;
+  font-weight: normal;
+  font-size: 1.25rem;
+}
 .pre_list li{
   padding-left: 1rem;
   text-indent: -1rem;

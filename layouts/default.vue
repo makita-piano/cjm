@@ -2,7 +2,7 @@
   <v-main>
     <div class="page-contents">
       <global-header />
-      <div class="page">
+      <div id="body">
         <nuxt></nuxt>
       </div>
       <global-footer />

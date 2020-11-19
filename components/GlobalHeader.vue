@@ -69,7 +69,7 @@
       </transition>
       <div>
         <NuxtLink to="/" id="home" style="z-index: 9999">
-          <img src="cjm.png" width="70%" height="auto" style="background-color: white;border-radius: 3rem;padding: .3rem;margin: 1.5rem 0 .5rem .2rem;vertical-align: middle;box-sizing: content-box" alt="piano">
+          <img src="~assets/img/cjm.png" width="70%" height="auto" style="background-color: white;border-radius: 3rem;padding: .3rem;margin: 1.5rem 0 .5rem .2rem;vertical-align: middle;box-sizing: content-box" alt="piano">
         </NuxtLink>
       </div>
       <div class="menu-trigger" v-on:click="menuShow" v-bind:class='{active: isMenuShow}'>
@@ -90,7 +90,6 @@
     
     data() {
       return {
-        menuText: "menu",
         isMenuShow: false
       }
     },
@@ -98,6 +97,15 @@
     methods: {
       menuShow: function() {
         this.isMenuShow = !this.isMenuShow;
+      }
+    },
+    computed: {
+      menuText: function() {
+        if(this.isMenuShow){
+          return "close";
+        }else{
+          return "menu";
+        }
       }
     }
   }
