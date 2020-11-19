@@ -4,7 +4,7 @@
     <div class="grid display-none-mobile">
       <div class="col-4">
         <NuxtLink to="/">
-          <img src="cjm.png" width="auto" height="60px" style="padding: 1rem .3rem 1rem 1.5rem;margin: 2rem 0;vertical-align: middle;box-sizing: content-box" alt="piano">
+          <img src="~assets/img/cjm.png" width="auto" height="60px" style="padding: 1rem .3rem 1rem 1.5rem;margin: 2rem 0;vertical-align: middle;box-sizing: content-box" alt="piano">
         </NuxtLink>
       </div>
       <div class="grid col-8" style="padding: 0 1rem">
