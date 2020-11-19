@@ -95,14 +95,14 @@
         レッスン生のニーズや特性に応じて、様々に内容をカスタマイズすることができます。
       </div>
       <h3 class="col-12">単発レッスンコース</h3>
-      <ul class="col-12 pre_list" style="font-size: .8rem;margin-bottom: 1rem">
+      <ul class="col-12 pre_list" style="margin-bottom: 1rem">
         <li>・ピアノ個人レッスン （院長 : 菊地裕介レッスン　1時間〜／1回） 　	￥20,000〜</li>
         <li>・ピアノ個人レッスン （副院長 ： 加々見茉耶レッスン　30分〜／1回） 　	￥7,000〜</li>
         <li>・ソルフェージュ&音楽理論 （3名までのグループ　60分以上）	￥7,000〜</li>
       </ul>
 
       <h3 class="col-12">月額会員コース<span style="font-size: .8rem">（要入会金）</span></h3>
-      <div class="grid col-12" style="font-size: .8rem">
+      <div class="grid col-12">
         <div class="col-12">
           ・入会金　￥33,000
         </div>
@@ -119,7 +119,7 @@
       </div>
 
       <h2 id="c4" class="col-12">合格・受賞実績</h2>
-      <div class="col-12" style="margin-bottom: 2rem;font-size: .8rem">
+      <div class="col-12" style="margin-bottom: 2rem">
         ピティナピアノコンペティションA1,D級ベスト賞<br>
         兵庫県学生ピアノコンクール本選B部門最優秀賞C,D部門奨励賞<br>
         <br>
@@ -143,7 +143,7 @@
       </div>
 
       <h2 id="c6" class="col-12">レッスン予約</h2>
-      <div class="col-12" style="margin-bottom: 2rem;font-size: .8rem">
+      <div class="col-12" style="margin-bottom: 2rem">
         <a class="color-blue" href="/">レッスンの予約はこちらから</a>
       </div>
     </div>
