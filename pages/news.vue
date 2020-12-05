@@ -1,6 +1,8 @@
 <template>
   <v-main>
-    準備中
+    <p style="text-align: center">
+      準備中
+    </p>
   </v-main>
 </template>
 
