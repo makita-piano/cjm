@@ -20,9 +20,9 @@
             </NuxtLink>
           </li>
           <li class="col-middle" style="text-align: center">
-            <NuxtLink to="/event">
+            <a href="http://ykpianoforte.com/event.php">
               講座・イベント
-            </NuxtLink>
+            </a>
           </li>
           <li class="col-middle" style="text-align: center">
             <NuxtLink to="/rental">
@@ -51,9 +51,9 @@
             </NuxtLink>
           </li>
           <li class="menu-item" v-on:click="menuShow">
-            <NuxtLink to="/event">
+            <a href="http://ykpianoforte.com/event.php">
               講座・イベント
-            </NuxtLink>
+            </a>
           </li>
           <li class="menu-item" v-on:click="menuShow">
             <NuxtLink to="/rental">
@@ -81,6 +81,7 @@
         </div>
       </div>
     </nav>
+    <div v-if="isMenuShow" style="padding: 60px"></div>
   </header>
 </template>
 

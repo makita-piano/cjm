@@ -4,11 +4,11 @@
       <img src="~assets/img/CJM_yoyaku.png" width="100%" height="auto" style="margin-bottom: 2rem" alt="piano">
     </div>
     <div id="main-content" class="grid col-12">
-      <h1 class="col-12">レッスン予約・スタジオ貸出予約</h1>
+      <h2 class="col-12">レッスン・スタジオ貸出予約</h2>
       <div class="col-12" style="">
         レッスン予約・スタジオ利用予約は下記より可能です。
       </div>
-      <ul class="col-12" style="font-size: .8rem">
+      <ul class="col-12">
         <li>スタジオ利用の場合は、「スタジオ利用」メニューを選択してください。</li>
         <li>レッスン予約の場合は、該当するレッスンメニューを選択してください。</li>
         <li>メニュー選択後、カレンダーの白い部分が予約可能です。</li>

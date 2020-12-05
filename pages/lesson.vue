@@ -4,7 +4,7 @@
       <img src="~assets/img/CJM_lesson.png" width="100%" height="auto" style="margin-bottom: 1rem" alt="piano">
     </div>
     <div class="grid-center col-12">
-      <div class="grid col-9_sm-10" style="text-align: center">
+      <div class="grid col-9_sm-11" style="text-align: center">
         <div class="col-2_sm-4" style="margin-bottom: 1rem">
           <a href="#c1">レッスン内容</a>
         </div>
@@ -144,7 +144,7 @@
 
       <h2 id="c6" class="col-12">レッスン予約</h2>
       <div class="col-12" style="margin-bottom: 2rem">
-        <a class="color-blue" href="/">レッスンの予約はこちらから</a>
+        <a class="color-blue" href="http://ykpianoforte.com/academia.php">レッスンの予約はこちらから</a>
       </div>
     </div>
   </v-main>
