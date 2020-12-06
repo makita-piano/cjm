@@ -3,7 +3,7 @@
     <div class="page-contents">
       <global-header />
       <div id="body">
-        <nuxt></nuxt>
+        <nuxt :nuxt-child-key="$route.fullPath"></nuxt>
       </div>
     </div>
     <global-footer />
