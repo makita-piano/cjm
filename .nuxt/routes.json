@@ -4,84 +4,73 @@
     "path": "/contact",
     "component": "/var/apps/cjm/pages/contact.vue",
     "chunkName": "pages/contact",
-    "url": "/contact",
-    "_name": "_6e2f1570"
+    "url": "/contact"
   },
   {
     "name": "event",
     "path": "/event",
     "component": "/var/apps/cjm/pages/event.vue",
     "chunkName": "pages/event",
-    "url": "/event",
-    "_name": "_eddb4a7c"
+    "url": "/event"
   },
   {
     "name": "lesson",
     "path": "/lesson",
     "component": "/var/apps/cjm/pages/lesson.vue",
     "chunkName": "pages/lesson",
-    "url": "/lesson",
-    "_name": "_205c4340"
+    "url": "/lesson"
   },
   {
     "name": "news",
     "path": "/news",
     "component": "/var/apps/cjm/pages/news/index.vue",
     "chunkName": "pages/news/index",
-    "url": "/news",
-    "_name": "_56c84d9e"
+    "url": "/news"
   },
   {
     "name": "notfound",
     "path": "/notfound",
     "component": "/var/apps/cjm/pages/notfound.vue",
     "chunkName": "pages/notfound",
-    "url": "/notfound",
-    "_name": "_b442a1d2"
+    "url": "/notfound"
   },
   {
     "name": "philosophy",
     "path": "/philosophy",
     "component": "/var/apps/cjm/pages/philosophy.vue",
     "chunkName": "pages/philosophy",
-    "url": "/philosophy",
-    "_name": "_2cf638f9"
+    "url": "/philosophy"
   },
   {
     "name": "rental",
     "path": "/rental",
     "component": "/var/apps/cjm/pages/rental.vue",
     "chunkName": "pages/rental",
-    "url": "/rental",
-    "_name": "_20d585a8"
+    "url": "/rental"
   },
   {
     "name": "reserve",
     "path": "/reserve",
     "component": "/var/apps/cjm/pages/reserve.vue",
     "chunkName": "pages/reserve",
-    "url": "/reserve",
-    "_name": "_6977afe4"
+    "url": "/reserve"
   },
   {
     "name": "news-id",
     "path": "/news/:id",
     "component": "/var/apps/cjm/pages/news/_id.vue",
-    "chunkName": "pages/news/_id",
-    "_name": "_a6adc0f4"
+    "chunkName": "pages/news/_id"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/var/apps/cjm/pages/index.vue",
     "chunkName": "pages/index",
-    "url": "/",
-    "_name": "_571134fa"
+    "url": "/"
   },
   {
     "name": "404error",
     "path": "*",
-    "component": "~/pages/notfound.vue",
-    "_name": "_0b9c138e"
+    "component": "~/pages/notfound.vue"
   }
 ]
