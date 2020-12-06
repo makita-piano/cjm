@@ -1,6 +1,6 @@
 <template>
 
-  <header>
+  <header style="font-size: 1.3rem">
     <div class="grid display-none-mobile">
       <div class="col-4">
         <NuxtLink to="/">
@@ -81,7 +81,7 @@
         </div>
       </div>
     </nav>
-    <div v-if="isMenuShow" style="padding: 60px"></div>
+    <div v-if="isMenuShow" style="padding: 70px"></div>
   </header>
 </template>
 

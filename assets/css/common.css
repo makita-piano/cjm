@@ -27,8 +27,7 @@ body{
     color: #707070;
     font-family: a-otf-ryumin-pr6n, serif;
     font-style: normal;
-    font-weight: 450;
-    font-size: 1.2rem;
+    font-weight: 500;
 }
 a{
     text-decoration: none;
@@ -49,7 +48,6 @@ ul{
 
 #body h3 {
   padding: .5rem 0;
-  font-weight: normal;
   font-size: 1.5rem;
 }
 .pre_list li{
@@ -65,8 +63,11 @@ ul{
 
 @media (min-width: 769px) {
   #main-content{
-    padding: 2rem 4rem;
+    padding: 2rem 0;
   }
+}
+img {
+  vertical-align: top;
 }
 
 
@@ -286,15 +287,15 @@ footer div span{
 
 
 @media (max-width: 768px) {
-    .display-none-mobile {
-        display: none !important;
-    }
-    .margin-top-2-mobile{
-        margin-top: 2rem;
-    }
-    #body .padding-0-05-mobile{
-        padding: 0 .5rem;
-    }
+  .display-none-mobile {
+      display: none !important;
+  }
+  .margin-top-2-mobile{
+      margin-top: 2rem;
+  }
+  #body .padding-0-05-mobile{
+      padding: 0 .5rem;
+  }
 }
 
 @media (min-width: 769px) {
@@ -306,6 +307,9 @@ footer div span{
     }
     .padding-0-2-pc{
       padding: 0 2rem;
+    }
+    .margin-bottom-2-pc{
+      margin-bottom: 2rem;
     }
 }
 

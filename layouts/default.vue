@@ -12,7 +12,6 @@
 
 <script>
   import '@/assets/css/common.css'
-  //import '@/assets/javascript/common.js'
   import GlobalHeader from '../components/GlobalHeader'
   import GlobalFooter from '../components/GlobalFooter'
   
