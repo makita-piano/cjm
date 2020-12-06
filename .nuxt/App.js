@@ -6,8 +6,9 @@ import NuxtLoading from './components/nuxt-loading.vue'
 import NuxtBuildIndicator from './components/nuxt-build-indicator'
 
 import _6f6c098b from '../layouts/default.vue'
+import _1a3b2961 from '../layouts/tmp.vue'
 
-const layouts = { "_default": sanitizeComponent(_6f6c098b) }
+const layouts = { "_default": sanitizeComponent(_6f6c098b),"_tmp": sanitizeComponent(_1a3b2961) }
 
 export default {
   render (h, props) {

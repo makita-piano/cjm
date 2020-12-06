@@ -27,6 +27,7 @@
 
   export default {
     name: "news-id",
+    layout: "tmp",
     
     head() {
       if(this.news) {
