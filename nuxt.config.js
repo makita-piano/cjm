@@ -35,5 +35,10 @@ export default {
   vuetify: {
     customVariables: ['~/assets/css/variables.scss'],
     treeShake: true
+  },
+  modules: ['@nuxtjs/sitemap'],
+  sitemap: {
+    path: '/sitemap.xml',
+    hostname: 'https://cjmtokyo.com'
   }
 }

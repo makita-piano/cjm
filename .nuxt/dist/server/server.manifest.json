@@ -1,0 +1,25 @@
+{
+  "entry": "server.js",
+  "files": {
+    "pages/contact.js": "pages/contact.js",
+    "pages/event.js": "pages/event.js",
+    "pages/index.js": "pages/index.js",
+    "pages/lesson.js": "pages/lesson.js",
+    "pages/news.js": "pages/news.js",
+    "pages/philosophy.js": "pages/philosophy.js",
+    "pages/rental.js": "pages/rental.js",
+    "pages/reserve.js": "pages/reserve.js",
+    "server.js": "server.js"
+  },
+  "maps": {
+    "pages/contact.js": "pages/contact.js.map",
+    "pages/event.js": "pages/event.js.map",
+    "pages/index.js": "pages/index.js.map",
+    "pages/lesson.js": "pages/lesson.js.map",
+    "pages/news.js": "pages/news.js.map",
+    "pages/philosophy.js": "pages/philosophy.js.map",
+    "pages/rental.js": "pages/rental.js.map",
+    "pages/reserve.js": "pages/reserve.js.map",
+    "server.js": "server.js.map"
+  }
+}
