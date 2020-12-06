@@ -21,7 +21,7 @@
     </div>
     <div id="main-content" class="grid col-12">
       <div class="col-12" style="margin-bottom: 2rem">
-        CJM Tokyo 神宮の杜音楽院では、スタジオ貸出も行なっております。個人の練習や室内楽の合わせなどはもちろん、録音・録画スタジオとしてもご利用いただけます。オンライン審査のための演奏収録、コンクール直前の利用など、様々な用途にぜひお使いください。
+CJM Tokyo 神宮の杜音楽院では、スタジオ貸出も行なっております。個人の練習や室内楽の合わせなどはもちろん、録音・録画スタジオとしてもご利用いただけます。オンライン審査のための演奏収録、コンクール直前の利用など、様々な用途にぜひお使いください。
       </div>
       <h2 id="c1" class="col-12">料金</h2>
       <h3 class="col-12">利用料金　<span style="font-size: .8rem"><br class="display-none-pc">※1時間あたり / YAMAHA C3型 グランドピアノ 使用可能</span></h3>

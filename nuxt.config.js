@@ -40,5 +40,6 @@ export default {
   sitemap: {
     path: '/sitemap.xml',
     hostname: 'https://cjmtokyo.com'
-  }
+  },
+  plugins: [{ src: '~plugins/ga.js', mode: 'client' }]
 }
