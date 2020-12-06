@@ -3,7 +3,6 @@ const { VUE_APP_MICROCMS_KEY,VUE_APP_MICROCMS_URL } = process.env;
 
 export default {
   mode: 'universal',
-	target: 'static',
   head: {
     title: '神宮の杜音楽院',
     meta: [
