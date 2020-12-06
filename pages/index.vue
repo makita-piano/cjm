@@ -63,7 +63,7 @@
 
     created(){
       axios
-        .get(process.env.VUE_APP_MICROCMS_URL + "/news?fields=publish_at,tag,title,title_url&orders=-publish_at&limit=2",{
+        .get(process.env.VUE_APP_MICROCMS_URL + "/news?filters=publish_at[exists]&fields=publish_at,tag,title,title_url&orders=-publish_at&limit=3",{
           headers: { "X-API-KEY": process.env.VUE_APP_MICROCMS_KEY},
           data: {}
       })

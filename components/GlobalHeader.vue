@@ -7,7 +7,7 @@
           <img src="~assets/img/cjm.png" width="auto" height="60px" style="padding: 1rem .3rem 1rem 1.5rem;margin: 2rem 0;vertical-align: middle;box-sizing: content-box" alt="piano">
         </NuxtLink>
       </div>
-      <div class="grid col-8" style="padding: 0 1rem">
+      <div class="grid col-8">
         <ul class="grid col-12">
           <li class="col-middle" style="text-align: center">
             <NuxtLink to="/philosophy">
