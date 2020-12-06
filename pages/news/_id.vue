@@ -1,6 +1,12 @@
 <template>
   <v-main>
-    <notfound v-if="!news" />
+    <div v-if="!news" style="padding: 1rem">
+      <h1>Page Not Found</h1>
+      <h2>お探しのページが見つかりません</h2>
+      <p>
+  URLに間違いないか確認し、再度アクセスを試してください。
+      </p>
+    </div>
     <div v-else id="main-content" class="grid-center col-12">
       <div class="grid col-9_sm-12">
         <h2 class="col-12">
