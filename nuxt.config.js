@@ -2,6 +2,8 @@ require('dotenv').config();
 const { VUE_APP_MICROCMS_KEY,VUE_APP_MICROCMS_URL } = process.env;
 
 export default {
+  mode: 'universal',
+	target: 'static',
   head: {
     title: '神宮の杜音楽院',
     meta: [
@@ -41,5 +43,14 @@ export default {
     path: '/sitemap.xml',
     hostname: 'https://cjmtokyo.com'
   },
-  plugins: [{ src: '~plugins/ga.js', mode: 'client' }]
+  plugins: [{ src: '~plugins/ga.js', mode: 'client' }],
+  router: {
+    extendRoutes (routes, resolve) {
+    routes.push({
+      name: '404error',
+      path: '*',
+      component: resolve('~/pages/notfound.vue')
+     })
+   }
+ },
 }

@@ -422,3 +422,8 @@ footer div span {
     height: 1500px;
   }
 }
+
+/* news */
+.news-contents a {
+  text-decoration: underline;
+}

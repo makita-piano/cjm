@@ -6,11 +6,14 @@ import scrollBehavior from './router.scrollBehavior.js'
 const _6e2f1570 = () => interopDefault(import('../pages/contact.vue' /* webpackChunkName: "pages/contact" */))
 const _eddb4a7c = () => interopDefault(import('../pages/event.vue' /* webpackChunkName: "pages/event" */))
 const _205c4340 = () => interopDefault(import('../pages/lesson.vue' /* webpackChunkName: "pages/lesson" */))
-const _fe8c114a = () => interopDefault(import('../pages/news.vue' /* webpackChunkName: "pages/news" */))
+const _56c84d9e = () => interopDefault(import('../pages/news/index.vue' /* webpackChunkName: "pages/news/index" */))
+const _b442a1d2 = () => interopDefault(import('../pages/notfound.vue' /* webpackChunkName: "pages/notfound" */))
 const _2cf638f9 = () => interopDefault(import('../pages/philosophy.vue' /* webpackChunkName: "pages/philosophy" */))
 const _20d585a8 = () => interopDefault(import('../pages/rental.vue' /* webpackChunkName: "pages/rental" */))
 const _6977afe4 = () => interopDefault(import('../pages/reserve.vue' /* webpackChunkName: "pages/reserve" */))
+const _a6adc0f4 = () => interopDefault(import('../pages/news/_id.vue' /* webpackChunkName: "pages/news/_id" */))
 const _571134fa = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _0b9c138e = () => interopDefault(import('~/pages/notfound.vue' /* webpackChunkName: "" */))
 
 // TODO: remove in Nuxt 3
 const emptyFn = () => {}
@@ -42,8 +45,12 @@ export const routerOptions = {
     name: "lesson"
   }, {
     path: "/news",
-    component: _fe8c114a,
+    component: _56c84d9e,
     name: "news"
+  }, {
+    path: "/notfound",
+    component: _b442a1d2,
+    name: "notfound"
   }, {
     path: "/philosophy",
     component: _2cf638f9,
@@ -57,9 +64,17 @@ export const routerOptions = {
     component: _6977afe4,
     name: "reserve"
   }, {
+    path: "/news/:id",
+    component: _a6adc0f4,
+    name: "news-id"
+  }, {
     path: "/",
     component: _571134fa,
     name: "index"
+  }, {
+    path: "*",
+    component: _0b9c138e,
+    name: "404error"
   }],
 
   fallback: false

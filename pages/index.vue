@@ -18,7 +18,13 @@
               {{e.tag[0]}}
             </div>
             <div class="col-12">
-              {{e.title}}
+              <a v-if="e.title_url" v-bind:href="e.title_url" style="text-decoration: underline">
+                {{e.title}}
+              </a>
+              <NuxtLink v-else-if="e.description" v-bind:to="'/news/' + e.id" style="text-decoration: underline">{{e.title}}</NuxtLink>
+              <p v-else>
+                {{e.title}}
+              </p>
             </div>
           </li>
         </ul>
@@ -63,7 +69,7 @@
 
     created(){
       axios
-        .get(process.env.VUE_APP_MICROCMS_URL + "/news?filters=publish_at[exists]&fields=publish_at,tag,title,title_url&orders=-publish_at&limit=3",{
+        .get(process.env.VUE_APP_MICROCMS_URL + "/news?filters=publish_at[exists]&fields=id,publish_at,tag,title,title_url,description&orders=-publish_at&limit=3",{
           headers: { "X-API-KEY": process.env.VUE_APP_MICROCMS_KEY},
           data: {}
       })
