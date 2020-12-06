@@ -87,10 +87,17 @@ footer div{
     text-align: center;
     font-size: .8rem;
 }
-footer div span{
+footer div span {
     font-size: 1.3rem;
     transform: scale(.9, 1);
     display: inline-block;
+}
+
+@media (min-width: 769px) {
+  .page-contents{
+    width: 1024px;
+    margin: auto;
+  }
 }
 
 

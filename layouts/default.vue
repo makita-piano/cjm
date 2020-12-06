@@ -5,8 +5,8 @@
       <div id="body">
         <nuxt></nuxt>
       </div>
-      <global-footer />
     </div>
+    <global-footer />
   </v-main>
 </template>
 
