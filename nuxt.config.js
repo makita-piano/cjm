@@ -11,7 +11,6 @@ export default {
       { hid: 'description', name: 'description', content: '神宮の杜音楽院' },
       { hid: 'og:site_name', property: 'og:site_name', content: '神宮の杜音楽院' },
       { hid: 'og:type', property: 'og:type', content: 'website' },
-      { hid: 'og:url', property: 'og:url', content: 'https://cjmtokyo.com/' },
       { hid: 'og:title', property: 'og:title', content: '神宮の杜音楽院' },
       { hid: 'og:description', property: 'og:description', content: '神宮の杜音楽院' },
       { hid: 'og:image', property: 'og:image', content: '/cjm.png' }
