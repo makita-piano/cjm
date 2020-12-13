@@ -30,7 +30,7 @@
         link: [
           {
             rel: 'canonical',
-            href: `${process.env.BASE_URL}${this.currentPageForCanonical}`
+            href: `https://cjmtokyo.com/${this.currentPageForCanonical}`
           }
         ]
       }
