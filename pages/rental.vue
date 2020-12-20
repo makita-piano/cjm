@@ -52,7 +52,7 @@
 
         <h2 id="c3" class="col-12" style="margin-top: 5rem">禁止事項</h2>
         <ul class="col-12 pre_list" style="margin-bottom: .5rem">
-          <li>・教室及びホールでのご飲食、喫煙</li>
+          <li>・教室及びホールでの喫煙</li>
           <li>・音楽関係以外の目的での使用</li>
           <li>・窓、扉、カーテンを開けての演奏</li>
         </ul>
@@ -60,6 +60,7 @@
         <ul class="col-12 pre_list">
           <li>※スタジオ利用は、音楽院のレッスンや音楽院講師の利用等が無い、空いている時間に限られます。状況により、空き時間が変わる可能性もありますこと、ご了承ください。</li>
           <li>※レッスンとしてのご利用をご検討の方はご相談ください。</li>
+          <li>※飲食は可能ですが、ゴミはお持ち帰りください。</li>
         </ul>
 
         <h2 id="c4" class="col-12" style="margin-top: 5rem">スタジオ予約</h2>

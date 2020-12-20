@@ -19,6 +19,21 @@
     components: {
       GlobalHeader,
       GlobalFooter
+    },
+    computed: {
+      currentPageForCanonical() {
+        return this.$route.path.slice(1)
+      }
+    },
+    head() {
+      return {
+        link: [
+          {
+            rel: 'canonical',
+            href: `https://cjmtokyo.com/${this.currentPageForCanonical}`
+          }
+        ]
+      }
     }
   }
 </script>
