@@ -321,6 +321,33 @@ footer div span {
 }
 
 /* index */
+.twitter{
+  background-color: #55acee;
+}
+.social div{
+    display: inline-block;
+    width: auto;
+    float: none;
+    color: white;
+}
+.social-icon{
+    width: 3rem;
+}
+.social-text{
+    padding-left: 3rem;
+}
+.social-name{
+    font-size: 1rem;
+    padding: 1rem 0 0 1rem;
+    opacity: .5;
+}
+.social-icon > img{
+    height: 3rem;
+    padding-left: 1rem;
+    padding-top: .8rem;
+    padding-bottom: .2rem;
+}
+
 .oshirase_tag{
   padding: .3rem .5rem .1rem .5rem;
   background-color: #E4E4F7;
