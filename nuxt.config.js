@@ -13,7 +13,7 @@ export default {
       { hid: 'og:type', property: 'og:type', content: 'website' },
       { hid: 'og:title', property: 'og:title', content: '神宮の杜音楽院' },
       { hid: 'og:description', property: 'og:description', content: '神宮の杜音楽院' },
-      { hid: 'og:image', property: 'og:image', content: '/cjm.png' }
+      { hid: 'og:image', property: 'og:image', content: 'https://cjmtokyo.com/cjm.png' }
     ],
     script: [
       { src: "https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v8.0&appId=160626627849426&autoLogAppEvents=1", nonce: "jmR8QvEF", crossorigin: "anonymous" }
