@@ -22,7 +22,7 @@
     <div id="main-content" class="grid-center col-12">
       <div class="grid col-9_sm-12">
         <div class="col-12" style="margin: 1rem 0 2rem 0;font-size: 1.2rem">
-  CJM Tokyo 神宮の杜音楽院では、24時間利用可能な防音スタジオ(24.9m2 南西向き）の貸出を行なっております。<br> 個人の練習や室内楽の合わせなどはもちろん、録音・録画スタジオとしてもご利用いただけます。オンライン審査のための演奏収録、コンクール直前の練習など、様々な用途にぜひお使いください。
+  CJM Tokyo 神宮の杜音楽院では、24時間利用可能な防音スタジオ(24.9m2 南西向き 天井高2500mm 天然木無垢床材使用）の貸出を行なっております。<br> 個人の練習や室内楽の合わせなどはもちろん、録音・録画スタジオとしてもご利用いただけます。オンライン審査のための演奏収録、コンクール直前の練習など、様々な用途にぜひお使いください。
         </div>
         <h2 id="c1" class="col-12">料金</h2>
         <h3 class="col-12">基本料金　<span style="font-size: 1rem"><br class="display-none-pc">※1時間あたり / YAMAHA C3型 グランドピアノ 使用可能</span></h3>
