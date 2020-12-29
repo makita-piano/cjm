@@ -45,7 +45,7 @@
         <h2 id="c2" class="col-12" style="margin-top: 5rem">設備</h2>
         <ul class="col-12 pre_list">
        
-          <li>・Steinway & Sons D-274型 フルコンサートグランドピアノ （ドイツ・ハンブルク1996年製造　オプション料金の対象となります）</li>
+          <li>・Steinway & Sons D-274型 フルコンサートグランドピアノ <br>（ドイツ・ハンブルク1996年製造　オプション料金の対象となります）</li>
           <li>・YAMAHA C3型 グランドピアノ</li>
           <li>・2.5人掛け本革ソファ</li>
           <li>・4人掛けのテーブルおよび椅子</li>
