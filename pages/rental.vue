@@ -44,28 +44,35 @@
 
         <h2 id="c2" class="col-12" style="margin-top: 5rem">設備</h2>
         <ul class="col-12 pre_list">
-          <li>・Steinway & Sons D-274型 フルコンサートグランドピアノ 　（ドイツ・ハンブルク1996年製造）</li>
           <li>・YAMAHA C3型 グランドピアノ</li>
-          <li>・自立譜面台　1本</li>
+          <li>・2.5人掛け本革ソファ</li>
+          <li>・4人掛けのテーブルおよび椅子</li>
+          <li>・ピアノ椅子　3脚</li>
+          <li>・自立譜面台　3本</li>
           <li>・椅子、机等有り</li>
+          <br> 以上が基本料金に含まれます。
+          <br> 以下はオプション設定
+          <li>・Steinway & Sons D-274型 フルコンサートグランドピアノ （ドイツ・ハンブルク1996年製造）</li>
+          <li>・録画、録音用の機材の貸し出しもいたします。詳細はお問い合わせください。</li>
         </ul>
 
         <h2 id="c3" class="col-12" style="margin-top: 5rem">禁止事項</h2>
         <ul class="col-12 pre_list" style="margin-bottom: .5rem">
-          <li>・教室及びホールでの喫煙</li>
-          <li>・音楽関係以外の目的での使用</li>
-          <li>・窓、扉、カーテンを開けての演奏</li>
+          <li>・建物および施設内での喫煙</li>
+          <li>・無断で空調を設定すること</li>
+          <li>・音楽以外の目的での使用</li>
+          <li>・窓、扉を開けての演奏</li>
         </ul>
 
         <ul class="col-12 pre_list">
-          <li>※スタジオ利用は、音楽院のレッスンや音楽院講師の利用等が無い、空いている時間に限られます。状況により、空き時間が変わる可能性もありますこと、ご了承ください。</li>
+          <li>※スタジオ利用は、音楽院のレッスンや音楽院講師の利用等がない、空き時間に限られます。状況により、空き時間が変わる可能性がございますことを、ご了承ください。</li>
           <li>※レッスンとしてのご利用をご検討の方はご相談ください。</li>
           <li>※飲食は可能ですが、ゴミはお持ち帰りください。</li>
         </ul>
 
         <h2 id="c4" class="col-12" style="margin-top: 5rem">スタジオ予約</h2>
         <div class="col-12 color-blue" style="margin-bottom: 2rem">
-          <RouterLink to="/contact">スタジオの予約はこちらから</RouterLink>
+          <RouterLink to="/contact">スタジオのご予約はこちらから</RouterLink>
         </div>
       </div>
     </div>
