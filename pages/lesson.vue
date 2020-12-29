@@ -71,12 +71,12 @@ CJMの教育は、世界の「聴き方」を育てます。自分が理想と�
             </div>
           </div>
           <div class="grid-center col-3_sm-6" style="margin-bottom: 2rem">
-            <div class="col-12_sm-10" style="text-align: center;margin-bottom: 1rem">
+            <div class="col-12_sm-10" style="text-align: center;margin-bottom: 1rem"> <a href="https://kagamimaya.klavier.page/profile">
               <img src="~assets/img/kagami_maya.png" width="80%" height="auto" style="" alt="piano" class="padding-0-2-pc">
             </div>
             <div class="col-12" style="text-align: center">
               副院長　加々見　茉耶
-            </div>
+            </div></a>
           </div>
           <div class="grid-center col-3_sm-6" style="margin-bottom: 2rem">
             <div class="col-12_sm-10" style="text-align: center;margin-bottom: 1rem">
