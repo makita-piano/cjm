@@ -144,7 +144,7 @@ CJMの教育は、世界の「聴き方」を育てます。自分が理想と�
         
         <h2 id="c6" class="col-12">詳細資料請求</h2>
         <div class="col-12" style="margin-bottom: 2rem">
-          <a class="color-blue" href="mailto:academia@ykpianoforte.com/">資料請求はこちらから</a>
+          <a class="color-blue" href="https://cjmtokyo.com/contact">資料請求はこちらから</a>
         </div>
       </div>
     </div>
