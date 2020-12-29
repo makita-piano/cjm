@@ -21,7 +21,7 @@
           <a href="#c5">受賞実績</a>
         </div>
         <div class="col-2_sm-4" style="margin-bottom: 1rem">
-          <a href="#c6">レッスン予約</a>
+          <a href="#c6">資料請求</a>
         </div>
       </div>
     </div>
@@ -105,7 +105,7 @@ CJMの教育は、世界の「聴き方」を育てます。自分が理想と�
             ・入会金　￥33,000
           </div>
           <ul class="col-12 pre_list" style="margin-bottom: 1rem">
-            <li>　※2020年中のご入会の方は、入会金全額免除	（追加レッスン、スタジオ練習利用料等の割引、ほか各種特典あり）</li>
+            <li>　※2021年6月までにご入会の方は、入会金全額免除	（追加レッスン、スタジオ練習利用料等の割引、ほか各種特典あり）</li>
           </ul>
           <br>
           <div>・月額レッスン料金	   ￥9,900 <br class="display-none-pc">（プレピアノコース 満3歳以下）  〜</div>
@@ -142,9 +142,9 @@ CJMの教育は、世界の「聴き方」を育てます。自分が理想と�
           etc. 多数<br>
         </div>
         
-        <h2 id="c6" class="col-12">レッスン予約</h2>
+        <h2 id="c6" class="col-12">詳細資料請求</h2>
         <div class="col-12" style="margin-bottom: 2rem">
-          <a class="color-blue" href="https://cjmtokyo.com/reserve/">レッスンの予約はこちらから</a>
+          <a class="color-blue" href="mailto:academia@ykpianoforte.com/">資料請求はこちらから</a>
         </div>
       </div>
     </div>
