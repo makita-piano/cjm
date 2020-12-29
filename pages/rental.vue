@@ -24,6 +24,13 @@
         <div class="col-12" style="margin: 1rem 0 2rem 0;font-size: 1.2rem">
   CJM Tokyo 神宮の杜音楽院 （東京都渋谷区 代々木駅徒歩4分）では、防音スタジオ(24.9m2 南西向き 天井高2500mm 天然木無垢床材) の貸出を行なっております。<br> 個人の練習や室内楽の合わせなどはもちろん、録音・録画スタジオとしてもご利用いただけます。オンライン審査のための演奏収録、コンクール直前の練習など、様々な用途にぜひお使いください。
         </div>
+        
+        <h2 id="c1" class="col-12">アクセス</h2>
+<li>・代々木駅　徒歩4分（JR山手線　JR中央総武線各駅停車　都営地下鉄大江戸線）</li>
+<li>・北参道駅　徒歩4分（東京メトロ副都心線）</li>
+<li>・南新宿駅　徒歩9分（小田急小田原線）</li>
+<li>・各線 新宿駅　新宿三丁目駅　バスタ新宿etc.より　徒歩10－15分程度 </li>
+        
         <h2 id="c1" class="col-12">料金</h2>
         <h3 class="col-12">基本料金　<span style="font-size: 1rem"><br class="display-none-pc">※1時間あたり / YAMAHA C3型 グランドピアノ 使用可能</span></h3>
         <ul class="col-12 pre_list" style="margin-bottom: 3rem">
