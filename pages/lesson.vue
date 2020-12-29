@@ -63,12 +63,12 @@ CJMの教育は、世界の「聴き方」を育てます。自分が理想と�
         <h2 id="c2" class="col-12">講師紹介</h2>
         <div class="grid col-12" style="margin-bottom: 2rem">
           <div class="grid-center col-3_sm-6" style="margin-bottom: 2rem">
-            <div class="col-12_sm-10" style="text-align: center;margin-bottom: 1rem">
+            <div class="col-12_sm-10" style="text-align: center;margin-bottom: 1rem"> <a href="http://ykpianoforte.com/profile.php">
               <img src="~assets/img/kikuchi_yusuke.png" width="80%" height="auto" style="" alt="piano" class="padding-0-2-pc">
-            </div>
-            <div class="col-12" style="text-align: center">
+            </div> </a>
+            <div class="col-12" style="text-align: center"> <a href="http://ykpianoforte.com/profile.php">
               院長　菊地　裕介
-            </div>
+            </div> </a>
           </div>
           <div class="grid-center col-3_sm-6" style="margin-bottom: 2rem">
             <div class="col-12_sm-10" style="text-align: center;margin-bottom: 1rem"> <a href="https://kagamimaya.klavier.page/profile">
@@ -76,15 +76,15 @@ CJMの教育は、世界の「聴き方」を育てます。自分が理想と�
             </div>
             <div class="col-12" style="text-align: center"><a href="https://kagamimaya.klavier.page/profile">
               副院長　加々見　茉耶
-            </div></a>
+            </div> </a>
           </div>
           <div class="grid-center col-3_sm-6" style="margin-bottom: 2rem">
-            <div class="col-12_sm-10" style="text-align: center;margin-bottom: 1rem">
-              <img src="~assets/img/kuroiwa_koki.png" width="80%" height="auto" style="" alt="piano" class="padding-0-2-pc">
+            <div class="col-12_sm-10" style="text-align: center;margin-bottom: 1rem"> <a href="https://www.kokikuroiwa.com/profile-3/">
+              <img src="~assets/img/kuroiwa_koki.png" width="80%" height="auto" style="" alt="piano" class="padding-0-2-pc"></a>
             </div>
-            <div class="col-12" style="text-align: center">
+            <div class="col-12" style="text-align: center"> <a href="https://www.kokikuroiwa.com/profile-3/">
               講師　黒岩　航紀
-            </div>
+            </div> </a>
           </div>
         </div>
         <h2 id="c3" class="col-12">料金</h2>
