@@ -12,7 +12,7 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_60a31f60 from 'nuxt_plugin_plugin_60a31f60' // Source: ./vuetify/plugin.js (mode: 'all')
+import nuxt_plugin_plugin_6cdd6fba from 'nuxt_plugin_plugin_6cdd6fba' // Source: ./vuetify/plugin.js (mode: 'all')
 import nuxt_plugin_ga_fb0a2534 from 'nuxt_plugin_ga_fb0a2534' // Source: ../plugins/ga.js (mode: 'client')
 
 // Component: <ClientOnly>
@@ -59,7 +59,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"title":"神宮の杜音楽院","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, user-scalable=yes"},{"hid":"description","name":"description","content":"神宮の杜音楽院"},{"hid":"og:site_name","property":"og:site_name","content":"神宮の杜音楽院"},{"hid":"og:type","property":"og:type","content":"website"},{"hid":"og:url","property":"og:url","content":"https:\u002F\u002Fcjmtokyo.com\u002F"},{"hid":"og:title","property":"og:title","content":"神宮の杜音楽院"},{"hid":"og:description","property":"og:description","content":"神宮の杜音楽院"},{"hid":"og:image","property":"og:image","content":"\u002Fcjm.png"}],"script":[{"src":"https:\u002F\u002Fconnect.facebook.net\u002Fja_JP\u002Fsdk.js#xfbml=1&version=v8.0&appId=160626627849426&autoLogAppEvents=1","nonce":"jmR8QvEF","crossorigin":"anonymous"}],"link":[{"rel":"stylesheet","href":"https:\u002F\u002Fcdnjs.cloudflare.com\u002Fajax\u002Flibs\u002Fgridlex\u002F2.3.1\u002Fgridlex.min.css"},{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"rel":"stylesheet","type":"text\u002Fcss","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Roboto:100,300,400,500,700,900&display=swap"},{"rel":"stylesheet","type":"text\u002Fcss","href":"https:\u002F\u002Fcdn.jsdelivr.net\u002Fnpm\u002F@mdi\u002Ffont@latest\u002Fcss\u002Fmaterialdesignicons.min.css"}],"style":[]},
+    head: {"title":"神宮の杜音楽院","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, user-scalable=yes"},{"hid":"description","name":"description","content":"神宮の杜音楽院"},{"hid":"og:site_name","property":"og:site_name","content":"神宮の杜音楽院"},{"hid":"og:type","property":"og:type","content":"website"},{"hid":"og:title","property":"og:title","content":"神宮の杜音楽院"},{"hid":"og:description","property":"og:description","content":"神宮の杜音楽院"},{"hid":"og:image","property":"og:image","content":"https:\u002F\u002Fcjmtokyo.com\u002Fcjm.png"},{"hid":"twitter:card","property":"twitter:card","content":"summary_large_image"},{"hid":"twitter:site","property":"twitter:site","content":"@cjmtokyo"}],"script":[{"src":"https:\u002F\u002Fconnect.facebook.net\u002Fja_JP\u002Fsdk.js#xfbml=1&version=v8.0&appId=160626627849426&autoLogAppEvents=1","nonce":"jmR8QvEF","crossorigin":"anonymous"}],"link":[{"rel":"stylesheet","href":"https:\u002F\u002Fcdnjs.cloudflare.com\u002Fajax\u002Flibs\u002Fgridlex\u002F2.3.1\u002Fgridlex.min.css"},{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"rel":"stylesheet","type":"text\u002Fcss","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Roboto:100,300,400,500,700,900&display=swap"},{"rel":"stylesheet","type":"text\u002Fcss","href":"https:\u002F\u002Fcdn.jsdelivr.net\u002Fnpm\u002F@mdi\u002Ffont@latest\u002Fcss\u002Fmaterialdesignicons.min.css"}],"style":[]},
 
     router,
     nuxt: {
@@ -173,8 +173,8 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_60a31f60 === 'function') {
-    await nuxt_plugin_plugin_60a31f60(app.context, inject)
+  if (typeof nuxt_plugin_plugin_6cdd6fba === 'function') {
+    await nuxt_plugin_plugin_6cdd6fba(app.context, inject)
   }
 
   if (process.client && typeof nuxt_plugin_ga_fb0a2534 === 'function') {

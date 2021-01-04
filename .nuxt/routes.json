@@ -2,81 +2,81 @@
   {
     "name": "contact",
     "path": "/contact",
-    "component": "/var/apps/cjm/pages/contact.vue",
+    "component": "/var/www/cjm/pages/contact.vue",
     "chunkName": "pages/contact",
     "url": "/contact",
-    "_name": "_6e2f1570"
+    "_name": "_326da76a"
   },
   {
     "name": "event",
     "path": "/event",
-    "component": "/var/apps/cjm/pages/event.vue",
+    "component": "/var/www/cjm/pages/event.vue",
     "chunkName": "pages/event",
     "url": "/event",
-    "_name": "_eddb4a7c"
+    "_name": "_aaaa12f6"
   },
   {
     "name": "lesson",
     "path": "/lesson",
-    "component": "/var/apps/cjm/pages/lesson.vue",
+    "component": "/var/www/cjm/pages/lesson.vue",
     "chunkName": "pages/lesson",
     "url": "/lesson",
-    "_name": "_205c4340"
+    "_name": "_31d71fdd"
   },
   {
     "name": "news",
     "path": "/news",
-    "component": "/var/apps/cjm/pages/news/index.vue",
+    "component": "/var/www/cjm/pages/news/index.vue",
     "chunkName": "pages/news/index",
     "url": "/news",
-    "_name": "_56c84d9e"
+    "_name": "_401993bb"
   },
   {
     "name": "notfound",
     "path": "/notfound",
-    "component": "/var/apps/cjm/pages/notfound.vue",
+    "component": "/var/www/cjm/pages/notfound.vue",
     "chunkName": "pages/notfound",
     "url": "/notfound",
-    "_name": "_b442a1d2"
+    "_name": "_4414d874"
   },
   {
     "name": "philosophy",
     "path": "/philosophy",
-    "component": "/var/apps/cjm/pages/philosophy.vue",
+    "component": "/var/www/cjm/pages/philosophy.vue",
     "chunkName": "pages/philosophy",
     "url": "/philosophy",
-    "_name": "_2cf638f9"
+    "_name": "_16477f16"
   },
   {
     "name": "rental",
     "path": "/rental",
-    "component": "/var/apps/cjm/pages/rental.vue",
+    "component": "/var/www/cjm/pages/rental.vue",
     "chunkName": "pages/rental",
     "url": "/rental",
-    "_name": "_20d585a8"
+    "_name": "_011019c9"
   },
   {
     "name": "reserve",
     "path": "/reserve",
-    "component": "/var/apps/cjm/pages/reserve.vue",
+    "component": "/var/www/cjm/pages/reserve.vue",
     "chunkName": "pages/reserve",
     "url": "/reserve",
-    "_name": "_6977afe4"
+    "_name": "_f14f3232"
   },
   {
     "name": "news-id",
     "path": "/news/:id",
-    "component": "/var/apps/cjm/pages/news/_id.vue",
+    "component": "/var/www/cjm/pages/news/_id.vue",
     "chunkName": "pages/news/_id",
-    "_name": "_a6adc0f4"
+    "_name": "_4adf48e3"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "/var/apps/cjm/pages/index.vue",
+    "component": "/var/www/cjm/pages/index.vue",
     "chunkName": "pages/index",
     "url": "/",
-    "_name": "_571134fa"
+    "_name": "_78a9d0bd"
   },
   {
     "name": "404error",

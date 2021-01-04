@@ -3,16 +3,16 @@ import Router from 'vue-router'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _6e2f1570 = () => interopDefault(import('../pages/contact.vue' /* webpackChunkName: "pages/contact" */))
-const _eddb4a7c = () => interopDefault(import('../pages/event.vue' /* webpackChunkName: "pages/event" */))
-const _205c4340 = () => interopDefault(import('../pages/lesson.vue' /* webpackChunkName: "pages/lesson" */))
-const _56c84d9e = () => interopDefault(import('../pages/news/index.vue' /* webpackChunkName: "pages/news/index" */))
-const _b442a1d2 = () => interopDefault(import('../pages/notfound.vue' /* webpackChunkName: "pages/notfound" */))
-const _2cf638f9 = () => interopDefault(import('../pages/philosophy.vue' /* webpackChunkName: "pages/philosophy" */))
-const _20d585a8 = () => interopDefault(import('../pages/rental.vue' /* webpackChunkName: "pages/rental" */))
-const _6977afe4 = () => interopDefault(import('../pages/reserve.vue' /* webpackChunkName: "pages/reserve" */))
-const _a6adc0f4 = () => interopDefault(import('../pages/news/_id.vue' /* webpackChunkName: "pages/news/_id" */))
-const _571134fa = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _326da76a = () => interopDefault(import('../pages/contact.vue' /* webpackChunkName: "pages/contact" */))
+const _aaaa12f6 = () => interopDefault(import('../pages/event.vue' /* webpackChunkName: "pages/event" */))
+const _31d71fdd = () => interopDefault(import('../pages/lesson.vue' /* webpackChunkName: "pages/lesson" */))
+const _401993bb = () => interopDefault(import('../pages/news/index.vue' /* webpackChunkName: "pages/news/index" */))
+const _4414d874 = () => interopDefault(import('../pages/notfound.vue' /* webpackChunkName: "pages/notfound" */))
+const _16477f16 = () => interopDefault(import('../pages/philosophy.vue' /* webpackChunkName: "pages/philosophy" */))
+const _011019c9 = () => interopDefault(import('../pages/rental.vue' /* webpackChunkName: "pages/rental" */))
+const _f14f3232 = () => interopDefault(import('../pages/reserve.vue' /* webpackChunkName: "pages/reserve" */))
+const _4adf48e3 = () => interopDefault(import('../pages/news/_id.vue' /* webpackChunkName: "pages/news/_id" */))
+const _78a9d0bd = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 const _0b9c138e = () => interopDefault(import('~/pages/notfound.vue' /* webpackChunkName: "" */))
 
 // TODO: remove in Nuxt 3
@@ -33,43 +33,43 @@ export const routerOptions = {
 
   routes: [{
     path: "/contact",
-    component: _6e2f1570,
+    component: _326da76a,
     name: "contact"
   }, {
     path: "/event",
-    component: _eddb4a7c,
+    component: _aaaa12f6,
     name: "event"
   }, {
     path: "/lesson",
-    component: _205c4340,
+    component: _31d71fdd,
     name: "lesson"
   }, {
     path: "/news",
-    component: _56c84d9e,
+    component: _401993bb,
     name: "news"
   }, {
     path: "/notfound",
-    component: _b442a1d2,
+    component: _4414d874,
     name: "notfound"
   }, {
     path: "/philosophy",
-    component: _2cf638f9,
+    component: _16477f16,
     name: "philosophy"
   }, {
     path: "/rental",
-    component: _20d585a8,
+    component: _011019c9,
     name: "rental"
   }, {
     path: "/reserve",
-    component: _6977afe4,
+    component: _f14f3232,
     name: "reserve"
   }, {
     path: "/news/:id",
-    component: _a6adc0f4,
+    component: _4adf48e3,
     name: "news-id"
   }, {
     path: "/",
-    component: _571134fa,
+    component: _78a9d0bd,
     name: "index"
   }, {
     path: "*",

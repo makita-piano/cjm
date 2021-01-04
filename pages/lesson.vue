@@ -62,30 +62,62 @@ CJMの教育は、世界の「聴き方」を育てます。自分が理想と�
         </div>
         <h2 id="c2" class="col-12">講師紹介</h2>
         <div class="grid col-12" style="margin-bottom: 2rem">
-          <div class="grid-center col-3_sm-6" style="margin-bottom: 2rem">
-            <div class="col-12_sm-10" style="text-align: center;margin-bottom: 1rem"> <a href="http://ykpianoforte.com/profile.php">
-              <img src="~assets/img/kikuchi_yusuke.png" width="80%" height="auto" style="" alt="piano" class="padding-0-2-pc">
-            </div> </a>
-            <div class="col-12" style="text-align: center"> <a href="http://ykpianoforte.com/profile.php">
-              院長　菊地　裕介
-            </div> </a>
+          <div class="grid col-3_sm-6" style="margin-bottom: 2rem">
+            <a class="grid-center col-12" href="http://ykpianoforte.com/profile.php">
+              <div class="col-12_sm-10" style="text-align: center;margin-bottom: 1rem">
+                <img src="~assets/img/kikuchi_yusuke.png" width="80%" height="auto" style="" alt="piano" class="padding-0-2-pc">
+              </div>
+              <div class="col-12" style="text-align: center">
+                院長　菊地　裕介
+              </div>
+            </a>
           </div>
-          <div class="grid-center col-3_sm-6" style="margin-bottom: 2rem">
-            <div class="col-12_sm-10" style="text-align: center;margin-bottom: 1rem"> <a href="https://kagamimaya.klavier.page/profile">
-              <img src="~assets/img/kagami_maya.png" width="80%" height="auto" style="" alt="piano" class="padding-0-2-pc"></a>
+          <div class="grid col-3_sm-6" style="margin-bottom: 2rem">
+            <a class="grid-center col-12" href="https://kagamimaya.klavier.page/profile">
+              <div class="col-12_sm-10" style="text-align: center;margin-bottom: 1rem">
+                <img src="~assets/img/kagami_maya.png" width="80%" height="auto" style="" alt="piano" class="padding-0-2-pc">
+              </div>
+              <div class="col-12" style="text-align: center">
+                副院長　加々見　茉耶
+              </div>
+            </a>
+          </div>
+          <div class="grid col-3_sm-6" style="margin-bottom: 2rem">
+            <a class="grid-center col-12" href="https://www.kokikuroiwa.com/profile-3/">
+              <div class="col-12_sm-10" style="text-align: center;margin-bottom: 1rem">
+                <img src="~assets/img/kuroiwa_koki.png" width="80%" height="auto" style="" alt="piano" class="padding-0-2-pc">
+              </div>
+              <div class="col-12" style="text-align: center">
+                講師　黒岩　航紀
+              </div>
+            </a>
+          </div>
+          <div class="grid-center col-3_sm-6" style="margin-bottom: 2rem;cursor: pointer" @click="openModal">
+            <div class="col-12_sm-10" style="text-align: center;margin-bottom: 1rem">
+              <img src="~assets/img/iwata_tamami.jpg" width="80%" height="auto" style="" alt="piano" class="padding-0-2-pc">
             </div>
-            <div class="col-12" style="text-align: center"><a href="https://kagamimaya.klavier.page/profile">
-              副院長　加々見　茉耶
-            </div> </a>
-          </div>
-          <div class="grid-center col-3_sm-6" style="margin-bottom: 2rem">
-            <div class="col-12_sm-10" style="text-align: center;margin-bottom: 1rem"> <a href="https://www.kokikuroiwa.com/profile-3/">
-              <img src="~assets/img/kuroiwa_koki.png" width="80%" height="auto" style="" alt="piano" class="padding-0-2-pc"></a>
+            <div class="col-12" style="text-align: center">
+              講師　岩田　珠美
             </div>
-            <div class="col-12" style="text-align: center"> <a href="https://www.kokikuroiwa.com/profile-3/">
-              講師　黒岩　航紀
-            </div> </a>
           </div>
+          <transition name="modal" appear v-if="modal">
+            <div class="modal modal-overlay" @click="closeModal" style="color: #333">
+              <div class="modal-window">
+                <div class="modal-header" style="position: relative;text-align: center">
+                  岩田　珠美
+                  <button @click="closeModal" style="position: absolute;right: 1rem;top: .8rem;height: 1.5rem;width: 1.5rem">×</button>
+                </div>
+                <div class="modal-content grid-center">
+                  <div class="col-6" style="text-align: center;margin-bottom: 1rem">
+                    <img src="~assets/img/iwata_tamami.jpg" width="80%" height="auto" style="" alt="piano" class="padding-0-2-pc">
+                  </div>
+                  <div class="col6_sm-12">
+愛知県生まれ。7歳よりピアノを始め、15歳単身渡仏パリ国立高等音楽院入学。同音楽院を最優秀賞を得て卒業。その後帰国し、東京藝術大学大学院音楽研究科入学、同修士課程修了。フランス語教育振興協会の奨学を得て再渡仏、パリ市立音楽院、モーリス・ラヴェル音楽院にて室内楽、ピアノ伴奏科、エクリチュール科等に在籍し併せて伴奏助手等を務める。帰国後、名古屋市立菊里高等学校及び名古屋音楽大学にてピアノ、ソルフェージュ、室内楽等の後進の指導にあたる傍、演奏活動を行なっていたが、家族の都合でイスラエルに移住、3年間ヨーロッパ各地や中東の各地を訪れ見聞を深め2020年再び帰国。また近年は、信州アートキャンプ、アッセンブリッジ・ナゴヤ音楽プログラムディレクター を務めるなど、音楽企画、文化発信分野にも積極的に携わっている。
+                   </div> 
+                </div>
+              </div>
+            </div>
+          </transition>
         </div>
         <h2 id="c3" class="col-12">料金</h2>
         <div class="col-12" style="padding-bottom: 3rem;font-size: 1.2rem">
@@ -154,7 +186,19 @@ CJMの教育は、世界の「聴き方」を育てます。自分が理想と�
 <script>
   export default {
     layout: 'default',
-    
+    data() {
+      return {
+        modal: false,
+      }
+    },
+    methods: {
+      openModal() {
+        this.modal = true
+      },
+      closeModal() {
+        this.modal = false
+      }
+    },
     head() {
       return {
         title: "レッスン｜神宮の杜音楽院",
@@ -167,3 +211,65 @@ CJMの教育は、世界の「聴き方」を育てます。自分が理想と�
     }
   }
 </script>
+
+<style scoped>
+.modal-overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 30;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+.modal-window {
+  background: #fff;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.modal-content {
+  padding: 10px 20px;
+}
+.modal-header {
+  background: #ccc;
+  padding: 10px;
+  text-align: left;
+}
+.modal-enter-active, .modal-leave-active {
+  transition: opacity 0.4s;
+}
+.modal-enter-active .modal-window {
+  transition: opacity 0.4s, transform 0.4s;
+}
+.modal-leave-active .modal-window {
+  transition: opacity 0.4s, transform 0.4s;
+}
+.modal-leave-active {
+  transition: opacity 0.6s ease 0.4s;
+}
+.modal-enter, .modal-leave-to {
+  opacity: 0;
+}
+.modal-enter .modal-window {
+  opacity: 0;
+  transform: translateY(-20px);
+}
+.modal-leave-to .modal-window {
+  opacity: 0;
+  transform: translateY(-20px);
+}
+@media (max-width: 768px) {
+  .modal-content {
+    width: 95vw;
+  }
+}
+
+@media (min-width: 769px) {
+  .modal-content {
+    width: 768px;
+  }
+}
+</style>
