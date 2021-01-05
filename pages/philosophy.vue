@@ -19,7 +19,7 @@
         </div>
         
         <h3 class="col-12" style="margin-bottom: 2rem">
-          <a href="https://www.facebook.com/permalink.php?story_fbid=110590007334485&id=103707088022777" class="color-blue">院長 菊地裕介が語る「なぜ私が音楽院を開講するのか　～本物のメソードを求めて～」はこちら</a>
+          <a href="https://note.com/cjmtokyo/n/nd0c9be098b32" class="color-blue">院長 菊地裕介が語る「なぜ私が音楽院を開講するのか　～本物のメソードを求めて～」はこちら</a>
         </h3>
       </div>
     </div>
