@@ -13,7 +13,7 @@ export default {
       { hid: 'og:type', property: 'og:type', content: 'website' },
       { hid: 'og:title', property: 'og:title', content: '神宮の杜音楽院' },
       { hid: 'og:description', property: 'og:description', content: '神宮の杜音楽院' },
-      { hid: 'og:image', property: 'og:image', content: 'https://cjmtokyo.com/.png' },
+      { hid: 'og:image', property: 'og:image', content: 'https://cjmtokyo.com/CJM.png' },
       { hid: 'twitter:card', property: 'twitter:card', content: 'summary_large_image' },
       { hid: 'twitter:site', property: 'twitter:site', content: '@cjmtokyo' }
     ],
