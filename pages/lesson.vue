@@ -114,7 +114,7 @@ CJMの教育は、世界の「聴き方」を育てます。自分が理想と�
               <img src="~assets/img/iwata_tamami.jpg" width="80%" height="auto" style="" alt="piano" class="padding-0-2-pc">
             </div>
             <div class="col-12" style="text-align: center">
-              講師　岩田　珠美
+              講師　岩田　珠美（フォルマション・ミュジカル、ソルフェージュ）
             </div>
           </div>
           <transition name="modal" appear v-if="modal">
