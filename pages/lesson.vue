@@ -90,21 +90,21 @@ CJMの教育は、世界の「聴き方」を育てます。自分が理想と�
               講師　黒岩　航紀
             </div>
           </div>
-                    <transition name="modal" appear v-if="modal">
-            <div class="modal modal-overlay" @click="closeModal" style="color: #333">
-              <div class="modal-window">
-                <div class="modal-header" style="position: relative;text-align: center">
-                  黒岩　航紀
-                  <button @click="closeModal" style="position: absolute;right: 1rem;top: .8rem;height: 1.5rem;width: 1.5rem">×</button>
-                </div>
-                <div class="modal-content grid-center">
-                  <div class="col-6" style="text-align: center;margin-bottom: 1rem">
-                    <img src="~assets/img/kuroiwa_koki.b55341b.png" width="80%" height="auto" style="" alt="piano" class="padding-0-2-pc">
-                  </div>
-                  <div class="col6_sm-12">
+          <transition name="modal" appear v-if="modal">
+           <div class="modal modal-overlay" @click="closeModal" style="color: #333">
+             <div class="modal-window">
+               <div class="modal-header" style="position: relative;text-align: center">
+                 黒岩　航紀
+                 <button @click="closeModal" style="position: absolute;right: 1rem;top: .8rem;height: 1.5rem;width: 1.5rem">×</button>
+               </div>
+               <div class="modal-content grid-center">
+                 <div class="col-6" style="text-align: center;margin-bottom: 1rem">
+                   <img src="~assets/img/kuroiwa_koki.b55341b.png" width="80%" height="auto" style="" alt="piano" class="padding-0-2-pc">
+                 </div>
+                 <div class="col6_sm-12">
 東京藝術大学音楽学部ピアノ科首席卒業。同大学大学院修士課程修了の後、リスト音楽院にて研鑽を積む。第84回日本音楽コンクール第1位。第11回東京音楽コンクール第1位及び聴衆賞。KIPA国際ピアノコンクール2019第1位。第13回ヘイスティングス国際ピアノコンチェルトコンペティション第４位及びオーケストラプライズ。インムジカローマ国際ピアノコンクール2018第3位。第27回青山音楽賞新人賞。第14回宇都宮エスペール賞。2017年にロシア・サンクトペテルブルクより招聘されての演奏が高く評価され、音楽監督セルゲイ・ロルドゥギン氏に絶賛される。バッハからコンテンポラリーまでレパートリーも広く、2019年東京オペラシティリサイタルシリーズ「B→C」出演。NHK-FM「ベスト・オブ・クラシック」「リサイタル・ノヴァ」「リサイタル・パッシオ」多数出演。これまでに、東京フィルハーモニー交響楽団、東京交響楽団、新日本フィルハーモニー交響楽団、日本フィルハーモニー交響楽団、東京シティ・フィルハーモニック管弦楽団、セントラル愛知交響楽団、ロイヤルフィルハーモニックオーケストラ、ローマトレオーケストラ、サンクトペテルブルク国立アカデミーオーケストラ等と共演。現在は国内を中心にソロ、オーケストラ共演に加え、荒川文吉氏(Ob.)、齋藤志野氏(Fl.)との「Trio Explosion」を始め、室内楽やアンサンブルピアニストとしても活躍している。
 芹沢直美、秦はるひ、江口玲、ファルヴァイ・シャーンドル各氏に師事。1st CD「sailing day」に続く2019年2nd CD「展覧会の絵」は《レコード芸術特選盤》に選定。（公社）日本演奏連盟会員。東京藝術大学ピアノ科、甲斐清和高校音楽科非常勤講師。
-                   </div> 
+                  </div> 
                 </div>
               </div>
             </div>
