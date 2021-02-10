@@ -14,7 +14,7 @@
   import '@/assets/css/common.css'
   import GlobalHeader from '../components/GlobalHeader'
   import GlobalFooter from '../components/GlobalFooter'
-  
+
   export default {
     components: {
       GlobalHeader,
@@ -41,6 +41,13 @@
 <style>
 .page-enter-active {
   animation: fadeIn 1s;
+}
+
+@media (min-width: 769px) {
+  .page-contents{
+    width: 1024px;
+    margin: auto;
+  }
 }
 
 @keyframes fadeIn {

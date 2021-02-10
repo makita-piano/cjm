@@ -1,5 +1,13 @@
 [
   {
+    "name": "access",
+    "path": "/access",
+    "component": "/var/www/cjm/pages/access.vue",
+    "chunkName": "pages/access",
+    "url": "/access",
+    "_name": "_2e963209"
+  },
+  {
     "name": "contact",
     "path": "/contact",
     "component": "/var/www/cjm/pages/contact.vue",

@@ -8,7 +8,7 @@
   export default {
     name: "event",
     layout: 'default',
-    
+
     head() {
       return {
         title: "講座・イベント｜神宮の杜音楽院",

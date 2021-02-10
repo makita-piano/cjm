@@ -72,36 +72,6 @@ img {
 
 
 
-
-
-/* header footer */
-header{
-    margin-bottom: 1rem;
-}
-footer{
-    background-color: black;
-    color: #999;
-}
-footer div{
-    padding: 1rem 0 .3rem 0;
-    text-align: center;
-    font-size: .8rem;
-}
-footer div span {
-    font-size: 1.3rem;
-    transform: scale(.9, 1);
-    display: inline-block;
-}
-
-@media (min-width: 769px) {
-  .page-contents{
-    width: 1024px;
-    margin: auto;
-  }
-}
-
-
-
 /* menu */
 .menu{
     padding-bottom: .5rem;
@@ -359,81 +329,6 @@ footer div span {
 }
 
 
-
-/* discografy */
-#body .disco > div {
-    padding: 2rem .5rem;
-    text-align: center;
-    display: table;
-}
-#body .disco > div > div {
-    margin: auto;
-}
-.disco a{
-    margin: auto;
-}
-.disco img{
-    width: 100%;
-}
-.disco .pointer img{
-    width: 7px;
-}
-.disco-bar{
-    display: table-cell;
-    vertical-align: middle;
-}
-.disco-pointer{
-    display: table-cell;
-}
-.disco-bar span{
-    height: 3px;
-    width: 50px;
-    background: #000;
-    display: block;
-}
-.disco-year{
-    font-size: .8rem;
-    color: #999;
-    margin-top: .5rem;
-}
-.disco-sub-title{
-    font-size: .8rem;
-    margin-top: .5rem;
-}
-
-.disco-main-title{
-    font-size: 1.3rem;
-    font-weight: bold;
-    letter-spacing: 0;
-    text-indent: .3rem;
-    margin-top: .5rem;
-}
-
-
-
-/* information */
-.information a{
-  text-decoration: underline;
-}
-.information > li{
-    margin-bottom: 1rem;
-}
-.information > li > div:nth-child(1){
-    font-size: .8rem;
-    color: #999;
-}
-.information > li > div:nth-child(2){
-    background:url("/tone.png") left no-repeat;
-    padding: .8rem 0 .7rem 2rem;
-}
-
-
-
-/* profile */
-#body .profile{
-    max-width: 700px;
-    margin: 0 auto;
-}
 
 /*reserve*/
 @media (max-width: 768px) {
