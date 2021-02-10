@@ -18,6 +18,7 @@
     "deepmerge": "^4.2.2",
     "eslint-config-vue": "^2.0.2",
     "fibers": "^5.0.0",
+    "hooper": "^0.3.4",
     "moment": "^2.24.0",
     "nuxt": "^2.14.9",
     "vue": "^2.6.10",

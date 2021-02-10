@@ -26,13 +26,31 @@
         <h2>最寄りの駐車場</h2>
         <ul style="list-style-type: disc;margin-left: 1.5rem">
           <li><a href="https://www.shutoko-sv.jp/parking/car/?id=1427725411-820339&pca=3" target="_blank" style="text-decoration: underline">千駄ヶ谷駐車場</a></li>
-          <li><a href="https://times-info.net/P13-tokyo/C113/park-detail-BUK0000063/" target="_blank" style="text-decoration: underline">タイムズ千駄ヶ谷</a></li>
+          <li><a href="https://mapfan.com/spots/SCAQQ,F66K,L2Y" target="_blank" style="text-decoration: underline">パークステーション千駄ヶ谷第５駐車場</a></li>
         </ul>
         <p style="margin-top: .5rem">など</p>
       </div>
     </div>
   </v-main>
 </template>
+
+<script>
+  export default {
+    name: "access",
+    layout: 'default',
+
+    head() {
+      return {
+        title: "アクセス｜神宮の杜音楽院",
+        meta: [
+          { hid: 'description', name: 'description', content: '神宮の杜音楽院のアクセス情報です。CJM Tokyo 神宮の杜音楽院は、東京藝術大学卒業などの一流の学歴と留学経験を持つ、国内最高レベルの権威あるクラシック音楽家による、ピアノレッスンを中心とした音楽教育を行なっております。個人レッスンのみならず、音楽理論やソルフェージュのクラス、上級者のための演奏法講座、海外より招聘する世界クラスの音楽家による特別レッスンなど、広く展開していきます。' },
+          { hid: 'og:description', property: 'og:description', content: '神宮の杜音楽院のアクセス情報です。CJM Tokyo 神宮の杜音楽院は、東京藝術大学卒業などの一流の学歴と留学経験を持つ、国内最高レベルの権威あるクラシック音楽家による、ピアノレッスンを中心とした音楽教育を行なっております。個人レッスンのみならず、音楽理論やソルフェージュのクラス、上級者のための演奏法講座、海外より招聘する世界クラスの音楽家による特別レッスンなど、広く展開していきます。' },
+          { hid: 'og:title', property: 'og:title', content: 'アクセス｜神宮の杜音楽院' }
+        ]
+      }
+    }
+  }
+</script>
 
 <style scoped>
   @media screen and (max-width: 768px) {

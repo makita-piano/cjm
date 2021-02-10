@@ -25,7 +25,37 @@
   CJM Tokyo 神宮の杜音楽院 （東京都渋谷区千駄ヶ谷）では、防音スタジオ(24.9m2 南西向き 天井高2500mm 天然木無垢床材) の貸出を行なっております。<br> 個人の練習や室内楽の合わせなどはもちろん、録音・録画スタジオとしてもご利用いただけます。オンライン審査のための演奏収録、コンクール直前の練習など、様々な用途にぜひお使いください。
         </div>
 
-        <h2 id="c1" class="col-12">料金</h2>
+        <h2 id="c1" class="col-12" style="display: none">スタジオ写真</h2>
+
+        <hooper style="display: none">
+          <slide>
+            <div class="grid col-12" style="margin: 0 3rem">
+              <div class="grid-center col-8_sm-12" style="padding: .5rem">
+                <img src="~assets/img/CJM_studio.png" width="280px" height="280px" alt="piano">
+              </div>
+              <div class="col-4_sm-12" style="padding: 10px">
+                CJM Tokyo 神宮の杜音楽院 （東京都渋谷区千駄ヶ谷）では、防音スタジオ(24.9m2 南西向き 天井高2500mm 天然木無垢床材) の貸出を行なっております。
+個人の練習や室内楽の合わせなどはもちろん、録音・録画スタジオとしてもご利用いただけます。オンライン審査のための演奏収録、コンクール直前の練習など、様々な用途にぜひお使いください。
+              </div>
+            </div>
+          </slide>
+          <slide>
+            <div class="grid col-12 height-100-pc" style="margin: 0 2rem">
+              <div class="grid-center col-8_sm-12" style="padding: .5rem">
+                <img src="~assets/img/CJM_studio.png" width="100%" height="auto" alt="piano" style="margin: auto 0">
+              </div>
+              <div class="col-4_sm-12" style="padding: 10px">
+                CJM Tokyo 神宮の杜音楽院 （東京都渋谷区千駄ヶ谷）では、防音スタジオ(24.9m2 南西向き 天井高2500mm 天然木無垢床材) の貸出を行なっております。
+個人の練習や室内楽の合わせなどはもちろん、録音・録画スタジオとしてもご利用いただけます。オンライン審査のための演奏収録、コンクール直前の練習など、様々な用途にぜひお使いください。
+              </div>
+            </div>
+          </slide>
+          <hooper-navigation slot="hooper-addons"></hooper-navigation>
+          <hooper-pagination slot="hooper-addons"></hooper-pagination>
+        </hooper>
+
+
+        <h2 id="c1" class="col-12" style="margin-top: 4rem">料金</h2>
         <h3 class="col-12">基本料金　<span style="font-size: 1rem"><br class="display-none-pc">※1時間あたり / YAMAHA C3型 グランドピアノ 使用可能</span></h3>
         <ul class="col-12 pre_list" style="margin-bottom: 3rem">
           <li>・平日 午前（9:00-13:00）　	￥2,000</li>
@@ -86,10 +116,13 @@
 </template>
 
 <script>
+  import { Hooper, Slide , Pagination as HooperPagination , Navigation as HooperNavigation } from 'hooper';
+  import 'hooper/dist/hooper.css';
+
   export default {
     name: "rental",
     layout: 'default',
-    
+
     head() {
       return {
         title: "スタジオ貸出｜神宮の杜音楽院",
@@ -99,6 +132,31 @@
           { hid: 'og:title', property: 'og:title', content: 'スタジオ貸出｜神宮の杜音楽院' }
         ]
       }
+    },
+    components: {
+      Hooper,
+      Slide,
+      HooperPagination,
+      HooperNavigation
     }
   }
 </script>
+<style>
+.hooper {
+  background-color: #eee;
+}
+@media (max-width: 768px) {
+  .hooper {
+    height: 450px;
+  }
+}
+
+@media (min-width: 769px) {
+  .hooper {
+    height: 300px;
+  }
+  .height-100-pc {
+    height: 100%;
+  }
+}
+</style>

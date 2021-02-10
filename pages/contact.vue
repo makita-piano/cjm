@@ -8,7 +8,7 @@
   export default {
     name: "contact",
     layout: 'default',
-    
+
     head() {
       return {
         title: "お問い合わせ｜神宮の杜音楽院",
