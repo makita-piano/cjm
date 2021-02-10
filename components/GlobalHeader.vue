@@ -1,13 +1,12 @@
 <template>
-
   <header style="font-size: 1.3rem">
     <div class="grid display-none-mobile">
       <div class="col-4">
         <NuxtLink to="/">
-          <img src="~assets/img/cjm.png" width="auto" height="60px" style="padding: 1rem .3rem 1rem 1.5rem;margin: 2rem 0;vertical-align: middle;box-sizing: content-box" alt="piano">
+          <img src="~assets/img/cjm.png" width="auto" height="60px" style="padding: 1rem .3rem 1rem 1.5rem;margin: 1rem 0;vertical-align: middle;box-sizing: content-box" alt="piano">
         </NuxtLink>
       </div>
-      <div class="grid col-8">
+      <div class="grid col-8" style="font-size: 1.1rem">
         <ul class="grid col-12">
           <li class="col-middle" style="text-align: center">
             <NuxtLink to="/philosophy">
@@ -27,6 +26,11 @@
           <li class="col-middle" style="text-align: center">
             <NuxtLink to="/rental">
               スタジオ貸出
+            </NuxtLink>
+          </li>
+          <li class="col-middle" style="text-align: center">
+            <NuxtLink to="/access">
+              アクセス
             </NuxtLink>
           </li>
           <li class="col-middle" style="text-align: center">
@@ -61,6 +65,11 @@
             </NuxtLink>
           </li>
           <li class="menu-item" v-on:click="menuShow">
+            <NuxtLink to="/access">
+              アクセス
+            </NuxtLink>
+          </li>
+          <li class="menu-item" v-on:click="menuShow">
             <NuxtLink to="/contact">
               お問い合わせ
             </NuxtLink>
@@ -88,13 +97,13 @@
 <script>
   export default {
     name: 'global_header',
-    
+
     data() {
       return {
         isMenuShow: false
       }
     },
-    
+
     methods: {
       menuShow: function() {
         this.isMenuShow = !this.isMenuShow;
@@ -118,5 +127,8 @@
 }
 .trans_slide-enter, .trans_slide-leave-to {
     opacity: 0;
+}
+header{
+    margin-bottom: 1rem;
 }
 </style>

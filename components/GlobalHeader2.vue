@@ -10,9 +10,9 @@
       <div class="grid col-8">
         <ul class="grid col-12">
           <li class="col-middle" style="text-align: center">
-            <a href="/philosophy">
+            <NuxtLink to="/philosophy">
               理念・特長
-            </a>
+            </NuxtLink>
           </li>
           <li class="col-middle" style="text-align: center">
             <NuxtLink to="/lesson">
@@ -27,6 +27,11 @@
           <li class="col-middle" style="text-align: center">
             <NuxtLink to="/rental">
               スタジオ貸出
+            </NuxtLink>
+          </li>
+          <li class="col-middle" style="text-align: center">
+            <NuxtLink to="/access">
+              アクセス
             </NuxtLink>
           </li>
           <li class="col-middle" style="text-align: center">
@@ -61,6 +66,11 @@
             </NuxtLink>
           </li>
           <li class="menu-item" v-on:click="menuShow">
+            <NuxtLink to="/access">
+              アクセス
+            </NuxtLink>
+          </li>
+          <li class="menu-item" v-on:click="menuShow">
             <NuxtLink to="/contact">
               お問い合わせ
             </NuxtLink>
@@ -88,13 +98,13 @@
 <script>
   export default {
     name: 'global_header',
-    
+
     data() {
       return {
         isMenuShow: false
       }
     },
-    
+
     methods: {
       menuShow: function() {
         this.isMenuShow = !this.isMenuShow;
@@ -118,5 +128,8 @@
 }
 .trans_slide-enter, .trans_slide-leave-to {
     opacity: 0;
+}
+header{
+    margin-bottom: 1rem;
 }
 </style>
