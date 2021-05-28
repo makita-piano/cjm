@@ -72,6 +72,22 @@
     "_name": "_f14f3232"
   },
   {
+    "name": "voice",
+    "path": "/voice",
+    "component": "/var/www/cjm/pages/voice.vue",
+    "chunkName": "pages/voice",
+    "url": "/voice",
+    "_name": "_6c0e591d"
+  },
+  {
+    "name": "voices",
+    "path": "/voices",
+    "component": "/var/www/cjm/pages/voices.vue",
+    "chunkName": "pages/voices",
+    "url": "/voices",
+    "_name": "_19686ba6"
+  },
+  {
     "name": "news-id",
     "path": "/news/:id",
     "component": "/var/www/cjm/pages/news/_id.vue",

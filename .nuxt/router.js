@@ -12,6 +12,8 @@ const _4414d874 = () => interopDefault(import('../pages/notfound.vue' /* webpack
 const _16477f16 = () => interopDefault(import('../pages/philosophy.vue' /* webpackChunkName: "pages/philosophy" */))
 const _011019c9 = () => interopDefault(import('../pages/rental.vue' /* webpackChunkName: "pages/rental" */))
 const _f14f3232 = () => interopDefault(import('../pages/reserve.vue' /* webpackChunkName: "pages/reserve" */))
+const _6c0e591d = () => interopDefault(import('../pages/voice.vue' /* webpackChunkName: "pages/voice" */))
+const _19686ba6 = () => interopDefault(import('../pages/voices.vue' /* webpackChunkName: "pages/voices" */))
 const _4adf48e3 = () => interopDefault(import('../pages/news/_id.vue' /* webpackChunkName: "pages/news/_id" */))
 const _78a9d0bd = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 const _0b9c138e = () => interopDefault(import('~/pages/notfound.vue' /* webpackChunkName: "" */))
@@ -68,6 +70,14 @@ export const routerOptions = {
     path: "/reserve",
     component: _f14f3232,
     name: "reserve"
+  }, {
+    path: "/voice",
+    component: _6c0e591d,
+    name: "voice"
+  }, {
+    path: "/voices",
+    component: _19686ba6,
+    name: "voices"
   }, {
     path: "/news/:id",
     component: _4adf48e3,

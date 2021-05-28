@@ -20,11 +20,6 @@
             </NuxtLink>
           </li>
           <li class="col-middle" style="text-align: center">
-            <a href="http://ykpianoforte.com/event.php">
-              講座・イベント
-            </a>
-          </li>
-          <li class="col-middle" style="text-align: center">
             <NuxtLink to="/rental">
               スタジオ貸出
             </NuxtLink>
@@ -54,11 +49,6 @@
             <NuxtLink to="/lesson">
               レッスン
             </NuxtLink>
-          </li>
-          <li class="menu-item" v-on:click="menuShow">
-            <a href="http://ykpianoforte.com/event.php">
-              講座・イベント
-            </a>
           </li>
           <li class="menu-item" v-on:click="menuShow">
             <NuxtLink to="/rental">

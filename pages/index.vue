@@ -1,10 +1,28 @@
 <template>
   <v-main>
     <div class="col-12">
-      <img src="~assets/img/CJM_Top.png" width="100%" style="margin-bottom: 2rem" alt="CJM_Top">
+      <img src="~assets/img/CJM_Top.png" width="100%" alt="CJM_Top">
     </div>
     <div id="main-content" class="grid-center col-12">
-      <div class="grid col-9_sm-12">
+      <div class="grid-center col-9_sm-12">
+        <div class="grid col-8_sm-12" style="margin-bottom: 2rem;margin-top: 1rem;">
+          <div class="grid-center col-6">
+            <a class="grid-center col-12" href="http://ykpianoforte.com/event.php" target="_blank">
+              <div style="max-width: 250px;border: 1px solid #3D6F04;padding: 1rem;border-radius: 1rem;background: #F6EDD9">
+                <img src="~assets/img/bn_event.svg"alt="event">
+                講座・イベント
+              </div>
+            </a>
+          </div>
+          <div class="grid-center col-6">
+            <NuxtLink to="/voices" class="grid-center col-12" >
+              <div style="max-width: 250px;border: 1px solid #3D6F04;padding: 1rem;border-radius: 1rem;background: #F6EDD9">
+                <img src="~assets/img/bn_voice.svg" alt="voice">
+                生徒さんからの声
+              </div>
+            </NuxtLink>
+          </div>
+        </div>
         <div class="col-12" style="margin-bottom: 2rem;font-size: 1.2rem">
   代々木、北参道の音楽教室　CJM Tokyo 神宮の杜音楽院（東京都渋谷区千駄ヶ谷 院長:<a href="http://ykpianoforte.com/profile.php">菊地裕介</a>）は、東京藝術大学上位レベル水準の国内外の最高の学歴、コンクール受賞歴等を持つ権威あるクラシック音楽家による、ピアノレッスンを中心とした最高水準の音楽教育を、音楽家を目指すか否かとに関わらず、高い志を持つ皆様に向けてご提供しております。<br>個人レッスンだけではなく、音楽理論やソルフェージュのグループレッスン、音大受験やコンクール準備等を目指す上級者のための演奏法講座、海外より招聘する世界トップクラスの音楽家による特別レッスンなど、広く展開していきます。<br><br>東京都心および新宿・渋谷をはじめとする主要ターミナル駅に近く、複数駅から徒歩圏内の立地で、広く全国よりおいでになるみなさまの受講をサポートいたします。2台のグランドピアノを有し、自然な響きを考えた快適な防音スタジオ (天井高2500mm 天然木無垢床材）でのレッスンをご提供いたします。
         </div>
