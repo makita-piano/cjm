@@ -6,10 +6,10 @@
     <div class="grid-center col-12" style="padding: 2rem 0 1rem 0;background-color: #fef7e7;font-size: 1.2rem;text-align: center">
       <div class="grid col-9_sm-10">
         <div class="col-3_sm-6" style="margin-bottom: 1rem">
-          <a href="#c1">料金</a>
+          <a href="#c1">設備</a>
         </div>
         <div class="col-3_sm-6" style="margin-bottom: 1rem">
-          <a href="#c2">設備</a>
+          <a href="#c2">料金</a>
         </div>
         <div class="col-3_sm-6" style="margin-bottom: 1rem">
           <a href="#c3">禁止事項</a>
@@ -22,40 +22,45 @@
     <div id="main-content" class="grid-center col-12">
       <div class="grid col-9_sm-12">
         <div class="col-12" style="margin: 1rem 0 2rem 0;font-size: 1.2rem">
-  CJM Tokyo 神宮の杜音楽院 （東京都渋谷区千駄ヶ谷）では、防音スタジオ(24.9m2 南西向き 天井高2500mm 天然木無垢床材) の貸出を行なっております。<br> 個人の練習や室内楽の合わせなどはもちろん、録音・録画スタジオとしてもご利用いただけます。オンライン審査のための演奏収録、コンクール直前の練習など、様々な用途にぜひお使いください。
+          CJM Tokyo 神宮の杜音楽院 （東京都渋谷区千駄ヶ谷）では、防音スタジオ(24.9m2 南西向き 天井高2500mm 天然木無垢床材) の貸出を行なっております。<br> 個人の練習や室内楽の合わせなどはもちろん、録音・録画スタジオとしてもご利用いただけます。オンライン審査のための演奏収録、コンクール直前の練習など、様々な用途にぜひお使いください。
         </div>
 
-        <h2 id="c1" class="col-12" style="display: none">スタジオ写真</h2>
-
-        <hooper style="display: none">
-          <slide>
-            <div class="grid col-12" style="margin: 0 3rem">
-              <div class="grid-center col-8_sm-12" style="padding: .5rem">
-                <img src="~assets/img/CJM_studio.png" width="280px" height="280px" alt="piano">
+        <h2 id="c1" class="col-12" style="margin-top: 5rem">設備</h2>
+        <div class="grid col-12" style="padding: .5rem 0">
+          <div v-for="(e,i) in room_imgs" v-bind:key="e.title" class="grid col-6" :class="calc_class(i)">
+            <div class="grid-top col-12">
+              <div class="col-12" style="margin-bottom: 1rem;">
+                <img :src="e.img.url " width="100%" height="auto" alt="piano">
               </div>
-              <div class="col-4_sm-12" style="padding: 10px">
-                CJM Tokyo 神宮の杜音楽院 （東京都渋谷区千駄ヶ谷）では、防音スタジオ(24.9m2 南西向き 天井高2500mm 天然木無垢床材) の貸出を行なっております。
-個人の練習や室内楽の合わせなどはもちろん、録音・録画スタジオとしてもご利用いただけます。オンライン審査のための演奏収録、コンクール直前の練習など、様々な用途にぜひお使いください。
+              <div class="col-12">
+                <h3>{{ e.title}}</h3>
               </div>
-            </div>
-          </slide>
-          <slide>
-            <div class="grid col-12 height-100-pc" style="margin: 0 2rem">
-              <div class="grid-center col-8_sm-12" style="padding: .5rem">
-                <img src="~assets/img/CJM_studio.png" width="100%" height="auto" alt="piano" style="margin: auto 0">
-              </div>
-              <div class="col-4_sm-12" style="padding: 10px">
-                CJM Tokyo 神宮の杜音楽院 （東京都渋谷区千駄ヶ谷）では、防音スタジオ(24.9m2 南西向き 天井高2500mm 天然木無垢床材) の貸出を行なっております。
-個人の練習や室内楽の合わせなどはもちろん、録音・録画スタジオとしてもご利用いただけます。オンライン審査のための演奏収録、コンクール直前の練習など、様々な用途にぜひお使いください。
+              <div class="col-12">
+                {{ e.txt }}
               </div>
             </div>
-          </slide>
-          <hooper-navigation slot="hooper-addons"></hooper-navigation>
-          <hooper-pagination slot="hooper-addons"></hooper-pagination>
-        </hooper>
+          </div>
 
+          <div class="button" v-on:click="see_more" v-show="room_imgs_other == undefined">
+            <span>See More</span>
+          </div>
 
-        <h2 id="c1" class="col-12" style="margin-top: 4rem">料金</h2>
+          <div v-if="room_imgs_other != undefined" v-for="(e,i) in room_imgs_other" v-bind:key="e.title" class="grid col-6" :class="calc_class(i)">
+            <div class="grid-top col-12">
+              <div class="col-12" style="margin-bottom: 1rem;">
+                <img :src="e.img.url " width="100%" height="auto" alt="piano">
+              </div>
+              <div class="col-12">
+                <h3>{{ e.title}}</h3>
+              </div>
+              <div class="col-12">
+                {{ e.txt }}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h2 id="c2" class="col-12" style="margin-top: 4rem">料金</h2>
         <h3 class="col-12">基本料金　<span style="font-size: 1rem"><br class="display-none-pc">※1時間あたり / YAMAHA C3型 グランドピアノ 使用可能</span></h3>
         <ul class="col-12 pre_list" style="margin-bottom: 3rem">
           <li>・平日 午前（9:00-13:00）　	￥2,000</li>
@@ -71,23 +76,6 @@
         <h3 class="col-12">会員特典　<span style="font-size: 1rem">※オプション料金には適用されません。　</span></h3>
         <ul class="col-12">
           <li>・スタジオ利用料　20%OFF</li>
-        </ul>
-
-        <h2 id="c2" class="col-12" style="margin-top: 5rem">設備</h2>
-        <ul class="col-12 pre_list">
-
-          <li>・Steinway & Sons D-274型 フルコンサートグランドピアノ <br>（ドイツ・ハンブルク1996年製造　オプション料金の対象となります）</li>
-          <li>・YAMAHA C3型 グランドピアノ</li>
-          <li>・2.5人掛け本革ソファ</li>
-          <li>・4人掛けの木製ダイニングテーブルおよび腰掛</li>
-          <li>・ピアノ椅子　3脚</li>
-          <li>・自立譜面台　3本</li>
-          <li>・天井吊りスピーカー(デンソーテン Eclipse TD510MK2×2)、ステレオアンプ(LINE接続可）、SACDプレーヤー</li>
-          <br>
-          <li>・自動加湿器、自動除湿器、24時間換気、冷暖房完備</li>
-          <li>・スタジオ入口前に洗面所がございます （自動水栓あり）</li>
-          <br>
-          <li>・オプションとして録画、録音用の機材の貸し出しもいたします。詳細はお問い合わせください。</li>
         </ul>
 
         <h2 id="c3" class="col-12" style="margin-top: 5rem">禁止事項</h2>
@@ -116,9 +104,7 @@
 </template>
 
 <script>
-  import { Hooper, Slide , Pagination as HooperPagination , Navigation as HooperNavigation } from 'hooper';
-  import 'hooper/dist/hooper.css';
-
+  import axios from 'axios'
   export default {
     name: "rental",
     layout: 'default',
@@ -133,30 +119,95 @@
         ]
       }
     },
-    components: {
-      Hooper,
-      Slide,
-      HooperPagination,
-      HooperNavigation
+
+    data () {
+      return {
+        room_imgs: undefined,
+        room_imgs_other: undefined,
+      }
+    },
+
+    created(){
+      axios
+        .get(process.env.VUE_APP_MICROCMS_URL + "/room_img?fields=img,title,txt&limit=4",{
+          headers: { "X-API-KEY": process.env.VUE_APP_MICROCMS_KEY},
+          data: {}
+      })
+        .then(v => {
+          this.room_imgs = v.data.contents;
+      });
+    },
+    methods: {
+      calc_class: function(index) {
+        return "room-img-" + index%2
+      },
+      see_more: function() {
+        axios
+          .get(process.env.VUE_APP_MICROCMS_URL + "/room_img?fields=img,title,txt&offset=4",{
+            headers: { "X-API-KEY": process.env.VUE_APP_MICROCMS_KEY},
+            data: {}
+        })
+        .then(v => {
+          this.room_imgs_other = v.data.contents;
+        });
+      }
     }
   }
 </script>
+
 <style>
-.hooper {
-  background-color: #eee;
+.button {
+  display: block;
+  position: relative;
+  background: #71C8AA;
+  width: 80%;
+  padding: 1.5rem;
+  border-radius: .6rem;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: .1rem;
+  transition: .5s;
+  margin: auto;
 }
-@media (max-width: 768px) {
-  .hooper {
-    height: 450px;
-  }
+.button:before {
+  content: "";
+  position: absolute;
+  top: 80%;
+  right: calc(50% + 3px);
+  width: 10px;
+  height: 2px;
+  background: #fff;
+  transform: rotate(45deg);
+}
+.button:after {
+  content: "";
+  position: absolute;
+  top: 80%;
+  right: calc(50% - 3px);
+  width: 10px;
+  height: 2px;
+  background: #fff;
+  transform: rotate(-45deg);
+}
+
+#body .room-img-0 {
+  border-right: 1px solid #999;
+  padding-right: 1rem;
+  margin: 2rem 0;
+}
+#body .room-img-1 {
+  padding-left: 1rem;
+  margin: 2rem 0;
 }
 
 @media (min-width: 769px) {
-  .hooper {
-    height: 300px;
+  #body .room-img-0 {
+    padding-right: 2rem;
   }
-  .height-100-pc {
-    height: 100%;
+  #body .room-img-1 {
+    padding-left: 2rem;
   }
 }
 </style>
