@@ -1,14 +1,11 @@
 <template>
-  <v-main style="text-align: center">
+  <v-main class="col-12 align-center">
     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfbcRGqyt_6icT9sAepFQ-DLD4ki6mI7R_zjVR_K3pX6daYjg/viewform?embedded=true" class="iframe" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
   </v-main>
 </template>
 
 <script>
   export default {
-    name: "contact",
-    layout: 'default',
-
     head() {
       return {
         title: "お問い合わせ｜神宮の杜音楽院",

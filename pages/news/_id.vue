@@ -15,7 +15,10 @@
         <div class="col-12" style="text-align: right;color: #999">
           {{date_formated(news.published_at)}}
         </div>
-        <div class="col-12 news-contents" v-html="news.contents" style="padding: 1rem 0"></div>
+        <div class="col-12 news-contents" style="padding: 1rem 0">
+          <p v-html="news.contents">
+          </p>
+        </div>
       </div>
     </div>
   </v-main>
@@ -27,8 +30,8 @@
 
   export default {
     name: "news-id",
-    layout: "tmp",
-    
+    layout: "default",
+
     head() {
       if(this.news) {
         return {

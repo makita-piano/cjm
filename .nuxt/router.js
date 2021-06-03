@@ -1,29 +1,23 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
 const _2e963209 = () => interopDefault(import('../pages/access.vue' /* webpackChunkName: "pages/access" */))
 const _326da76a = () => interopDefault(import('../pages/contact.vue' /* webpackChunkName: "pages/contact" */))
-const _aaaa12f6 = () => interopDefault(import('../pages/event.vue' /* webpackChunkName: "pages/event" */))
 const _31d71fdd = () => interopDefault(import('../pages/lesson.vue' /* webpackChunkName: "pages/lesson" */))
 const _401993bb = () => interopDefault(import('../pages/news/index.vue' /* webpackChunkName: "pages/news/index" */))
 const _4414d874 = () => interopDefault(import('../pages/notfound.vue' /* webpackChunkName: "pages/notfound" */))
 const _16477f16 = () => interopDefault(import('../pages/philosophy.vue' /* webpackChunkName: "pages/philosophy" */))
 const _011019c9 = () => interopDefault(import('../pages/rental.vue' /* webpackChunkName: "pages/rental" */))
 const _f14f3232 = () => interopDefault(import('../pages/reserve.vue' /* webpackChunkName: "pages/reserve" */))
-const _6c0e591d = () => interopDefault(import('../pages/voice.vue' /* webpackChunkName: "pages/voice" */))
 const _19686ba6 = () => interopDefault(import('../pages/voices.vue' /* webpackChunkName: "pages/voices" */))
 const _4adf48e3 = () => interopDefault(import('../pages/news/_id.vue' /* webpackChunkName: "pages/news/_id" */))
 const _78a9d0bd = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 const _0b9c138e = () => interopDefault(import('~/pages/notfound.vue' /* webpackChunkName: "" */))
 
-// TODO: remove in Nuxt 3
 const emptyFn = () => {}
-const originalPush = Router.prototype.push
-Router.prototype.push = function push (location, onComplete = emptyFn, onAbort) {
-  return originalPush.call(this, location, onComplete, onAbort)
-}
 
 Vue.use(Router)
 
@@ -42,10 +36,6 @@ export const routerOptions = {
     path: "/contact",
     component: _326da76a,
     name: "contact"
-  }, {
-    path: "/event",
-    component: _aaaa12f6,
-    name: "event"
   }, {
     path: "/lesson",
     component: _31d71fdd,
@@ -71,10 +61,6 @@ export const routerOptions = {
     component: _f14f3232,
     name: "reserve"
   }, {
-    path: "/voice",
-    component: _6c0e591d,
-    name: "voice"
-  }, {
     path: "/voices",
     component: _19686ba6,
     name: "voices"
@@ -95,14 +81,20 @@ export const routerOptions = {
   fallback: false
 }
 
-export function createRouter () {
-  const router = new Router(routerOptions)
-  const resolve = router.resolve.bind(router)
+export function createRouter (ssrContext, config) {
+  const base = (config._app && config._app.basePath) || routerOptions.base
+  const router = new Router({ ...routerOptions, base  })
 
-  // encodeURI(decodeURI()) ~> support both encoded and non-encoded urls
+  // TODO: remove in Nuxt 3
+  const originalPush = router.push
+  router.push = function push (location, onComplete = emptyFn, onAbort) {
+    return originalPush.call(this, location, onComplete, onAbort)
+  }
+
+  const resolve = router.resolve.bind(router)
   router.resolve = (to, current, append) => {
     if (typeof to === 'string') {
-      to = encodeURI(decodeURI(to))
+      to = normalizeURL(to)
     }
     return resolve(to, current, append)
   }

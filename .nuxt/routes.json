@@ -16,14 +16,6 @@
     "_name": "_326da76a"
   },
   {
-    "name": "event",
-    "path": "/event",
-    "component": "/var/www/cjm/pages/event.vue",
-    "chunkName": "pages/event",
-    "url": "/event",
-    "_name": "_aaaa12f6"
-  },
-  {
     "name": "lesson",
     "path": "/lesson",
     "component": "/var/www/cjm/pages/lesson.vue",
@@ -70,14 +62,6 @@
     "chunkName": "pages/reserve",
     "url": "/reserve",
     "_name": "_f14f3232"
-  },
-  {
-    "name": "voice",
-    "path": "/voice",
-    "component": "/var/www/cjm/pages/voice.vue",
-    "chunkName": "pages/voice",
-    "url": "/voice",
-    "_name": "_6c0e591d"
   },
   {
     "name": "voices",

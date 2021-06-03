@@ -1,46 +1,52 @@
 <template>
   <v-main>
     <div class="col-12">
-      <img src="~assets/img/CJM_Top.png" width="100%" alt="CJM_Top">
+      <nuxt-img src="/img/CJM_Top.png" width="1024" class="width-100" alt="CJM_Top" />
     </div>
     <div id="main-content" class="grid-center col-12">
       <div class="grid-center col-9_sm-12">
         <div class="grid col-8_sm-12" style="margin-bottom: 2rem;margin-top: 1rem;">
           <div class="grid-center col-6">
             <a class="grid-center col-12" href="http://ykpianoforte.com/event.php" target="_blank">
-              <div style="max-width: 250px;border: 1px solid #3D6F04;padding: 1rem;border-radius: 1rem;background: #F6EDD9">
-                <img src="~assets/img/bn_event.svg"alt="event">
+              <div class="bn-txt">
+                <img src="/img/bn_event.svg" alt="bn_event">
                 講座・イベント
               </div>
             </a>
           </div>
           <div class="grid-center col-6">
             <NuxtLink to="/voices" class="grid-center col-12" >
-              <div style="max-width: 250px;border: 1px solid #3D6F04;padding: 1rem;border-radius: 1rem;background: #F6EDD9">
-                <img src="~assets/img/bn_voice.svg" alt="voice">
+              <div class="bn-txt">
+                <img src="/img/bn_voice.svg" alt="bn_voice">
                 生徒さんからの声
               </div>
             </NuxtLink>
           </div>
         </div>
-        <div class="col-12" style="margin-bottom: 2rem;font-size: 1.2rem">
-  代々木、北参道の音楽教室　CJM Tokyo 神宮の杜音楽院（東京都渋谷区千駄ヶ谷 院長:<a href="http://ykpianoforte.com/profile.php">菊地裕介</a>）は、東京藝術大学上位レベル水準の国内外の最高の学歴、コンクール受賞歴等を持つ権威あるクラシック音楽家による、ピアノレッスンを中心とした最高水準の音楽教育を、音楽家を目指すか否かとに関わらず、高い志を持つ皆様に向けてご提供しております。<br>個人レッスンだけではなく、音楽理論やソルフェージュのグループレッスン、音大受験やコンクール準備等を目指す上級者のための演奏法講座、海外より招聘する世界トップクラスの音楽家による特別レッスンなど、広く展開していきます。<br><br>東京都心および新宿・渋谷をはじめとする主要ターミナル駅に近く、複数駅から徒歩圏内の立地で、広く全国よりおいでになるみなさまの受講をサポートいたします。2台のグランドピアノを有し、自然な響きを考えた快適な防音スタジオ (天井高2500mm 天然木無垢床材）でのレッスンをご提供いたします。
-        </div>
+        <p class="col-12">
+代々木、北参道の音楽教室　CJM Tokyo 神宮の杜音楽院（東京都渋谷区千駄ヶ谷 院長:<a href="http://ykpianoforte.com/profile.php">菊地裕介</a>）は、東京藝術大学上位レベル水準の国内外の最高の学歴、コンクール受賞歴等を持つ権威あるクラシック音楽家による、ピアノレッスンを中心とした最高水準の音楽教育を、音楽家を目指すか否かとに関わらず、高い志を持つ皆様に向けてご提供しております。
+        </p>
+        <p class="col-12 margin-top-0-5">
+個人レッスンだけではなく、音楽理論やソルフェージュのグループレッスン、音大受験やコンクール準備等を目指す上級者のための演奏法講座、海外より招聘する世界トップクラスの音楽家による特別レッスンなど、広く展開していきます。
+        </p>
+        <p class="col-12 margin-top-1-5">
+東京都心および新宿・渋谷をはじめとする主要ターミナル駅に近く、複数駅から徒歩圏内の立地で、広く全国よりおいでになるみなさまの受講をサポートいたします。2台のグランドピアノを有し、自然な響きを考えた快適な防音スタジオ (天井高2500mm 天然木無垢床材）でのレッスンをご提供いたします。
+        </p>
 
         <h2 class="col-12">News</h2>
         <ul>
-          <li v-for="e in news" v-bind:key="e.title" class="grid" style="padding: .5rem 1rem">
-            <div style="display: inline">
+          <li v-for="e in news" v-bind:key="e.title" class="grid" style="padding: .5rem 1rem 1rem 1rem">
+            <div style="display: inline;margin: .3rem 0;font-size: .8rem;color: #a0a0a0">
               {{date_formated(e.publish_at)}}
             </div>
             <div class="oshirase_tag" style="display: inline">
               {{e.tag[0]}}
             </div>
-            <div class="col-12">
-              <a v-if="e.title_url" v-bind:href="e.title_url" style="text-decoration: underline">
-                {{e.title}}
+            <div class="col-12" style="margin-top: .3rem">
+              <a v-if="e.title_url" v-bind:href="e.title_url" class="text-underline">
+                <p>{{e.title}}</p>
               </a>
-              <NuxtLink v-else-if="e.description" v-bind:to="'/news/' + e.id" style="text-decoration: underline">{{e.title}}</NuxtLink>
+              <NuxtLink v-else-if="e.description" v-bind:to="'/news/' + e.id" class="text-underline">{{e.title}}</NuxtLink>
               <p v-else>
                 {{e.title}}
               </p>
@@ -56,24 +62,24 @@
         <div class="grid col-12" style="margin-bottom: 2rem">
           <div class="col-3_sm-6" style="padding: .5rem">
             <a href="http://ykpianoforte.com/index.php" target="_blank">
-              <img src="~assets/img/banner_ykpianoforte.jpg" width="100%" style="border: 1px solid #999" alt="banner_ykpianoforte">
+              <nuxt-img src="/img/banner_ykpianoforte.jpg" width="380" style="width: 100%;border: 1px solid #999" alt="banner_ykpianoforte" />
             </a>
           </div>
           <div class="col-3_sm-6" style="padding: .5rem">
             <a href="https://store.shopping.yahoo.co.jp/en-onlineshop/" target="_blank">
-              <img src="~assets/img/banner_onlineshop.jpg" width="100%" style="border: 1px solid #999" alt="banner_onlineshop">
+              <nuxt-img src="/img/banner_onlineshop.jpg" width="380" style="width: 100%;border: 1px solid #999" alt="banner_onlineshop" />
             </a>
           </div>
           <div class="col-3_sm-6" style="padding: .5rem">
             <a href="https://kagamimaya.klavier.page/" target="_blank">
-              <img src="~assets/img/banner_mayakagami.jpg" width="100%" style="border: 1px solid #999" alt="banner_mayakagami">
+              <nuxt-img src="/img/banner_mayakagami.jpg" width="380" style="width: 100%;border: 1px solid #999" alt="banner_mayakagami" />
             </a>
           </div>
           <div class="grid col-3_sm-6 social" style="padding: .5rem">
             <div class="grid col-12 twitter" style="position: relative">
               <a href="https://twitter.com/cjmtokyo" target="_blank"  class="grid" style="position: absolute;top:45%">
                 <div class="col-1 social-icon" style="transform: translate(0%,-50%)">
-                  <img src="~assets/img/twitter_white.png">
+                  <nuxt-img src="/img/twitter_white.png" />
                 </div>
                 <div class="col social-text" style="transform: translate(0%,-50%)">
                   <div class="social-name">@cjmtokyo</div>
@@ -96,9 +102,6 @@
   import moment from "moment";
 
   export default {
-    name: "index",
-    layout: 'default',
-
     head() {
       return {
         title: "神宮の杜音楽院",
@@ -136,3 +139,34 @@
     }
   }
 </script>
+
+<style scoped>
+.bn-txt {
+  padding: 1rem .5rem;
+  max-width: 250px;
+  border: 1px solid #3D6F04;
+  border-radius: .3rem;
+  background: #F6EDD9;
+  line-height: 1.7;
+}
+
+.oshirase_tag {
+  background-color: #E4E4F7;
+  border: 1px solid #707070;
+  border-radius: .3rem;
+  color: #0F3776;
+  font-size: .8rem;
+  margin-left: 1rem;
+  padding: .3rem .5rem 0rem .5rem;
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (min-width: 769px) {
+  .bn-txt {
+    padding: 1rem;
+  }
+}
+</style>

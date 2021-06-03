@@ -12,9 +12,10 @@
   </footer>
 </template>
 <style>
-footer{
+footer {
     background-color: black;
     color: #999;
+    padding: .3rem;
 }
 footer div{
     padding: 1rem 0 .3rem 0;
