@@ -27,18 +27,15 @@ export default {
       { rel: "icon", type: "image/x-icon", href: "/favicon.ico" }
     ]
   },
+  components: true,
   env: {
     VUE_APP_MICROCMS_KEY,
     VUE_APP_MICROCMS_URL
   },
   buildModules: [
-    '@nuxtjs/vuetify',
+    '@nuxt/image',
+    '@nuxtjs/sitemap'
   ],
-  vuetify: {
-    customVariables: ['~/assets/css/variables.scss'],
-    treeShake: true
-  },
-  modules: ['@nuxtjs/sitemap'],
   sitemap: {
     path: '/sitemap.xml',
     hostname: 'https://cjmtokyo.com'

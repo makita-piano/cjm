@@ -1,12 +1,12 @@
 <template>
-  <header style="font-size: 1.3rem">
+  <header>
     <div class="grid display-none-mobile">
       <div class="col-4">
         <NuxtLink to="/">
-          <img src="~assets/img/cjm.png" width="auto" height="60px" style="padding: 1rem .3rem 1rem 1.5rem;margin: 1rem 0;vertical-align: middle;box-sizing: content-box" alt="piano">
+          <nuxt-img src="/img/cjm.png" height="60px" style="padding: 2rem .3rem 2rem 1.5rem" alt="cjm-logo" />
         </NuxtLink>
       </div>
-      <div class="grid col-8" style="font-size: 1.1rem">
+      <div class="grid col-8">
         <ul class="grid col-12">
           <li class="col-middle" style="text-align: center">
             <NuxtLink to="/philosophy">
@@ -68,7 +68,7 @@
       </transition>
       <div>
         <NuxtLink to="/" id="home" style="z-index: 9999">
-          <img src="~assets/img/cjm.png" width="70%" height="auto" style="background-color: white;padding: .3rem;margin: 1.5rem 0 .5rem .2rem;vertical-align: middle;box-sizing: content-box" alt="piano">
+          <nuxt-img src="/img/cjm.png" height="100" style="height: 50px;background-color: white;padding: 1.5rem;vertical-align: middle;box-sizing: content-box" alt="piano" />
         </NuxtLink>
       </div>
       <div class="menu-trigger" v-on:click="menuShow" v-bind:class='{active: isMenuShow}'>
@@ -80,7 +80,7 @@
         </div>
       </div>
     </nav>
-    <div v-if="isMenuShow" style="padding: 70px"></div>
+    <div v-if="isMenuShow" style="padding: 5rem"></div>
   </header>
 </template>
 
@@ -117,8 +117,5 @@
 }
 .trans_slide-enter, .trans_slide-leave-to {
     opacity: 0;
-}
-header{
-    margin-bottom: 1rem;
 }
 </style>

@@ -12,7 +12,8 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_6cdd6fba from 'nuxt_plugin_plugin_6cdd6fba' // Source: ./vuetify/plugin.js (mode: 'all')
+import nuxt_plugin_plugin_4c2f93ab from 'nuxt_plugin_plugin_4c2f93ab' // Source: ./components/plugin.js (mode: 'all')
+import nuxt_plugin_image_41b0a43c from 'nuxt_plugin_image_41b0a43c' // Source: ./image.js (mode: 'all')
 import nuxt_plugin_ga_fb0a2534 from 'nuxt_plugin_ga_fb0a2534' // Source: ../plugins/ga.js (mode: 'client')
 
 // Component: <ClientOnly>
@@ -42,7 +43,11 @@ Vue.component(Nuxt.name, Nuxt)
 
 Object.defineProperty(Vue.prototype, '$nuxt', {
   get() {
-    return this.$root.$options.$nuxt
+    const globalNuxt = this.$root.$options.$nuxt
+    if (process.client && !globalNuxt && typeof window !== 'undefined') {
+      return window.$nuxt
+    }
+    return globalNuxt
   },
   configurable: true
 })
@@ -52,14 +57,14 @@ Vue.use(Meta, {"keyName":"head","attribute":"data-n-head","ssrAttribute":"data-n
 const defaultTransition = {"name":"page","mode":"out-in","appear":false,"appearClass":"appear","appearActiveClass":"appear-active","appearToClass":"appear-to"}
 
 async function createApp(ssrContext, config = {}) {
-  const router = await createRouter(ssrContext)
+  const router = await createRouter(ssrContext, config)
 
   // Create Root instance
 
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"title":"神宮の杜音楽院","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, user-scalable=yes"},{"hid":"description","name":"description","content":"神宮の杜音楽院"},{"hid":"og:site_name","property":"og:site_name","content":"神宮の杜音楽院"},{"hid":"og:type","property":"og:type","content":"website"},{"hid":"og:title","property":"og:title","content":"神宮の杜音楽院"},{"hid":"og:description","property":"og:description","content":"神宮の杜音楽院"},{"hid":"og:image","property":"og:image","content":"https:\u002F\u002Fcjmtokyo.com\u002FCJM.png"},{"hid":"twitter:card","property":"twitter:card","content":"summary_large_image"},{"hid":"twitter:site","property":"twitter:site","content":"@cjmtokyo"}],"script":[{"src":"https:\u002F\u002Fconnect.facebook.net\u002Fja_JP\u002Fsdk.js#xfbml=1&version=v8.0&appId=160626627849426&autoLogAppEvents=1","nonce":"jmR8QvEF","crossorigin":"anonymous"}],"link":[{"rel":"stylesheet","href":"https:\u002F\u002Fcdnjs.cloudflare.com\u002Fajax\u002Flibs\u002Fgridlex\u002F2.3.1\u002Fgridlex.min.css"},{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"rel":"stylesheet","type":"text\u002Fcss","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Roboto:100,300,400,500,700,900&display=swap"},{"rel":"stylesheet","type":"text\u002Fcss","href":"https:\u002F\u002Fcdn.jsdelivr.net\u002Fnpm\u002F@mdi\u002Ffont@latest\u002Fcss\u002Fmaterialdesignicons.min.css"}],"style":[]},
+    head: {"title":"神宮の杜音楽院","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, user-scalable=yes"},{"hid":"description","name":"description","content":"神宮の杜音楽院"},{"hid":"og:site_name","property":"og:site_name","content":"神宮の杜音楽院"},{"hid":"og:type","property":"og:type","content":"website"},{"hid":"og:title","property":"og:title","content":"神宮の杜音楽院"},{"hid":"og:description","property":"og:description","content":"神宮の杜音楽院"},{"hid":"og:image","property":"og:image","content":"https:\u002F\u002Fcjmtokyo.com\u002FCJM.png"},{"hid":"twitter:card","property":"twitter:card","content":"summary_large_image"},{"hid":"twitter:site","property":"twitter:site","content":"@cjmtokyo"}],"script":[{"src":"https:\u002F\u002Fconnect.facebook.net\u002Fja_JP\u002Fsdk.js#xfbml=1&version=v8.0&appId=160626627849426&autoLogAppEvents=1","nonce":"jmR8QvEF","crossorigin":"anonymous"}],"link":[{"rel":"stylesheet","href":"https:\u002F\u002Fcdnjs.cloudflare.com\u002Fajax\u002Flibs\u002Fgridlex\u002F2.3.1\u002Fgridlex.min.css"},{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"}],"style":[]},
 
     router,
     nuxt: {
@@ -173,8 +178,12 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_6cdd6fba === 'function') {
-    await nuxt_plugin_plugin_6cdd6fba(app.context, inject)
+  if (typeof nuxt_plugin_plugin_4c2f93ab === 'function') {
+    await nuxt_plugin_plugin_4c2f93ab(app.context, inject)
+  }
+
+  if (typeof nuxt_plugin_image_41b0a43c === 'function') {
+    await nuxt_plugin_image_41b0a43c(app.context, inject)
   }
 
   if (process.client && typeof nuxt_plugin_ga_fb0a2534 === 'function') {
@@ -188,26 +197,26 @@ async function createApp(ssrContext, config = {}) {
     }
   }
 
-  // If server-side, wait for async component to be resolved first
-  if (process.server && ssrContext && ssrContext.url) {
-    await new Promise((resolve, reject) => {
-      router.push(ssrContext.url, resolve, (err) => {
-        // https://github.com/vuejs/vue-router/blob/v3.4.3/src/util/errors.js
-        if (!err._isRouter) return reject(err)
-        if (err.type !== 2 /* NavigationFailureType.redirected */) return resolve()
+  // Wait for async component to be resolved first
+  await new Promise((resolve, reject) => {
+    router.replace(app.context.route.fullPath, resolve, (err) => {
+      // https://github.com/vuejs/vue-router/blob/v3.4.3/src/util/errors.js
+      if (!err._isRouter) return reject(err)
+      if (err.type !== 2 /* NavigationFailureType.redirected */) return resolve()
 
-        // navigated to a different route in router guard
-        const unregister = router.afterEach(async (to, from) => {
+      // navigated to a different route in router guard
+      const unregister = router.afterEach(async (to, from) => {
+        if (process.server && ssrContext && ssrContext.url) {
           ssrContext.url = to.fullPath
-          app.context.route = await getRouteData(to)
-          app.context.params = to.params || {}
-          app.context.query = to.query || {}
-          unregister()
-          resolve()
-        })
+        }
+        app.context.route = await getRouteData(to)
+        app.context.params = to.params || {}
+        app.context.query = to.query || {}
+        unregister()
+        resolve()
       })
     })
-  }
+  })
 
   return {
     app,

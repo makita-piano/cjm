@@ -10,7 +10,7 @@
   export default {
     name: "news",
     layout: 'default',
-    
+
     head() {
       return {
         title: "お知らせ一覧｜神宮の杜音楽院",
