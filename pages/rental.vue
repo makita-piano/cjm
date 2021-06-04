@@ -32,7 +32,7 @@
           <div v-for="(e,i) in room_imgs" v-bind:key="e.title" class="grid col-6" :class="calc_class(i)">
             <div class="grid-top col-12">
               <div class="col-12" style="margin-bottom: 1rem;">
-                <nuxt-img :src="e.img.url" width="360" class="width-100" alt="ins-image" />
+                <img :src="e.img.url" class="width-100" alt="ins-image">
               </div>
               <div class="col-12">
                 <h3>{{ e.title}}</h3>
@@ -52,7 +52,7 @@
           <div v-if="room_imgs_other != undefined" v-for="(e,i) in room_imgs_other" v-bind:key="e.title" class="grid col-6" :class="calc_class(i)">
             <div class="grid-top col-12">
               <div class="col-12" style="margin-bottom: 1rem;">
-                <nuxt-img :src="e.img.url" width="360" class="width-100" alt="ins-image" />
+                <img :src="e.img.url" class="width-100" alt="ins-image">
               </div>
               <div class="col-12">
                 <h3>{{ e.title}}</h3>
